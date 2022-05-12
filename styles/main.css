@@ -1,0 +1,35 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+:root {
+  --primary-color: rgb(218, 8, 127);
+  --secondary-color: #fff;
+  --dongle: 'Dongle', sans-serif;
+}
+
+/*General */
+html {
+  font-family: var(--dongle);
+}
+/* Header */
+/* Footer */
+header,
+footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+/* Header */
+
+/* Footer */
