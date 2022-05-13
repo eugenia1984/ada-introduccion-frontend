@@ -12,15 +12,36 @@
 
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
 :root {
   --primary-color: rgb(218, 8, 127);
   --secondary-color: #fff;
+  --gray-color: rgb(197, 186, 186);
+  --hover-color: rgb(72, 6, 109);
   --dongle: 'Dongle', sans-serif;
 }
 
 /*General */
-html {
+body {  
   font-family: var(--dongle);
+}
+
+h1 {  
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {  
+  font-size: 1.25rem;
+}
+
+h3 {  
+  font-size: 1.10rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
 }
 /* Header */
 /* Footer */
@@ -28,8 +49,53 @@ header,
 footer {
   background-color: var(--primary-color);
   color: var(--secondary-color);
+  padding: 1.75rem 1rem;
 }
 
 /* Header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Main */
+main {
+  min-height: 80vh;
+  padding: 1rem;
+}
 
 /* Footer */
+footer p {
+  text-align: center;
+  padding: 1rem 0.50rem;
+}
+
+footer a {
+  color: var(--gray-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--hover-color);
+}
+
+footer img {
+  width: 7rem;
+  padding: 0.25rem 1rem;
+}
+
+@media screen and (max-width: 576px) {
+  footer img {
+    width: 5rem;
+    padding: 0rem 0.50rem;
+  }
+}
+
+@media screen (min-width: 577px) and (max-width: 768px) {
+  footer img {
+    width: 6rem;
+  }
+}
