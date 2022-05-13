@@ -15,7 +15,7 @@
 
 :root {
   --primary-color: rgb(218, 8, 127);
-  --secondary-color: #fff;
+  --secondary-color: rgb(255, 255, 255);
   --gray-color: rgb(197, 186, 186);
   --hover-color: rgb(72, 6, 109);
   --dongle: 'Dongle', sans-serif;

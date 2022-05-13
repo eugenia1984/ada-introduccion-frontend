@@ -1,0 +1,43 @@
+:root {
+  --bg-color-primary: rgb(232, 229, 132);
+  --bg-secondary-color: rgb(160, 154, 154);
+}
+
+main { 
+  padding: 0rem;
+}
+
+h2 {
+  padding: 0.75rem 0rem;
+}
+
+h3 {
+  padding: 0.50rem 0rem;
+}
+
+.ochentas,
+.noventas,
+.chill-out {
+  padding: 2.5rem 1rem 2rem;
+}
+
+.ochentas,
+.chill-out {
+  background-color: var(--bg-color-primary);
+}
+
+li {
+  line-height: 1.50;
+  list-style-position: inside;
+}
+
+span {
+  background-color: var(--bg-secondary-color);
+  border-radius: 0.25rem;
+  margin: 0rem 0.75rem;
+  padding: 0.25rem 0.50rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
