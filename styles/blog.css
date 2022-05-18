@@ -22,3 +22,13 @@ ul {
   justify-content: center;
   align-items: flex-start;
 }
+
+ul li:hover {
+  background-color: yellow;
+  padding: 0.10rem 0.25rem;
+}
+
+ul li::marker {
+  color: red;
+  font-size: 1.5em;
+}
