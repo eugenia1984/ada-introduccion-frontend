@@ -1,3 +1,8 @@
+h2 {
+  padding: 0.75rem 0rem;
+}
+
+/* Introduccion */
 .introduccion p {
   text-align: center;
   padding: 0.50rem 1rem;
@@ -21,4 +26,30 @@
   align-content: center;
   justify-content: center;
   align-items: center;
+}
+
+.ingredientes,
+.instrucciones {
+  padding: 2rem 0.50rem;
+}
+
+/* Ingredientes */
+.ingredientes p {
+  line-height: 2;
+
+}
+.ingredientes ul li {
+  list-style-position: inside;
+}
+
+/* Instrucciones */
+.instrucciones h2 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.instrucciones ol li {
+  list-style-position: inside;
+  line-height: 1.8;
+  padding-bottom: 0.50rem;
 }
