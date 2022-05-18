@@ -16,6 +16,7 @@
 :root {
   --primary-color: rgb(218, 8, 127);
   --primary-color-light: rgba(255, 0, 144, 0.969);
+  --primary-color-dark: rgba(181, 11, 108, 0.949);
   --secondary-color: rgb(255, 255, 255);
   --gray-color: rgb(197, 186, 186);
   --gray-color-dark: rgb(136, 136, 136);

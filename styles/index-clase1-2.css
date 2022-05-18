@@ -8,6 +8,7 @@ main {
 }
 
 a {
+  color: var(--primary-color-dark);
   text-decoration: none;
 }
 
