@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+}
+
+h2 {
+  padding: 1.5rem;
+}
+
+h3 {
+  padding: 1rem;
+}
+
+p {
+  line-height: 2.2;
+  padding-bottom: 0.25rem;
+}
+
+ul.opciones li {
+  list-style-position: inside;
+  list-style-type: none;
+  padding-bottom: 1.75rem;
+}
+
+/* Botones con link */
+.btn-ir {
+  background-color: var(--gray-color);
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+  font-weight: 600;
+  padding: 0.25rem 0.50rem;
+  text-decoration: none;
+}
+
+.btn-ir:hover {
+  background-color: var(--yellow-color);
+}
+
+.front-end,
+.back-end,
+.ide {
+  display: inline-block;
+  padding-bottom: 2.5rem;
+  width: 48%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.front-end,
+.back-end {
+  width: 48%;
+}
+
+.ide {
+  width: 100%;
+}
+
+ @media screen and (min-width: 1200px) {
+  .front-end,
+  .back-end,
+  .ide {
+    width: 33%;
+  }
+ }
+
+.front-end li,
+.back-end li{
+  padding-bottom: 0.5rem;
+}
+
+/* contacto */
+.contacto {
+  margin-bottom: 2rem;
+}
