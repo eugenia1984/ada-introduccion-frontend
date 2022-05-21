@@ -1,0 +1,63 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* nav */
+nav li {
+  text-align: center;
+  line-height: 2;
+  list-style-position: inside;
+}
+
+nav li::marker {
+  color: var(--primary-color-dark);
+}
+
+nav li a {
+  color: var(--primary-color-dark);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+section {
+  padding-bottom: 2rem;
+  border-top:  0.10rem solid var(--primary-color-light);
+}
+
+h2,
+h3 {
+  color: var(--primary-color-dark);
+  text-align: center;
+}
+
+h2 {
+  padding: 2.5rem 0.5rem 1.25rem 0.5rem;
+}
+
+h3 {
+  padding: 1rem 0.25rem 0.5rem 0.25rem;
+}
+
+p {
+  line-height: 1.8;
+  padding-bottom: 0.50rem;
+}
+
+/* Boton para volver arriba */
+.btn {
+  text-decoration: none;
+  background-color: var(--yellow-color);
+  padding: 0.75rem 0.50rem;
+  border-radius: 0.75rem;
+}
+
+.btn img {
+  padding-right: 0.5rem;
+}
+
+/* utilitarias */
+.center {
+  text-align: center;
+}
