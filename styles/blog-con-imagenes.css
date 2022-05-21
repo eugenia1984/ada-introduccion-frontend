@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+}
+
+.perros,
+.gatos,
+.hamsters {
+  padding-bottom: 2.75rem;
+}
+
+.perros h2,
+.gatos h2,
+.hamsters h2 {
+  padding-bottom: 2.25rem;
+}
+
+.perros img,
+.gatos img,
+.hamsters img {
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 0.50rem;
+  -webkit-border-radius: 0.50rem;
+  -moz-border-radius: 0.50rem;
+  -ms-border-radius: 0.50rem;
+  -o-border-radius: 0.50rem;
+  box-shadow: -0.50rem 0.50rem var(--gray-color);
+}
