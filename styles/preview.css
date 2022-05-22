@@ -1,0 +1,104 @@
+:root {
+  --yellow: rgb(224, 240, 0);
+  --black: rgb(30, 32, 32);
+  --gray: rgb(227, 227, 227);
+  --white: rgb(255, 255, 255);
+}
+
+/* header y footer */
+header,
+footer {
+  background-color: var(--yellow);
+}
+
+header,
+footer {
+  color: var(--black);
+}
+
+/* Main */
+main {
+  background-color: var(--gray);
+}
+
+/* Titulos */
+h2,
+h3 {
+  text-align: center;
+  padding: 0.5rem 0rem 1.5rem;
+}
+
+/* Parrafo */
+p {
+  padding: 0.25rem 0.5rem;
+}
+
+/*separacion de secciones */
+.elenco,
+.sinopsis {
+  padding-bottom: 4rem;
+}
+
+/* Recuadro para Generos */
+section.generos {
+  background-color: var(--white);
+  margin: 0.5rem 5rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  section.generos {
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    width: 25%;
+    margin: 0.5rem auto;
+  }
+}
+
+@media screen and (min-width: 1044px) {
+  section.generos {
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    width: 20%;
+    margin: 0.5rem auto;
+  }
+}
+
+/* imagen de la tapa de la pelicula*/
+.elenco img {
+  background-color: var(--white);
+  border-radius: 0.25rem;
+  display: block;
+  margin: 1.25rem auto;
+  padding: 0.25rem;
+  width: 64px;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+/* Listas */
+.elenco ul li,
+.generos ul li {
+  text-align: center;
+  line-height: 1.8;
+  list-style-position: inside;
+  list-style-image: url(https://img.icons8.com/external-xnimrodx-lineal-color-xnimrodx/16/000000/external-film-art-and-design-studio-xnimrodx-lineal-color-xnimrodx-2.png);
+}
+
+.elenco ul li a,
+.generos ul li a {
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--black);
+}
