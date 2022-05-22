@@ -1,0 +1,53 @@
+
+/*Google Fonts : Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,700&display=swap');
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+h3 {
+  font-size: 0.75rem;
+  padding-bottom: 0.50rem;
+}
+
+span {
+  border-radius: 0.25rem;
+  margin-left: 0.25rem;
+  padding: 0rem 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
+
+.fecha {
+  font-size: 0.75rem;
+  color: rgb(128, 128, 128);
+}
+
+.pendiente {
+  background-color: rgb(49, 147, 228);
+}
+
+.haciendo {
+  background-color: rgb(255, 188, 3);
+}
+
+.hecha {
+  background-color: rgb(173, 255, 47);
+}
+
+.cancelada {
+  background-color: rgb(255, 0, 0);
+}
