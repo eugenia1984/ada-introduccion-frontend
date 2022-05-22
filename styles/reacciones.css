@@ -1,0 +1,20 @@
+h3 {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color-light);
+}
+
+span {
+  background-color: rgb(177, 169, 169);
+  padding: 0.25rem;
+  margin: 0rem 1rem;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
