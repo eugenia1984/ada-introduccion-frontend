@@ -311,7 +311,7 @@ Cobro de sueldo
 - Poner un tipografía distinta a la default.
 - Dar a los títulos un tamaño de fuente distinto al default.
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
-- Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color verde.
+- Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color rojo.
 
 ### 10 - Tareas
 

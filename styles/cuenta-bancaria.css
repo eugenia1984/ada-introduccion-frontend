@@ -1,0 +1,28 @@
+h2 {
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+h3 {
+  font-size: 1.00rem;
+}
+
+.fecha {
+  color: rgb(128, 128, 128);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.entrada,
+.salida {
+  font-weight: 800;
+  padding-bottom: 2rem;
+}
+
+.entrada {
+  color: rgb(0, 128, 0);
+}
+
+.salida {
+  color: rgb(255, 0, 0);
+}
