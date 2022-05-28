@@ -9,7 +9,7 @@ Curso de Front End de ADA. Aca dejaré todos los ejercicios de práctica.
 
 ## Contenido 🚀
 
-[**Clase 01** (10 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01): **HTML**
+[**Clase 01** (10 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01/index.html): **HTML**
 
 
 🏁 Objetivos
@@ -45,8 +45,11 @@ Anidado de etiquetas
 Comentarios
 ```
 
+[Acá pueden ver el readme con la ejercitacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01/README.md)
 
-[**Clase 02** (12 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase02): HTML y CSS. Temas vistos: **Introducción a CSS**
+---
+
+[**Clase 02** (12 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase02/index.html): HTML y CSS. Temas vistos: **Introducción a CSS**
 
 📝 Contenidos:
 
@@ -71,8 +74,11 @@ font-size
 font-weight
 Usando Google Fonts
 ```
+[Acá pueden ver el readme con la ejercictacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase02/README.md)
 
-[**Clase 03** (17 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03): HTML y CSS. Temas vistos: ***Modelo de Caja**
+---
+
+[**Clase 03** (17 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/index.html): HTML y CSS. Temas vistos: ***Modelo de Caja**
 
 🏁 Objetivos:
 
@@ -103,6 +109,11 @@ display: inline, block e inline-block
 box-shadow
 ```
 
+[Acá pueden ver el readme con la ejercictacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/README.md)
+
+
+---
+
 **Clase 4** (19 de Mayo): Práctica
 
 🏁 Objetivos
@@ -128,6 +139,41 @@ footer
 aside
 ```
 
+---
+
+[**Clase 5** (24 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/index.html). Tema: **Flexbox**
+
+🏁 Objetivos
+
+-Que te familiarices los conceptos básicos y el modelo de cajas flexibles
+
+📝 Contenidos:
+
+````
+-Propiedades de cajas flexibles:
+ flex-direction
+ row column column-reverse
+ justify-content
+ align-items
+ flex-grow
+ order
+-Centrando con flex
+```
+
+[Acá pueden ver el readme con la ejercictacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md)
+
+---
+
+[**Clase 6** (26 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase06/index.html). Tema: ***Práctica CSS**
+
+🏁 Objetivos
+
+Que puedas ejercitar y repasar lo aprendido del módulo hasta el momento
+
+Que puedas resolver dudas que te hayan quedado pendientes
+
+
+---
 ---
 
 ## Para ver las prácticas en vivo 🚀

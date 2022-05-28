@@ -1,0 +1,46 @@
+
+/* pagina peliculas populares*/
+/* pagina de top 3*/
+.peliculas-populares,
+.top-3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.peliculas-populares p,
+.top-3 p {
+  margin-bottom: 1.5rem;
+}
+
+.peliculas-populares h2,
+.top-3 h2,
+.peliculas-populares h3 {
+  padding-bottom: 1rem;
+}
+
+.peliculas-populares li,
+.top-3 li {
+  line-height: 1.6;
+}
+
+.volver {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.volver button {
+  padding: 0.10rem 0.25rem;
+}
+.volver a {
+  text-decoration: none;
+  font-weight: 800;
+}

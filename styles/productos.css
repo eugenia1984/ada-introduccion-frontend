@@ -16,7 +16,7 @@ p {
   display: flex;
 }
 
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 768px) {
   .cards {
     flex-direction: column;
   }
@@ -29,7 +29,9 @@ p {
   -moz-transition: 0.3s;
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
+  flex: 1 1 20%; /* para que las  5 tengan el mismo ancho */
 }
+
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
