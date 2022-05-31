@@ -149,7 +149,7 @@ aside
 
 📝 Contenidos:
 
-````
+```
 -Propiedades de cajas flexibles:
  flex-direction
  row column column-reverse
