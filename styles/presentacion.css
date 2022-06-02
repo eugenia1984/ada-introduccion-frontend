@@ -1,0 +1,38 @@
+/* Raleway - Google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,500;0,600;1,100;1,200;1,800&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300;1,700&display=swap');
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 120px;
+  font-weight: 800;
+}
+
+/* Para el modo oscuro*/
+#modo-oscuro {
+  background-color: rgb(69, 64, 64);
+}
+
+.presentacion-modo-oscuro p {
+  color: rgb(255, 255, 255);
+}
+
+.presentacion p,
+.presentacion-modo-oscuro p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*Span para cambiar color en el texto*/
+span.programadora {
+  color: rgb(255, 0, 208);
+}
+
+span.cocinar {
+  color: rgb(173, 255, 47)
+}
+
+span.pilates {
+  color: rgb(255, 255, 0);
+}

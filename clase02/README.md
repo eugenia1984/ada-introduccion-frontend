@@ -188,7 +188,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - Una lista ordenada
 - Una sección de comentarios, con al menos 3 comentarios
 
----
+
 ---
 
 # Introducción a CSS

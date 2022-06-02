@@ -1,0 +1,39 @@
+/* Para centrar todos los textos*/
+body {
+  text-align: center;
+}
+
+/* Barra de navegacion*/
+nav {
+  padding: 1rem 0rem;
+  background-color: rgb(0, 255, 255);
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 800;
+}
+/* secciones */
+#html,
+#css,
+#javascript,
+.comentarios {
+  padding-bottom: 2.5rem;
+}
+
+h2 {
+  padding-bottom: 0.75rem;
+}
