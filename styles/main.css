@@ -116,3 +116,16 @@ footer img {
 .font-3 {
   font-size: 2.75rem;
 }
+
+/* para ubicar los parrafos en practica.html*/
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
