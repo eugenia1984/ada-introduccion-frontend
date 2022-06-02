@@ -260,3 +260,54 @@ color:rgb(124, 208, 124);
   background-color: hsl(224, 100%, 17%);
   color: #fff;
 }
+
+/* Para los colores en el termimetro*/
+.termometro {
+  padding-left: 2rem;
+}
+.termometro li {
+  font-weight: 800;
+}
+.c50 {
+  color: #ff0000;
+}
+
+.c45 {
+  color: #ffa500;
+}
+
+.c40 {
+  color: #ffff00;
+}
+
+.c35 {
+  color: #ffff00da;
+}
+
+.c30 {
+  color: #d7d75ac9;
+}
+
+.c25 {
+  color: #c3c3ea;
+}
+
+.c20 {
+  color: #acacea;
+}
+
+.c15 {
+  color: #8888ea;
+}
+
+.c10 {
+  color: #5c5cec;
+}
+
+.c5 {
+  color: #3737e3;
+}
+
+.c0 {
+  color: #0909a8;
+}
