@@ -109,7 +109,7 @@ display: inline, block e inline-block
 box-shadow
 ```
 
-[Acá pueden ver el readme con la ejercictacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/README.md)
+[Acá pueden ver el readme con la ejercitacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/README.md)
 
 
 ---
