@@ -103,3 +103,16 @@ footer img {
     width: 6rem;
   }
 }
+
+/* Para los tamaños de los span en paisaje.html*/
+.font-1 {
+  font-size: 1.25rem;
+}
+
+.font-2 {
+  font-size: 1.75rem;
+}
+
+.font-3 {
+  font-size: 2.75rem;
+}
