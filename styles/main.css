@@ -175,3 +175,88 @@ color:rgb(124, 208, 124);
 .maracuja {
   color: rgba(255, 242, 0, 0.856);
 }
+
+/* Para la paleta de colores en paleta-de-colores.html*/
+.paletas {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: stretch;
+}
+
+.paleta1,
+.paleta2,
+.paleta3 {
+  padding: 1rem 0rem;
+}
+
+
+.paletas ul {
+  list-style: none;
+}
+
+.f9f8fc {
+  background-color: #f9f8fc;
+}
+
+.d94de7 {
+  background-color: #d94de7;
+}
+
+.fec7d7 {
+  background-color: #fec7d7;
+}
+
+.b8546f0 {
+  background-color: #8546f0;
+}
+
+.b0e172c {
+  background-color: #0e172c;
+  color: #fff;
+}
+
+/*paleta eco */
+.eff0f3 {
+  background-color: rgb(239, 240, 243);
+}
+
+.abd1c6 {
+  background-color: rgb(171, 209, 198);
+}
+
+.f9bc60 {
+  background-color: rgb(249, 188, 96);
+}
+
+.e16162 {
+  background-color: rgb(225, 97, 98);
+}
+
+.b004643 {
+  background-color: rgb(0, 70, 67);
+  color: #fff;
+}
+
+/* paleta education*/
+.fef6e4 {
+  background-color: hsl(42, 93%, 95%);
+}
+
+.f3d2c1 {
+  background-color: hsl(20, 68%, 85%);
+}
+
+.b8bd3dd {
+  background-color: hsl(187, 55%, 71%);
+}
+
+.f582ae {
+  background-color: hsl(337, 85%, 74%);
+}
+
+.b001858 {
+  background-color: hsl(224, 100%, 17%);
+  color: #fff;
+}
