@@ -3,6 +3,13 @@ body {
   background-color: #a5d6a7;
   color: #242e4c;
 }
+
+/* Para que el footer me quede abajo, independientemente del margin que tengo de top y bottom la tarjeta de la verduleria*/
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
 /*container*/
 .container {
   width: 250px;
@@ -10,7 +17,7 @@ body {
   background-color: #f7f7fc;
   text-align: center;
   border-radius: 10px;
-  margin: 100px auto;
+  margin: 130px auto;
   box-shadow: 0 5px 20px rgb(0 0 0 / 30%);
 }
 
