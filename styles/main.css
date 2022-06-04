@@ -11,7 +11,7 @@
 }
 
 /* Google font */
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
 
 :root {
   --primary-color: rgb(218, 8, 127);
@@ -22,25 +22,25 @@
   --gray-color-dark: rgb(136, 136, 136);
   --yellow-color: rgb(255, 255, 0);
   --hover-color: rgb(72, 6, 109);
-  --dongle: 'Dongle', sans-serif;
+  --dongle: "Dongle", sans-serif;
 }
 
 /*General */
-body {  
+body {
   font-family: var(--dongle);
 }
 
-h1 {  
+h1 {
   font-size: 1.5rem;
   text-align: center;
 }
 
-h2 {  
+h2 {
   font-size: 1.25rem;
 }
 
-h3 {  
-  font-size: 1.10rem;
+h3 {
+  font-size: 1.1rem;
 }
 
 p {
@@ -73,7 +73,7 @@ main {
 /* Footer */
 footer p {
   text-align: center;
-  padding: 1rem 0.50rem;
+  padding: 1rem 0.5rem;
 }
 
 footer a {
@@ -94,7 +94,7 @@ footer img {
 @media screen and (max-width: 576px) {
   footer img {
     width: 5rem;
-    padding: 0rem 0.50rem;
+    padding: 0rem 0.5rem;
   }
 }
 
@@ -169,7 +169,7 @@ footer img {
 }
 
 .pera {
-color:rgb(124, 208, 124);
+  color: rgb(124, 208, 124);
 }
 
 .maracuja {
@@ -190,7 +190,6 @@ color:rgb(124, 208, 124);
 .paleta3 {
   padding: 1rem 0rem;
 }
-
 
 .paletas ul {
   list-style: none;
@@ -331,7 +330,7 @@ color:rgb(124, 208, 124);
   border-radius: 0.25em;
   box-shadow: -4px 4px rgba(130, 123, 123, 0.505);
   text-decoration: none;
-  padding: 0.25rem 0.50rem;
+  padding: 0.25rem 0.5rem;
   -webkit-border-radius: 0.25em;
   -moz-border-radius: 0.25em;
   -ms-border-radius: 0.25em;
@@ -347,7 +346,7 @@ color:rgb(124, 208, 124);
 #clase3-banderas h2 {
   text-align: center;
   padding: 1rem 0rem;
-} 
+}
 
 .bandera {
   height: 320px;
@@ -371,7 +370,7 @@ color:rgb(124, 208, 124);
 }
 
 .bandera-argentina .franja-celeste {
-  background-color: #74acdc ;
+  background-color: #74acdc;
 }
 
 .bandera-argentina .franja-blanca {
@@ -393,7 +392,7 @@ color:rgb(124, 208, 124);
 
 /* bandera Mexico */
 .bandera-mexico .franja-verde {
-  background-color:  #046b44;
+  background-color: #046b44;
 }
 
 .bandera-mexico .franja-blanca {
@@ -401,20 +400,20 @@ color:rgb(124, 208, 124);
 }
 
 .bandera-mexico .franja-roja {
-  background-color: #cb1424 ;
+  background-color: #cb1424;
 }
 
 /* bandera Francia*/
 .bandera-francia .franja-azul {
-  background-color: #042494 ;
+  background-color: #042494;
 }
 
 .bandera-francia .franja-blanca {
-  background-color: #f3f1f3 ;
+  background-color: #f3f1f3;
 }
 
 .bandera-francia .franja-roja {
-  background-color:  #ec2b3b ;
+  background-color: #ec2b3b;
 }
 
 /* bandera Alamania*/
@@ -425,7 +424,7 @@ color:rgb(124, 208, 124);
 }
 
 .bandera-alemania .franja-negra {
-  background-color:  #040404;
+  background-color: #040404;
 }
 
 .bandera-alemania .franja-roja {
@@ -467,4 +466,40 @@ color:rgb(124, 208, 124);
   width: 200px;
   margin: auto 50px;
   border: 41px solid #fff;
+}
+
+/* CLASE 3 - BARRAS DE PROGRESO*/
+
+#barras-de-progreso .barra {
+  width: 300px;
+  height: 30px;
+  background-color: #eaeaea;
+  padding: 3px;
+  border-radius: 100px;
+  margin: 20px;
+}
+
+.barra-10 {
+  width: 10%;
+  background-color: #4caf50;
+}
+
+.barra-25 {
+  width: 25%;
+  background-color: #4caf50;
+}
+
+.barra-50 {
+  width: 50%;
+  background-color: #4caf50;
+}
+
+.barra-75 {
+  width: 70%;
+  background-color: #4caf50;
+}
+
+.barra-90 {
+  width: 90%;
+  background-color: #4caf50;
 }
