@@ -317,6 +317,9 @@ color:rgb(124, 208, 124);
   flex-direction: column;
 }
 
+#clase3-banderas {
+  background-color: rgb(207, 201, 201);
+}
 #clase3 p {
   text-align: center;
   font-weight: 800;
@@ -347,13 +350,15 @@ color:rgb(124, 208, 124);
 } 
 
 .bandera {
-  height: 400px;
+  height: 320px;
 }
 
 .bandera-argentina,
 .bandera-mexico,
 .bandera-francia,
-.bandera-alemania {
+.bandera-alemania,
+.bandera-indonesia,
+.bandera-japon {
   width: 300px;
   height: 200px;
   margin: 0 auto;
@@ -362,7 +367,7 @@ color:rgb(124, 208, 124);
 /* bandera Argentina*/
 .bandera-argentina .franja-celeste,
 .bandera-argentina .franja-blanca {
-  height: 100px;
+  height: 66px;
 }
 
 .bandera-argentina .franja-celeste {
@@ -374,7 +379,7 @@ color:rgb(124, 208, 124);
 }
 
 /* bandera Mexico */
-/*bancera francia*/
+/* bandera Francia */
 .bandera-mexico .franja-verde,
 .bandera-mexico .franja-blanca,
 .bandera-mexico .franja-roja,
@@ -382,7 +387,7 @@ color:rgb(124, 208, 124);
 .bandera-francia .franja-blanca,
 .bandera-francia .franja-roja {
   height: 200px;
-  width: 90px;
+  width: 97px;
   display: inline-block;
 }
 
@@ -399,7 +404,7 @@ color:rgb(124, 208, 124);
   background-color: #cb1424 ;
 }
 
-/* bandera francia*/
+/* bandera Francia*/
 .bandera-francia .franja-azul {
   background-color: #042494 ;
 }
@@ -412,11 +417,11 @@ color:rgb(124, 208, 124);
   background-color:  #ec2b3b ;
 }
 
-/* bandera alamana*/
+/* bandera Alamania*/
 .bandera-alemania .franja-negra,
 .bandera-alemania .franja-roja,
 .bandera-alemania .franja-amarilla {
-  height: 100px;
+  height: 66px;
 }
 
 .bandera-alemania .franja-negra {
@@ -424,9 +429,41 @@ color:rgb(124, 208, 124);
 }
 
 .bandera-alemania .franja-roja {
-  background-color: #dc0404 ;
+  background-color: #dc0404;
 }
 
 .bandera-alemania .franja-amarilla {
-  background-color: #fccb04 ;
+  background-color: #fccb04;
+}
+
+/* Bandera Indonesia */
+.bandera-indonesia .franja-roja,
+.bandera-indonesia .franja-blanca {
+  height: 100px;
+}
+
+.bandera-indonesia .franja-roja {
+  background-color: #dc0404;
+}
+
+.bandera-indonesia .franja-blanca {
+  background-color: #fff;
+}
+
+/* Bandera Japon */
+.bandera-japon {
+  height: 200px;
+  background-color: #fff;
+}
+
+.circulo-rojo {
+  background-color: #dc0404;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: auto 100px;
 }
