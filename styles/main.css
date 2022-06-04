@@ -463,7 +463,8 @@ color:rgb(124, 208, 124);
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  margin: auto 100px;
+  height: 200px;
+  width: 200px;
+  margin: auto 50px;
+  border: 41px solid #fff;
 }
