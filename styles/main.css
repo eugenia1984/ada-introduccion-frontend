@@ -13,6 +13,8 @@
 /* Google font */
 @import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root {
   --primary-color: rgb(218, 8, 127);
   --primary-color-light: rgba(255, 0, 144, 0.969);
@@ -23,6 +25,7 @@
   --yellow-color: rgb(255, 255, 0);
   --hover-color: rgb(72, 6, 109);
   --dongle: "Dongle", sans-serif;
+  --roboto-mono: 'Roboto Mono', monospace;
 }
 
 /*General */
@@ -479,6 +482,21 @@ footer img {
   margin: 20px;
 }
 
+@media screen and (max-width: 340px) {
+  #barras-de-progreso .barra {
+    width: 270px;
+    height: 28px;
+    background-color: #eaeaeaab;
+    padding: 2px;
+    border-radius: 80px;
+    margin: 10px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+}
+}
+
 .barra-10 {
   width: 10%;
   background-color: #4caf50;
@@ -508,12 +526,13 @@ footer img {
 .habilidades {
   background: rgb(7,200,209);
   background: linear-gradient(90deg, rgba(7,200,209,1) 0%, rgba(68,212,216,1) 100%);
+  padding-top: 2rem;
 }
 
 .habilidades-card {
   background-color: #fff;
-  height: 70vh;
-  width: 80vw;
+  height: 45vh;
+  width: 60vw;
   margin: auto;
   border-radius: 14px;
   -webkit-border-radius: 14px;
@@ -526,11 +545,18 @@ footer img {
   font-size: 0.80rem;
 }
 
+.habilidades-card button {
+  margin-right: 2rem;
+  padding: 0.1rem 0.25rem;
+  background-color: #fff;
+  border: 1px solid #808080;
+}
+
 .row1 {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -559,13 +585,33 @@ footer img {
   border-left: 2px solid #ff9d00;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 576px) {
+  .habilidades-card {
+    height: 45vh;
+    width: 92vw;
+    margin: auto;
+  }
+
   .row2,
   .row3,
   .row4 {
-    width: 580px;
-    margin: 0px 0px 12px 18px;
+    width: 90%;
+    margin: 0px 0px 10px 14px;
+  } 
 
+}
+@media screen and (min-width: 786px) {
+  .habilidades-card {
+    height: 45vh;
+    width: 65vw;
+    margin: auto;
+  }
+  
+  .row2,
+  .row3,
+  .row4 {
+    width: 460px;
+    margin: 0px 0px 12px 16px;
   } 
 
   .habilidades-card h3 {
@@ -594,16 +640,22 @@ footer img {
 .donacion-texto p,
 .donacion-importe,
 .donacion-continue {
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   text-align: center;
 }
 
+.donacion-texto p {
+  font-family: var(--roboto-mono);
+  font-weight: 800;
+  line-height: 2;
+  font-size: 1.5rem;
+}
 .btn-importe {
-  border-width: 2px;
+  border-width: 1px;
   border-color: #8F8CA7;
   border-radius: 0.50rem;
   margin: 0.10rem;
-  padding: 0.50rem 0.50rem;
+  padding: 0.75rem;
   -webkit-border-radius: 0.50rem;
   -moz-border-radius: 0.50rem;
   -ms-border-radius: 0.50rem;
@@ -611,14 +663,18 @@ footer img {
 }
 
 .btn-importe:hover {
-  background-color:  #7464f3 ;
+  background-color:  #7464f3;
+  color: #fff;
 }
 
 .btn-continue {
   background-color: #7464f3;
   border-width: 0px;
-  width: 90%;
-  padding: 0.25rem 0rem;
+  color: #fff;
+  font-weight: 800;
+  width: 80%;
+  padding: 0.75rem 0rem;
+  box-shadow: -3px 3px #a8a8a8;
 }
 
 /* CLASE 3 - TAREAS*/
