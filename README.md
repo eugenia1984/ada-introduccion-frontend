@@ -174,6 +174,55 @@ Que puedas resolver dudas que te hayan quedado pendientes
 
 
 ---
+
+[**Clase 6** (26 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase06/README.md). practica de CSS
+
+
+---
+
+[**Clase 7** (31 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md). Tema: Posicionamiento y Responsive.
+
+## 🏁 Objetivos:
+
+- Que conozcas las distintas formas de posicionar elementos con CSS
+
+- Que te interiorices en el sistema de coordenadas de CSS
+
+- Que puedas aplicar lo aprendido en los casos de uso más comunes
+
+- Que entiendas en qué consiste el diseño responsivo y qué problemas soluciona
+
+- Que puedas trabajar con unidades porcentuales
+
+- Que te familiarices con el uso de media queries
+
+- Que puedas aplicar un diseño responsivo a tu sitio
+
+---
+
+
+## 📝 Contenidos
+
+Sistema de posicionamiento en CSS
+
+La propiedadposition
+
+Formas de posicionamiento: relative |  absolute
+
+Sistema de coordenadas: top | right | bottom  | left  | z-index
+
+---
+
+## 📝 Diseño Responsivo
+
+- Diseño responsivo vs adaptativo
+
+- Mobile first vs Desktop first
+
+- Media queries y breakpoints
+
+
+---
 ---
 
 ## Para ver las prácticas en vivo 🚀
