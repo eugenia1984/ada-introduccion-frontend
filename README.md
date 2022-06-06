@@ -164,7 +164,7 @@ aside
 
 ---
 
-[**Clase 6** (26 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase06/index.html). Tema: ***Práctica CSS**
+[**Clase 6** (26 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase06/README.md). practica de CSS
 
 🏁 Objetivos
 
@@ -172,13 +172,9 @@ Que puedas ejercitar y repasar lo aprendido del módulo hasta el momento
 
 Que puedas resolver dudas que te hayan quedado pendientes
 
-
+---
 ---
 
-[**Clase 6** (26 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase06/README.md). practica de CSS
-
-
----
 
 [**Clase 7** (31 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md). Tema: Posicionamiento y Responsive.
 
@@ -222,6 +218,28 @@ Sistema de coordenadas: top | right | bottom  | left  | z-index
 - Media queries y breakpoints
 
 
+---
+---
+
+
+
+[**Clase 8** (2 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase08/README.md).
+
+
+---
+---
+
+
+
+[**Clase 9** (7 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase09/README.md).
+
+
+---
+---
+
+
+
+[**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
 ---
 ---
 
