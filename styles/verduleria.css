@@ -10,6 +10,11 @@ footer {
   bottom: 0;
 }
 
+@media screen and (max-width: 678px) {
+  .footer-verduleria {
+    position: relative;
+  }
+}
 /*container*/
 .container {
   width: 250px;

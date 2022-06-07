@@ -11,7 +11,7 @@
   <meta name="theme-color" content="rgb(232, 229, 132)">
   <meta name="twitter:card" content="summary">
   <meta property="og:type" content="website">
-  <meta property="og:title" name="twitter:title" content="Clase 3 | Eventos>
+  <meta property="og:title" name="twitter:title" content="Clase 3 | Eventos">
   <meta property="og:description" name="twitter:description"
     content="Hola bienvenidos a mi practica del curso de Ada Introduccion Front End, viendo HTML y CSS. Vean la práctica de la tercer clase: eventos.">
   <meta property="og:image" name="twitter:image"
@@ -21,14 +21,51 @@
   <!-- CSS GENERAL -->
   <link rel="stylesheet" href="../styles/main.css">
 </head>
-<body>
+<body id="eventos">
   <!-- HEADER -->
     <header class="header">
       <h1>Eventos</h1>
     </header>
   <!-- MAIN -->
   <main>
-
+    <div class="eventos">
+      <div class="header-eventos">
+        <h1 class="header-title">Eventos próximos</h1>
+        <div class="filters">
+          <span class="filter filter-selected">TODOS</span>
+          <span class="filter">HOY</span>
+          <span class="filter">MAÑANA</span>
+        </div>
+      </div>
+      <div class="evento">
+        <span class="evento-status">Cancelado</span>
+        <span class="evento-time">Lun 23, 14:00 - 16:00 hs.</span>
+        <h2 class="evento-title">Lorem impsum facto</h2>
+        <p class="evento-description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          repudiandae expedita reiciendis, quis, cumque adipisci itaque tempora
+          unde explicabo rerum in repellat aut vero saepe voluptatum ducimus
+          minus exercitationem veritatis!
+        </p>
+        <a href="#" class="see-more-link">+ Ver más</a>
+      </div>
+      <div class="event">
+        <span class="evento-time">Lun 23, 14:00 - 16:00 hs.</span>
+        <h2 class="evento-title">Lorem impsum facto</h2>
+        <a href="#" class="see-more-link">+ Ver más</a>
+      </div>
+      <div class="evento evento-last">
+        <span class="event-time">Lun 23, 14:00 - 16:00 hs.</span>
+        <h2 class="evento-title">Lorem impsum facto</h2>
+        <p class="evento-description">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          repudiandae expedita reiciendis, quis, cumque adipisci itaque tempora
+          unde explicabo rerum in repellat aut vero saepe voluptatum ducimus
+          minus exercitationem veritatis!
+        </p>
+        <a href="#" class="see-more-link">+ Ver más</a>
+      </div>
+    </div>
   </main>
   <!-- FOOTER -->
   <footer>
