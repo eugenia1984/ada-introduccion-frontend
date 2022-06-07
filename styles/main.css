@@ -21,25 +21,81 @@
 
 
 :root {
+  --black: rgb(4, 4, 4);
+  --black2: rgba(0, 0, 0, 0.7);
+  --blue: rgb(93, 0, 255);
+  --blue2: rgb(143, 140, 167);
+  --blue3: rgb(116, 100, 243);
+  --blue4: rgb(4, 124, 196);
+  --blue5: rgb(88, 139, 218);
   --blue-dark: rgb(14, 23, 44);
-  --blue-temperature: #0909a8;
+  --blue-dark2: rgb(4, 36, 148);
+  --blue-dark3: rgb(42, 64, 100);
+  --blue-dark4: rgb(12, 31, 44);
+  --blue-light: rgb(116, 172, 220);
+  --blue-light2: rgb(234, 227, 251);
+  --blue-light3: rgb(143, 140, 167);
+  --blue-light4: rgb(173, 176, 189);
+  --blue-light5: rgb(189, 192, 206);
+  --blue-temperature: rgb(9, 9, 168);
+  --blue-temperature2: rgb(55, 55, 227);
+  --blue-temperature3: rgb(92, 92, 236);
+  --blue-temperature4: rgb(136, 136, 234);
+  --blue-temperature5: rgb(172, 172, 234);
+  --blue-temperature6: rgb(195, 195, 234);
+  --cherry-color: rgba(134, 13, 57, 0.913);
+  --gray: rgb(128, 128, 128);
+  --gray2: rgb(112, 112, 112);
+  --gray3: rgb(168, 168, 168);
+  --gray4: rgb(81, 81, 81);
+  --gray5: rgb(114, 112, 112);
+  --gray6: rgb(140, 140, 140);
+  --gray7: rgb(163, 163, 163);
+  --gray-bar: rgb(234, 234, 234);
+  --gray-bar2: rgba(234, 234, 234, 0.671);
   --gray-color: rgb(197, 186, 186);
+  --gray-color-light: rgb(207, 201, 201);
   --gray-color-dark: rgb(136, 136, 136);
+  --gray-dark: rgb(52, 52, 52);
+  --green-bar: rgb(76, 175, 80);
+  --green-light-fruit: rgb(124, 208, 124);
   --green-fruit: rgb(8, 150, 8);
+  --green-dark: rgb(4, 107, 68);
+  --orange: rgb(255, 157, 0);
   --orange-fruit: rgb(255, 165, 0);
+  --orange-flag: rgb(252, 203, 4);
+  --orange-temperature: rgb(255, 165, 0);
   --primary-color: rgb(218, 8, 127);
+  --pink: rgb(255, 0, 251);
+  --pink2: rgb(236, 97, 137);
+  --pink-fruit: rgb(255, 0, 93);
   --pink-light: rgb(254, 199, 215);
   --primary-color-light: rgba(255, 0, 144, 0.969);
   --primary-color-dark: rgba(181, 11, 108, 0.949);
+  --red: rgb(203, 33, 64);
   --red-fruit: rgba(255, 0, 0, 0.872);
+  --red-flag: rgb(236, 43, 59);
+  --red-flag2: rgb(220, 4, 4);
+  --red-dark: rgb(203, 20, 36);
   --red-temperature: rgb(255, 0, 0);
   --secondary-color: rgb(255, 255, 255);
   --violet: rgb(217, 77, 231);
   --violet-dark: rgb(133, 70, 240);
+  --violet-fruit: rgb(144, 34, 144);
   --white: rgb(255, 255, 255);
   --white2: rgb(249, 248, 252);
+  --white3: rgb(243, 241, 243);
+  --white4: rgb(224, 224, 225);
+  --white5: rgb(242, 242, 242);
+  --white6: rgb(238, 238, 238);
+  --white7: rgb(216, 216, 216);
   --yellow-color: rgb(255, 255, 0);
   --yellow-fruit: rgba(255, 255, 0, 0.93);
+  --yellow-fruit2: rgba(255, 217, 0, 0.848);
+  --yellow-fruit3: rgba(255, 242, 0, 0.856);
+  --yellow-temperature: rgb(255, 255, 0);
+  --yellow-temperature2: rgba(255, 255, 0, 0.855);
+  --yellow-temperature3: rgba(215, 215, 90, 0.788);
   --hover-color: rgb(72, 6, 109);
   --dongle: "Dongle", sans-serif;
   --roboto-mono: "Roboto Mono", monospace;
@@ -173,27 +229,27 @@ footer img {
 }
 
 .frutilla {
-  color: rgb(255, 0, 93);
+  color: var(--pink-fruit);
 }
 
 .uva {
-  color: rgb(144, 34, 144);
+  color: var(--violet-fruit);
 }
 
 .pomelo {
-  color: rgba(255, 217, 0, 0.848);
+  color: var(--yellow-fruit2);
 }
 
 .cereza {
-  color: rgba(134, 13, 57, 0.913);
+  color: var(--cherry-color);
 }
 
 .pera {
-  color: rgb(124, 208, 124);
+  color: var(--green-light-fruit);
 }
 
 .maracuja {
-  color: rgba(255, 242, 0, 0.856);
+  color: var(--yellow-fruit3);
 }
 
 /* Para la paleta de colores en paleta-de-colores.html*/
@@ -280,7 +336,7 @@ footer img {
   color: var(--white);
 }
 
-/* Para los colores en el termimetro*/
+/* Para los colores en el termometro*/
 .termometro {
   padding-left: 2rem;
 }
@@ -288,43 +344,43 @@ footer img {
   font-weight: 800;
 }
 .c50 {
-  color: #var(var(--red-temperature));
+  color: var(--red-temperature);
 }
 
 .c45 {
-  color: #ffa500;
+  color: var(--orange-temperature);
 }
 
 .c40 {
-  color: #ffff00;
+  color: var(--yellow-temperature);
 }
 
 .c35 {
-  color: #ffff00da;
+  color: var(--yellow-temperature2);
 }
 
 .c30 {
-  color: #d7d75ac9;
+  color: var(--yellow-temperature3);
 }
 
 .c25 {
-  color: #c3c3ea;
+  color: var(--blue-temperature6);
 }
 
 .c20 {
-  color: #acacea;
+  color: var(--blue-temperature5);
 }
 
 .c15 {
-  color: #8888ea;
+  color: var(--blue-temperature4);
 }
 
 .c10 {
-  color: #5c5cec;
+  color: var(--blue-temperature3);
 }
 
 .c5 {
-  color: #3737e3;
+  color: var(--blue-temperature2);
 }
 
 .c0 {
@@ -337,7 +393,7 @@ footer img {
 }
 
 #clase3-banderas {
-  background-color: rgb(207, 201, 201);
+  background-color: var(--gray-color-light);
 }
 #clase3 p {
   text-align: center;
@@ -346,7 +402,7 @@ footer img {
 }
 
 #clase3 p a {
-  background-color: #c3c3ea;
+  background-color: rgb(195, 195, 234);
   border-radius: 0.25em;
   box-shadow: -4px 4px rgba(130, 123, 123, 0.505);
   text-decoration: none;
@@ -390,7 +446,7 @@ footer img {
 }
 
 .bandera-argentina .franja-celeste {
-  background-color: #74acdc;
+  background-color: var(--blue-light);
 }
 
 .bandera-argentina .franja-blanca {
@@ -412,7 +468,7 @@ footer img {
 
 /* bandera Mexico */
 .bandera-mexico .franja-verde {
-  background-color: #046b44;
+  background-color: var(--green-dark);
 }
 
 .bandera-mexico .franja-blanca {
@@ -420,20 +476,20 @@ footer img {
 }
 
 .bandera-mexico .franja-roja {
-  background-color: #cb1424;
+  background-color: var(--red-dark);
 }
 
 /* bandera Francia*/
 .bandera-francia .franja-azul {
-  background-color: #042494;
+  background-color: var(--blue-dark2);
 }
 
 .bandera-francia .franja-blanca {
-  background-color: #f3f1f3;
+  background-color: var(--white3);
 }
 
 .bandera-francia .franja-roja {
-  background-color: #ec2b3b;
+  background-color: var(--red-flag);
 }
 
 /* bandera Alamania*/
@@ -444,15 +500,15 @@ footer img {
 }
 
 .bandera-alemania .franja-negra {
-  background-color: #040404;
+  background-color: var(--black);
 }
 
 .bandera-alemania .franja-roja {
-  background-color: #dc0404;
+  background-color: var(--red-flag2);
 }
 
 .bandera-alemania .franja-amarilla {
-  background-color: #fccb04;
+  background-color: var(--orange-flag);
 }
 
 /* Bandera Indonesia */
@@ -462,7 +518,7 @@ footer img {
 }
 
 .bandera-indonesia .franja-roja {
-  background-color: #dc0404;
+  background-color: var(--red-flag2);
 }
 
 .bandera-indonesia .franja-blanca {
@@ -476,7 +532,7 @@ footer img {
 }
 
 .circulo-rojo {
-  background-color: #dc0404;
+  background-color: var(--red-flag2);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -493,7 +549,7 @@ footer img {
 #barras-de-progreso .barra {
   width: 300px;
   height: 30px;
-  background-color: #eaeaea;
+  background-color: var(--gray-bar);
   padding: 3px;
   border-radius: 100px;
   margin: 20px;
@@ -503,7 +559,7 @@ footer img {
   #barras-de-progreso .barra {
     width: 270px;
     height: 28px;
-    background-color: #eaeaeaab;
+    background-color: var(--gray-bar2);
     padding: 2px;
     border-radius: 80px;
     margin: 10px;
@@ -514,29 +570,32 @@ footer img {
   }
 }
 
+.barra-10,
+.barra-25,
+.barra-50,
+.barra-75,
+.barra-90 {
+  background-color: var(--green-bar);
+}
+
 .barra-10 {
   width: 10%;
-  background-color: #4caf50;
 }
 
 .barra-25 {
   width: 25%;
-  background-color: #4caf50;
 }
 
 .barra-50 {
   width: 50%;
-  background-color: #4caf50;
 }
 
 .barra-75 {
   width: 70%;
-  background-color: #4caf50;
 }
 
 .barra-90 {
   width: 90%;
-  background-color: #4caf50;
 }
 
 /* CLASE 3 - HABILIDADES*/
@@ -570,7 +629,7 @@ footer img {
   margin-right: 2rem;
   padding: 0.1rem 0.25rem;
   background-color: var(--white);
-  border: 1px solid #808080;
+  border: 1px solid var(--gray);
 }
 
 .row1 {
@@ -590,20 +649,20 @@ footer img {
 .row4 {
   width: 238px;
   margin: 0px 0px 6px 12px;
-  border: 1px solid #707070;
+  border: 1px solid var(--gray2);
   padding: 0.25rem;
 }
 
 .row2 {
-  border-left: 2px solid #ff00fb;
+  border-left: 2px solid var(--pink);
 }
 
 .row3 {
-  border-left: 2px solid #5d00ff;
+  border-left: 2px solid var(--blue);
 }
 
 .row4 {
-  border-left: 2px solid #ff9d00;
+  border-left: 2px solid var(--orange);
 }
 
 @media screen and (max-width: 576px) {
@@ -641,12 +700,12 @@ footer img {
 
 /* CLASE 3 - DONACION */
 #donacion {
-  background-color: #8f8ca7;
+  background-color: var(--blue2);
   padding-top: 1.5rem;
 }
 
 .donacion-card {
-  background-color: #eae3fb;
+  background-color: var(--blue-light2);
   border-radius: 0.5rem;
   height: 60vh;
   width: 60vw;
@@ -693,7 +752,7 @@ footer img {
 }
 .btn-importe {
   border-width: 1px;
-  border-color: #8f8ca7;
+  border-color: var(--blue-light3);
   border-radius: 0.5rem;
   margin: 0.1rem;
   padding: 0.75rem;
@@ -704,23 +763,23 @@ footer img {
 }
 
 .btn-importe:hover {
-  background-color: #7464f3;
+  background-color: var(--blue3);
   color: var(--white);
 }
 
 .btn-continue {
-  background-color: #7464f3;
+  background-color: var(--blue3);
   border-width: 0px;
   color: var(--white);
   font-weight: 800;
   width: 80%;
   padding: 0.75rem 0rem;
-  box-shadow: -3px 3px #a8a8a8;
+  box-shadow: -3px 3px var(--gray3);
 }
 
 /* CLASE 3 - TAREAS*/
 .tareas {
-  background-color: #047cc4;
+  background-color: var(--blue4);
 }
 
 .tareas h2 {
@@ -729,7 +788,7 @@ footer img {
 }
 
 .tareas .card {
-  background-color: #e0e0e1;
+  background-color: var(--white4);
   border-radius: 7px;
   width: 60%;
   -webkit-border-radius: 7px;
@@ -744,14 +803,14 @@ footer img {
   }
 }
 .tareas h3 {
-  color: #515151;
+  color: var(--gray4);
   padding: 1rem;
 }
 
 .tareas .texto {
   background-color: var(--white);
   border-radius: 5px;
-  color: #515151;
+  color: var(--gray4);
   font-weight: 600;
   margin: 0.5rem;
   padding: 0.25rem;
@@ -762,7 +821,7 @@ footer img {
 }
 
 .tareas .texto-bloqueado {
-  color: #727070;
+  color: var(--gray5);
   font-weight: 400;
   margin: 0.5rem;
   padding-bottom: 1rem;
@@ -770,7 +829,7 @@ footer img {
 
 /* CLASE 3 - PROTECCION DE CUENTA */
 .proteccion-cuenta {
-  background-color: #adb0bd;
+  background-color: var(--blue-light4);
 }
 
 .proteccion-cuenta .card {
@@ -818,7 +877,7 @@ footer img {
 }
 
 .row-5 {
-  background-color: #bdc0ce;
+  background-color: var(--blue-light5);
   border-radius: 7px;
   padding: 1.25rem 2.5rem;
   -webkit-border-radius: 7px;
@@ -848,7 +907,7 @@ footer img {
 }
 
 .row6-confirm {
-  background-color: #2a4064;
+  background-color: var(--blue-dark3);
   color: var(--white);
   border-radius: 14px;
   -webkit-border-radius: 14px;
@@ -861,7 +920,7 @@ footer img {
 /* CLASE 3 - EVENTOS*/
 #eventos {
   font-family: "Muli", sans-serif;
-  background-color: #f2f2f2;
+  background-color: var(--white5);
 }
 
 
@@ -886,7 +945,7 @@ footer img {
 
 .header-title {
   font-weight: 900;
-  color: #343434;
+  color: var(--gray-dark);
   font-size: 40px;
 }
 
@@ -897,7 +956,7 @@ footer img {
 
 .filter {
   margin-right: 10px;
-  color: #8c8c8c;
+  color: var(--gray6);
   font-size: 14px;
 }
 
@@ -909,7 +968,7 @@ footer img {
 }
 
 .filter-selected {
-  background-color: #343434;
+  background-color: var(--gray-dark);
   color: var(--white);
   padding: 10px;
   border-radius: 5px;
@@ -917,7 +976,7 @@ footer img {
 
 .evento {
   padding: 40px 30px;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid var(--white5);
 }
 
 .evento-last {
@@ -925,19 +984,19 @@ footer img {
 }
 
 .evento-time {
-  color: #a3a3a3;
+  color: var(--gray7);
 }
 
 .evento-title {
-  color: #343434;
+  color: var(--gray-dark);
 }
 
 .evento-description {
-  color: #8c8c8c;
+  color: var(--gray6);
 }
 
 .evento-status {
-  color: #ec6189;
+  color: var(--pink2);
   margin-right: 10px;
 }
 
@@ -948,19 +1007,25 @@ footer img {
 
 /* CLASE 3 - CARD PRODUCTO*/
 #card-producto {
-  background-color: #eeeeee;
+  background-color: var(--white6);
   text-align: center;
   color: var(--white);
 }
 
 .product-card {
-  background: #cb2140;
+  background: var(--red);
   overflow: hidden;
   margin: 50px auto;
   border-radius: 18px;
   width: 600px;
   padding: 40px 0 0;
-  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 7px 20px var(--black2);
+}
+
+@media screen and (max-width: 678px) {
+  .product-card {
+    width: 90%;
+  }
 }
 
 .product-image {
@@ -972,7 +1037,7 @@ footer img {
 .product-info {
   font-family: "Open Sans", sans-serif;
   text-align: center;
-  background: #0c1f2c;
+  background: var(--blue-dark4);
   padding: 40px;
 }
 
@@ -982,6 +1047,15 @@ footer img {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 678px) {
+  .product-name {
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 18px;
+  }
+  
 }
 
 .product-price {
@@ -1006,19 +1080,19 @@ footer img {
   font-size: 10px;
   padding: 5px 10px;
   border-radius: 100px;
-  border: 1px solid #cb2140;
+  border: 1px solid var(--red);
   margin: 0 5px;
 }
 
 .add-to-cart-btn {
   width: 200px;
   height: 48px;
-  background: #cb2140;
+  background: var(--red);
   border-radius: 90px;
   font-weight: 300;
   font-size: 14px;
   padding: 0 24px;
-  color: #fff;
+  color: var(--white);
   border: 0;
   display: block;
   text-align: center;
@@ -1027,4 +1101,46 @@ footer img {
 
 .add-to-cart-btn-text {
   line-height: 48px;
+}
+
+/* CLASE 3 - NOTIFICACION */
+#notificacion {
+  background-color: var(--white7);
+}
+
+#notificacion .container {
+  width: 70%;
+  margin: 100px auto;
+  background-color: var(--white);
+  border-radius: 10px;
+  padding: 1.75rem 1.75rem 3.25rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.titulo h2 {
+  padding: 1rem 0rem;
+}
+
+.text p {
+  padding-bottom: 1rem;
+}
+
+.text a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.boton button {
+  background-color: var(--blue5);
+  color: var(--white);
+  padding: 0.50rem 1.75rem;
+  border: none;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
 }
