@@ -15,14 +15,31 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+
+
 :root {
-  --primary-color: rgb(218, 8, 127);
-  --primary-color-light: rgba(255, 0, 144, 0.969);
-  --primary-color-dark: rgba(181, 11, 108, 0.949);
-  --secondary-color: rgb(255, 255, 255);
+  --blue-dark: rgb(14, 23, 44);
+  --blue-temperature: #0909a8;
   --gray-color: rgb(197, 186, 186);
   --gray-color-dark: rgb(136, 136, 136);
+  --green-fruit: rgb(8, 150, 8);
+  --orange-fruit: rgb(255, 165, 0);
+  --primary-color: rgb(218, 8, 127);
+  --pink-light: rgb(254, 199, 215);
+  --primary-color-light: rgba(255, 0, 144, 0.969);
+  --primary-color-dark: rgba(181, 11, 108, 0.949);
+  --red-fruit: rgba(255, 0, 0, 0.872);
+  --red-temperature: rgb(255, 0, 0);
+  --secondary-color: rgb(255, 255, 255);
+  --violet: rgb(217, 77, 231);
+  --violet-dark: rgb(133, 70, 240);
+  --white: rgb(255, 255, 255);
+  --white2: rgb(249, 248, 252);
   --yellow-color: rgb(255, 255, 0);
+  --yellow-fruit: rgba(255, 255, 0, 0.93);
   --hover-color: rgb(72, 6, 109);
   --dongle: "Dongle", sans-serif;
   --roboto-mono: "Roboto Mono", monospace;
@@ -140,19 +157,19 @@ footer img {
 }
 
 .manzana {
-  color: rgba(255, 0, 0, 0.872);
+  color: var(--red-fruit);
 }
 
 .banana {
-  color: rgba(255, 255, 0, 0.93);
+  color: var(--yellow-fruit);
 }
 
 .kiwi {
-  color: rgb(8, 150, 8);
+  color: var(--green-fruit);
 }
 
 .naranja {
-  color: rgb(255, 165, 0);
+  color: var(--orange-fruit);
 }
 
 .frutilla {
@@ -199,24 +216,24 @@ footer img {
 }
 
 .f9f8fc {
-  background-color: #f9f8fc;
+  background-color: var(--white2);
 }
 
 .d94de7 {
-  background-color: #d94de7;
+  background-color: var(--violet);
 }
 
 .fec7d7 {
-  background-color: #fec7d7;
+  background-color: var(--pink-light);
 }
 
 .b8546f0 {
-  background-color: #8546f0;
+  background-color: var(--violet-dark);
 }
 
 .b0e172c {
-  background-color: #0e172c;
-  color: #fff;
+  background-color: var(--blue-dark);
+  color: var(--white);
 }
 
 /*paleta eco */
@@ -238,7 +255,7 @@ footer img {
 
 .b004643 {
   background-color: rgb(0, 70, 67);
-  color: #fff;
+  color: var(--white);
 }
 
 /* paleta education*/
@@ -260,7 +277,7 @@ footer img {
 
 .b001858 {
   background-color: hsl(224, 100%, 17%);
-  color: #fff;
+  color: var(--white);
 }
 
 /* Para los colores en el termimetro*/
@@ -271,7 +288,7 @@ footer img {
   font-weight: 800;
 }
 .c50 {
-  color: #ff0000;
+  color: #var(var(--red-temperature));
 }
 
 .c45 {
@@ -311,7 +328,7 @@ footer img {
 }
 
 .c0 {
-  color: #0909a8;
+  color: var(--blue-temperature);
 }
 
 /* INDEX CLASE 3*/
@@ -341,7 +358,7 @@ footer img {
 }
 
 #clase3 p a:hover {
-  background-color: #eac3e4;
+  background-color: rgb(234, 195, 228);
 }
 
 /** CLASE 3 BANDERAS ***/
@@ -377,7 +394,7 @@ footer img {
 }
 
 .bandera-argentina .franja-blanca {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 /* bandera Mexico */
@@ -399,7 +416,7 @@ footer img {
 }
 
 .bandera-mexico .franja-blanca {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .bandera-mexico .franja-roja {
@@ -449,13 +466,13 @@ footer img {
 }
 
 .bandera-indonesia .franja-blanca {
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 /* Bandera Japon */
 .bandera-japon {
   height: 200px;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .circulo-rojo {
@@ -468,7 +485,7 @@ footer img {
   height: 200px;
   width: 200px;
   margin: auto 50px;
-  border: 41px solid #fff;
+  border: 41px solid var(--white);
 }
 
 /* CLASE 3 - BARRAS DE PROGRESO*/
@@ -534,7 +551,7 @@ footer img {
 }
 
 .habilidades-card {
-  background-color: #fff;
+  background-color: var(--white);
   height: 45vh;
   width: 60vw;
   margin: auto;
@@ -552,7 +569,7 @@ footer img {
 .habilidades-card button {
   margin-right: 2rem;
   padding: 0.1rem 0.25rem;
-  background-color: #fff;
+  background-color: var(--white);
   border: 1px solid #808080;
 }
 
@@ -688,13 +705,13 @@ footer img {
 
 .btn-importe:hover {
   background-color: #7464f3;
-  color: #fff;
+  color: var(--white);
 }
 
 .btn-continue {
   background-color: #7464f3;
   border-width: 0px;
-  color: #fff;
+  color: var(--white);
   font-weight: 800;
   width: 80%;
   padding: 0.75rem 0rem;
@@ -707,7 +724,7 @@ footer img {
 }
 
 .tareas h2 {
-  color: #fff;
+  color: var(--white);
   padding-bottom: 2rem;
 }
 
@@ -732,7 +749,7 @@ footer img {
 }
 
 .tareas .texto {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 5px;
   color: #515151;
   font-weight: 600;
@@ -757,7 +774,7 @@ footer img {
 }
 
 .proteccion-cuenta .card {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 14px;
   width: 500px;
   height: 660px;
@@ -778,7 +795,7 @@ footer img {
 
 @media screen and (max-width: 678px) {
   .proteccion-cuenta .card {
-    background-color: #fff;
+    background-color: var(--white);
     border-radius: 14px;
     width: 300px;
     height: 700px;
@@ -832,7 +849,7 @@ footer img {
 
 .row6-confirm {
   background-color: #2a4064;
-  color: #fff;
+  color: var(--white);
   border-radius: 14px;
   -webkit-border-radius: 14px;
   -moz-border-radius: 14px;
@@ -849,7 +866,7 @@ footer img {
 
 
 .eventos {
-  background-color: #fff;
+  background-color: var(--white);
   width: 700px;
   margin: 50px auto;
   padding: 30px;
@@ -893,7 +910,7 @@ footer img {
 
 .filter-selected {
   background-color: #343434;
-  color: #fff;
+  color: var(--white);
   padding: 10px;
   border-radius: 5px;
 }
@@ -927,4 +944,87 @@ footer img {
 .see-more-link {
   text-decoration: none;
   font-size: 14px;
+}
+
+/* CLASE 3 - CARD PRODUCTO*/
+#card-producto {
+  background-color: #eeeeee;
+  text-align: center;
+  color: var(--white);
+}
+
+.product-card {
+  background: #cb2140;
+  overflow: hidden;
+  margin: 50px auto;
+  border-radius: 18px;
+  width: 600px;
+  padding: 40px 0 0;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.7);
+}
+
+.product-image {
+  display: block;
+  width: 200px;
+  margin: 20px auto 55px;
+}
+
+.product-info {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  background: #0c1f2c;
+  padding: 40px;
+}
+
+.product-name {
+  font-weight: 800;
+  line-height: 46px;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  font-weight: 300;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-weight: bold;
+  line-height: normal;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  font-size: 10px;
+  padding: 5px 10px;
+  border-radius: 100px;
+  border: 1px solid #cb2140;
+  margin: 0 5px;
+}
+
+.add-to-cart-btn {
+  width: 200px;
+  height: 48px;
+  background: #cb2140;
+  border-radius: 90px;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 0 24px;
+  color: #fff;
+  border: 0;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.add-to-cart-btn-text {
+  line-height: 48px;
 }
