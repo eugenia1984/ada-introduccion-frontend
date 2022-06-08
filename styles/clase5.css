@@ -1,0 +1,27 @@
+/** GENERAL **/
+:root {
+  --c5-gray: rgb(179, 163, 163);
+  --c5-yellow: rgb(236, 234, 88);
+}
+/** INDEX GENERAL **/
+#clase5 h2,
+#clase5 p {
+  text-align: center;
+  padding-bottom: 1.75rem;
+}
+
+#clase5 p a {
+  text-decoration: none;
+  font-weight: 800;
+  background-color: var(--c5-gray);
+  padding: 0.25rem 1.75rem;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+#clase5 p a:hover {
+  background-color: var(--c5-yellow);
+}
