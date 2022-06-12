@@ -13,9 +13,9 @@
   --red-dark: rgb(165, 42, 42);
   --violet: rgb(138, 43, 227);
   --violet2: rgb(127, 129, 255);
-  --violet3:rgb(102, 15, 241);
+  --violet3: rgb(102, 15, 241);
   --white: rgb(255, 255, 255);
-  --yellow: rgb(255, 255, 0);  
+  --yellow: rgb(255, 255, 0);
 }
 
 /**** PAGINA DE FLEX GROW Y FLEX BASIS ******/
@@ -24,14 +24,14 @@
 #flex-grow-main .terceros-divs,
 #flex-grow-main .cuartos-divs,
 #flex-basis-main .primeros-divs,
-#flex-basis-main .segundos-divs  {
+#flex-basis-main .segundos-divs {
   display: flex;
   flex-wrap: wrap;
 }
 
 /***** FLEX GROW *****/
 #flex-grow-main p,
-#flex-basis-main p {   
+#flex-basis-main p {
   padding: 0.5rem;
   text-align: center;
 }
@@ -52,41 +52,73 @@
 }
 /*** primeros 3 divs ***/
 #flex-grow-main .div1,
-#flex-grow-main .div3 {  
+#flex-grow-main .div3 {
   width: 250px;
   flex-grow: 1;
 }
-#flex-grow-main .div2 {  
+#flex-grow-main .div2 {
   flex-grow: 2;
 }
-#flex-grow-main .div1 {  
+#flex-grow-main .div1 {
   background-color: var(--red);
 }
-#flex-grow-main .div2 {  
-  background-color: var(--yellow);  
+#flex-grow-main .div2 {
+  background-color: var(--yellow);
 }
-#flex-grow-main .div3 {  
+#flex-grow-main .div3 {
   background-color: var(--green);
 }
 /*** segundos 4 divs ***/
-#flex-grow-main .div4 {background-color: var(--blue);}
-#flex-grow-main .div5 { background-color: var(--violet);}
-#flex-grow-main .div6 {background-color: var(--green-light);}
-#flex-grow-main .div7 {background-color: var(--red-dark);}
-#flex-grow-main .div4, #flex-grow-main .div7 {  width: 200px;}
-#flex-grow-main .div5, #flex-grow-main .div6 {  flex-grow: 1;}
+#flex-grow-main .div4 {
+  background-color: var(--blue);
+}
+#flex-grow-main .div5 {
+  background-color: var(--violet);
+}
+#flex-grow-main .div6 {
+  background-color: var(--green-light);
+}
+#flex-grow-main .div7 {
+  background-color: var(--red-dark);
+}
+#flex-grow-main .div4,
+#flex-grow-main .div7 {
+  width: 200px;
+}
+#flex-grow-main .div5,
+#flex-grow-main .div6 {
+  flex-grow: 1;
+}
 /*** terceros 3 divs ***/
-#flex-grow-main .div8 {background-color: var(--pink);}
-#flex-grow-main .div9 { background-color: var(--violet3);}
-#flex-grow-main .div10 {background-color: var(--red2);}
-#flex-grow-main .div8 { flex-grow: 2;}
+#flex-grow-main .div8 {
+  background-color: var(--pink);
+}
+#flex-grow-main .div9 {
+  background-color: var(--violet3);
+}
+#flex-grow-main .div10 {
+  background-color: var(--red2);
+}
+#flex-grow-main .div8 {
+  flex-grow: 2;
+}
 /*** cuartos 3 divs ***/
-#flex-grow-main .div11 { background-color: var(--orange);}
-#flex-grow-main .div12 { background-color: var(--aqua);}
-#flex-grow-main .div13 { background-color: var(--violet2);}
+#flex-grow-main .div11 {
+  background-color: var(--orange);
+}
+#flex-grow-main .div12 {
+  background-color: var(--aqua);
+}
+#flex-grow-main .div13 {
+  background-color: var(--violet2);
+}
 #flex-grow-main .div11,
-#flex-grow-main .div12 {  width: 20%;}
-#flex-grow-main .div13 {   width: 60%; }
+#flex-grow-main .div12 {
+  width: 20%;
+}
+#flex-grow-main .div13 {
+  width: 60%;
+}
 
 /** FLEX BASIS **/
 #flex-basis-main .div1,
@@ -110,7 +142,7 @@
   flex-basis: 25%;
 }
 #flex-basis-main .div2,
-#flex-basis-main .div4  {
+#flex-basis-main .div4 {
   background-color: var(--yellow);
   flex-basis: 25%;
 }
@@ -127,13 +159,13 @@
 }
 #flex-basis-main .div7,
 #flex-basis-main .div9,
-#flex-basis-main .div11  {
+#flex-basis-main .div11 {
   background-color: var(--orange2);
   flex-basis: 25%;
 }
 
 #flex-basis-main .div10,
-#flex-basis-main .div11  {
+#flex-basis-main .div11 {
   flex-grow: 2;
 }
 
@@ -154,7 +186,7 @@
   display: flex;
 }
 @media screen and (max-width: 678px) {
-  #card-pelicula .card  {
+  #card-pelicula .card {
     flex-direction: column;
     height: 824px;
   }
@@ -167,7 +199,7 @@
   -webkit-border-radius: 1rem 0rem 0rem 1rem;
   -moz-border-radius: 1rem 0rem 0rem 1rem;
   -ms-border-radius: 1rem 0rem 0rem 1rem;
-  -o-border-radius: 1rem 0rem 0rem 1rem;  
+  -o-border-radius: 1rem 0rem 0rem 1rem;
 }
 @media screen and (max-width: 678px) {
   .card-image {
@@ -203,3 +235,56 @@
   text-align: center;
   padding: 0.75rem 0rem;
 }
+/****** LAYOUT *********/
+#layout {
+  height: 85%;
+}
+
+#layout-main {
+  display: flex;
+  padding: 0rem;
+}
+
+#layout-main .menu,
+#layout-main .main,
+#layout-main .aside {
+  height: 80vh;
+}
+
+#layout-main .menu {
+  background-color: var(--violet3);
+  width: 150px;
+}
+
+#layout-main .main {
+  background-color: var(--yellow);
+  flex-grow: 2;
+}
+
+#layout-main .aside {
+  background-color: var(--red-dark);
+  flex-grow: 1;
+}
+
+#layout-main .menu h2,
+#layout-main .aside h2 {
+  color: var(--white);
+}
+
+#layout-main h2 {
+  text-align: center;
+  padding: 1rem;
+}
+
+#layout footer {
+  height: 140px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+
+#layout footer p {
+  padding: 0rem 0.5rem;
+}
+
+
