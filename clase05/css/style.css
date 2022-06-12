@@ -1,0 +1,145 @@
+:root {
+  --aqua: rgb(0, 255, 255);
+  --blue: rgb(0, 0, 255);
+  --green: rgb(0, 128, 0);
+  --green-light: rgb(91, 165, 42);
+  --orange: rgb(255, 165, 0);
+  --pink: rgb(225, 0, 255);
+  --red: rgb(255, 0, 0);
+  --red2: rgb(241, 29, 29);
+  --red-dark: rgb(165, 42, 42);
+  --violet: rgb(138, 43, 227);
+  --violet2: rgb(127, 129, 255);
+  --violet3:rgb(102, 15, 241);
+  --yellow: rgb(255, 255, 0);  
+}
+
+/**** PAGINA DE FLEX GROW Y FLEX BASIS ******/
+#flex-grow-main .primeros-divs,
+#flex-grow-main .segundos-divs,
+#flex-grow-main .terceros-divs,
+#flex-grow-main .cuartos-divs,
+#flex-basis-main .primeros-divs,
+#flex-basis-main .segundos-divs  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/***** FLEX GROW *****/
+#flex-grow-main p,
+#flex-basis-main p {   
+  padding: 0.5rem;
+  text-align: center;
+}
+#flex-grow-main .div1,
+#flex-grow-main .div2,
+#flex-grow-main .div3,
+#flex-grow-main .div4,
+#flex-grow-main .div5,
+#flex-grow-main .div6,
+#flex-grow-main .div7,
+#flex-grow-main .div8,
+#flex-grow-main .div9,
+#flex-grow-main .div10,
+#flex-grow-main .div11,
+#flex-grow-main .div12,
+#flex-grow-main .div13 {
+  height: 150px;
+}
+/*** primeros 3 divs ***/
+#flex-grow-main .div1,
+#flex-grow-main .div3 {  
+  width: 250px;
+  flex-grow: 1;
+}
+#flex-grow-main .div2 {  
+  flex-grow: 2;
+}
+#flex-grow-main .div1 {  
+  background-color: var(--red);
+}
+#flex-grow-main .div2 {  
+  background-color: var(--yellow);  
+}
+#flex-grow-main .div3 {  
+  background-color: var(--green);
+}
+/*** segundos 4 divs ***/
+#flex-grow-main .div4 {background-color: var(--blue);}
+#flex-grow-main .div5 { background-color: var(--violet);}
+#flex-grow-main .div6 {background-color: var(--green-light);}
+#flex-grow-main .div7 {background-color: var(--red-dark);}
+#flex-grow-main .div4, #flex-grow-main .div7 {  width: 200px;}
+#flex-grow-main .div5, #flex-grow-main .div6 {  flex-grow: 1;}
+/*** terceros 3 divs ***/
+#flex-grow-main .div8 {background-color: var(--pink);}
+#flex-grow-main .div9 { background-color: var(--violet3);}
+#flex-grow-main .div10 {background-color: var(--red2);}
+#flex-grow-main .div8 { flex-grow: 2;}
+/*** cuartos 3 divs ***/
+#flex-grow-main .div11 { background-color: var(--orange);}
+#flex-grow-main .div12 { background-color: var(--aqua);}
+#flex-grow-main .div13 { background-color: var(--violet2);}
+#flex-grow-main .div11,
+#flex-grow-main .div12 {  width: 20%;}
+#flex-grow-main .div13 {   width: 60%; }
+
+/** FLEX BASIS **/
+#flex-basis-main .div1,
+#flex-basis-main .div2,
+#flex-basis-main .div3,
+#flex-basis-main .div4,
+#flex-basis-main .div5,
+#flex-basis-main .div6,
+#flex-basis-main .div7,
+#flex-basis-main .div8,
+#flex-basis-main .div9,
+#flex-basis-main .div10,
+#flex-basis-main .div511 {
+  height: 250px;
+}
+/* primeros 5 divss*/
+#flex-basis-main .div1,
+#flex-basis-main .div3,
+#flex-basis-main .div5 {
+  background-color: var(--red);
+  flex-basis: 25%;
+}
+#flex-basis-main .div2,
+#flex-basis-main .div4  {
+  background-color: var(--yellow);
+  flex-basis: 25%;
+}
+#flex-basis-main .div5 {
+  background-color: var(--red2);
+  flex-grow: 1;
+}
+
+#flex-basis-main .div6,
+#flex-basis-main .div8,
+#flex-basis-main .div10 {
+  background-color: rgb(81, 255, 0);
+  flex-basis: 25%;
+}
+#flex-basis-main .div7,
+#flex-basis-main .div9,
+#flex-basis-main .div11  {
+  background-color: rgb(255, 166, 0);
+  flex-basis: 25%;
+}
+
+#flex-basis-main .div10,
+#flex-basis-main .div11  {
+  flex-grow: 2;
+}
+
+/** CARD DE PELICULA  **/
+#card-pelicula {
+  background-color: aqua;
+}
+#card-pelicula .card {
+  width: 80%;
+  margin: 100px auto;
+  height: 600px;
+  background-color: white;
+}

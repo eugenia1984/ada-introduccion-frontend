@@ -4,13 +4,11 @@
 
 Curso de Front End de ADA. Aca dejaré todos los ejercicios de práctica.
 
-
 ---
 
 ## Contenido 🚀
 
 [**Clase 01** (10 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01/index.html): **HTML**
-
 
 🏁 Objetivos
 
@@ -22,7 +20,7 @@ Que te familiarices con algunas de las etiquetas básicas
 
 Que aprendas a manejar un entorno de desarrollo integrado como Visual Studio Code
 
-📝 Contenidos: 
+📝 Contenidos:
 
 ```
 Qué es HTML
@@ -74,11 +72,12 @@ font-size
 font-weight
 Usando Google Fonts
 ```
+
 [Acá pueden ver el readme con la ejercictacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase02/README.md)
 
 ---
 
-[**Clase 03** (17 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/index.html): HTML y CSS. Temas vistos: ***Modelo de Caja**
+[**Clase 03** (17 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/index.html): HTML y CSS. Temas vistos: **\*Modelo de Caja**
 
 🏁 Objetivos:
 
@@ -111,7 +110,6 @@ box-shadow
 
 [Acá pueden ver el readme con la ejercitacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/README.md)
 
-
 ---
 
 **Clase 4** (19 de Mayo): Práctica
@@ -122,7 +120,7 @@ Que puedas ejercitar y repasar lo aprendido del módulo hasta el momento
 
 Que puedas resolver dudas que te hayan quedado pendientes
 
-Que puedas comprender que elementos componen la semántica y porqué es necesario 
+Que puedas comprender que elementos componen la semántica y porqué es necesario
 implementarla dentro de una página web.
 
 📝 Contenidos
@@ -160,7 +158,7 @@ aside
 -Centrando con flex
 ```
 
-[Acá pueden ver el readme con la ejercictacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md)
+[Acá pueden ver el readme con la ejercitacion de practica de la clase](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md)
 
 ---
 
@@ -173,8 +171,8 @@ Que puedas ejercitar y repasar lo aprendido del módulo hasta el momento
 Que puedas resolver dudas que te hayan quedado pendientes
 
 ---
----
 
+---
 
 [**Clase 7** (31 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md). Tema: Posicionamiento y Responsive.
 
@@ -196,16 +194,15 @@ Que puedas resolver dudas que te hayan quedado pendientes
 
 ---
 
-
 ## 📝 Contenidos
 
 Sistema de posicionamiento en CSS
 
 La propiedadposition
 
-Formas de posicionamiento: relative |  absolute
+Formas de posicionamiento: relative | absolute
 
-Sistema de coordenadas: top | right | bottom  | left  | z-index
+Sistema de coordenadas: top | right | bottom | left | z-index
 
 ---
 
@@ -217,36 +214,29 @@ Sistema de coordenadas: top | right | bottom  | left  | z-index
 
 - Media queries y breakpoints
 
-
----
 ---
 
-
+---
 
 [**Clase 8** (2 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase08/README.md).
 
-
----
 ---
 
-
+---
 
 [**Clase 9** (7 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase09/README.md).
 
-
----
 ---
 
-
-
-[**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
 ---
+
+## [**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
+
 ---
 
 ## Para ver las prácticas en vivo 🚀
 
 [Acá podes ver toda la práctica](https://eugenia1984.github.io/ada-introduccion-frontend/)
-
 
 ---
 
@@ -254,25 +244,21 @@ Sistema de coordenadas: top | right | bottom  | left  | z-index
 
 En [tareas](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/tareas.md) se pueden ver las consignas de los ejercicios de practica realizados que se guardan por carpetas con numero de clase.
 
-
 ---
-
 
 ## Tecnologías 🛠️
 
 **HTML5** y **CSS**
 
-
 ---
 
 ## Por favor: 🎁
 
-* Comparte este proyecto con otros 📢
+- Comparte este proyecto con otros 📢
 
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
+- Invita una cerveza 🍺 o un café ☕ a alguien del equipo.
 
-* Muchas gracias 🤓.
-
+- Muchas gracias 🤓.
 
 ---
 
@@ -280,6 +266,6 @@ En [tareas](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/t
 
 Agradezco su interés en este Proyecto ⌨️ con ❤️ de [María Eugenia Costa](https://github.com/eugenia1984) 😊 y síganme en [LinkedIn](http://www.linkedin.com/in/maríaeugeniacosta)
 
-
 ---
+
 ---
