@@ -275,7 +275,7 @@
   text-align: center;
   padding: 1rem;
 }
-
+/* Footer */
 #layout footer {
   height: 140px;
   width: 100%;
@@ -287,4 +287,89 @@
   padding: 0rem 0.5rem;
 }
 
+/*** MENU DE OPCIONES ***/
+#menu {
+  height: 100vh;
+}
+#menu-opciones {
+  min-height: auto;
+}
+/* header */
+header.menu {
+  background-color: var(--violet3);
+  height: 140px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.menu-avatar,
+.menu-icono {
+  width: 100px;
+}
+.menu-avatar img,
+.menu-icono img  {
+  width: 100%;
+}
+.menu-nombre {
+  flex-grow: 1;
+}
+.menu-nombre  h2 {
+  text-align: center;
+}
+/*main*/
+#menu-opciones {
+  padding: 0rem;
+}
+.menu-opciones-contenedor {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+}
+.menu-opciones-perfil,
+.menu-opciones-contacto,
+.menu-opciones-tarjetas,
+.menu-opciones-redes,
+.menu-opciones-ajustes {
+  height: 100px;
+}
+.menu-opciones-contacto,
+.menu-opciones-redes {
+  background-color: var( --green-lighter);
+  width: 100%;
+  text-align: center;
+}
+.menu-opciones-contenedor h3 {
+  line-height: 100px;
+}
+/* footer */
+.footer-menu-de-opciones {
+  background-color: var(--violet3);
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 
+.footer-menu-de-opciones button {
+  background-color: var(--yellow);
+  border-radius: 7px;
+  border: none;
+  color: var(--red-dark);
+  font-weight: 800;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  text-transform: uppercase;
+}
