@@ -1144,3 +1144,21 @@ footer img {
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
 }
+/*** CLASE 6 ***/
+.main-clase6 h2,
+.main-clase6 p {
+  text-align: center;
+  padding: 0.75rem 0rem;
+}
+
+.main-clase6 p a {
+  text-decoration: none;
+  font-weight: 800;
+  background-color: var(--green-light-fruit);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
+}
