@@ -1,0 +1,88 @@
+:root {
+  --yellow-green: #adff2f;
+  ---yellow: #ffff00;
+  --red: #ff0000;
+  --light-gray: #bdbaba;
+  --font-anek: 'Anek Latin', sans-serif;
+}
+/* Google Fonts: Anek Latin */ 
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100;400;500;600;700;800&display=swap');
+
+/*** INDEX**/
+.main-clase7 {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.main-clase7  h2 {
+  font-size: 2rem;
+  padding: 1.5rem 0rem;
+}
+
+.main-clase7 h3 {
+  padding-bottom: 2rem;
+}
+
+.main-clase7  p {
+  font-size: 1.50rem;
+  line-height: 2.5;
+}
+
+.main-clase7  p a {
+  background-color: var(--yellow-green);
+  border-radius: 7px;
+  color: var(--red);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.25rem 1.5rem;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+/*** COLORES ****/
+#colores {
+  background-color: var(--light-gray);
+  height: 100%;
+}
+
+.main-clase7-colores {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-clase7-colores h1 {
+  font-family: var(--font-anek);
+  font-weight: 800;
+  font-size: 40px;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .main-clase7-colores {
+    background-color: var(---yellow);
+  }
+  .main-clase7-colores h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .main-clase7-colores {
+    background-color: var(--yellow-green);
+  }
+  .main-clase7-colores h1 {
+    font-size: 24px;
+  }
+}
+
+
+/*
+- Poner dos breakpoints:
+- En cada breakpoint, cambiar el color de fondo del body.
+*/
