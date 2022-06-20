@@ -81,8 +81,12 @@
   }
 }
 
+/*** HEADER ***/
+#header a {
+  text-decoration: none;
+}
 
-/*
-- Poner dos breakpoints:
-- En cada breakpoint, cambiar el color de fondo del body.
-*/
+#header ul {
+  display: flex;
+  flex-direction: row;
+}
