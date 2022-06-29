@@ -6,6 +6,23 @@ Curso de Front End de ADA. Aca dejaré todos los ejercicios de práctica.
 
 ---
 
+
+
+## Para ver las prácticas en vivo 🚀
+
+[Acá podes ver toda la práctica: **https://eugenia1984.github.io/ada-introduccion-frontend/**](https://eugenia1984.github.io/ada-introduccion-frontend/)
+
+---
+---
+
+
+### ¿Dónde ver la práctica ?
+
+En [tareas](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/tareas.md) se pueden ver las consignas de los ejercicios de practica realizados que se guardan por carpetas con numero de clase.
+
+---
+---
+
 ## Contenido 🚀
 
 [**Clase 01** (10 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01/index.html): 
@@ -523,20 +540,6 @@ console.info
 - JSON
 
 ---
----
-
-## Para ver las prácticas en vivo 🚀
-
-[Acá podes ver toda la práctica](https://eugenia1984.github.io/ada-introduccion-frontend/)
-
----
----
-
-
-### ¿Dónde ver la práctica ?
-
-En [tareas](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/tareas.md) se pueden ver las consignas de los ejercicios de practica realizados que se guardan por carpetas con numero de clase.
-
 ---
 
 ## Tecnologías 🛠️
