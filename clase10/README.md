@@ -72,10 +72,13 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida al usuario ingresar un nombre y apellido por separado, y luego muestre un mensaje que diga, "Hola {nombre} {apellido}, bienvenida a Ada".
 
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/saludos.html)
 
 #### Heladería
 
 - Crear un programa que pida al usuario ingresar, por separado, tres gustos de helado, y luego muestre un mensaje que diga, por ejemplo, "Aquí tiene su helado de chocolate, dulce de leche y menta granizada".
+
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/heladeria.html)
 
 #### Datos personales
 
