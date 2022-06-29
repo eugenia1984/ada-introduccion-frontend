@@ -84,30 +84,42 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida al usuario ingresar, por separado, nombre, apellido, edad, nacionalidad, documento, y muestre luego un mensaje que diga: "Nuevo usuario agregado al sistema:" y liste todos los datos juntos.
 
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/datos-personales.html)
+
 
 #### Lista de reproducción
 
 - Crear un programa que pida al usuario ingresar, por separado, el nombre de una playlist y el título de tres canciones, y al finalizar se muestre un mensaje que diga, p. ej.: "Se ha creado la playlist 'Hits de los 80s' con las canciones 'Africa', 'Maniac', 'Final Countdown'".
+
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/lista-reproduccion.html)
 
 
 #### Dirección completa
 
 - Crear un programa que pida al usuario ingresar, por separado, la calle, el número, el departamento, el código postal, la ciudad y el país, y muestre un mensaje con toda la dirección completa, p.ej.: "La dirección que ha ingresado es: Calle Falsa 123 3C, 1414, CABA, Argentina".
 
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/direccion.html)
+
 
 #### Años perro
 
 - Crear un programa que pida ingresar una edad y devuelva el equivalente de esas edad en años perro.
+
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/anios-perro.html)
 
 
 #### Minutos a segundos
 
 - Crear un programa que pida ingresar una cantidad en minutos mediante un y muestre un mensaje con el resultado de la conversión en segundos.
 
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/minuto_a_segundo.html)
+
 
 #### Días a segundos
 
 - Crear un programa que pida ingresar una cantidad de días y muestre un mensaje con el resultado de la conversión en segundos.
+
+[aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/dias-a-segundos.html)
 
 
 #### Kilómetros a millas
