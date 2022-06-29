@@ -6,6 +6,23 @@ Curso de Front End de ADA. Aca dejaré todos los ejercicios de práctica.
 
 ---
 
+
+
+## Para ver las prácticas en vivo 🚀
+
+[Acá podes ver toda la práctica: **https://eugenia1984.github.io/ada-introduccion-frontend/**](https://eugenia1984.github.io/ada-introduccion-frontend/)
+
+---
+---
+
+
+### ¿Dónde ver la práctica ?
+
+En [tareas](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/tareas.md) se pueden ver las consignas de los ejercicios de practica realizados que se guardan por carpetas con numero de clase.
+
+---
+---
+
 ## Contenido 🚀
 
 [**Clase 01** (10 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01/index.html): 
@@ -478,7 +495,7 @@ console.info
 
 [**Clase 13* (21 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
 
-## :star: ARRAYS Y OBJETOS
+## :star: ARRAYS Y OBJETOS I
 
 
 ## 🏁 Objetivos
@@ -500,18 +517,29 @@ console.info
 ---
 ---
 
-## Para ver las prácticas en vivo 🚀
+[**Clase 14* (23 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase14/README.md).
 
-[Acá podes ver toda la práctica](https://eugenia1984.github.io/ada-introduccion-frontend/)
+## :star: ARRAYS Y OBJETOS II
+
+## 🏁 Objetivos
+
+- Que sigas profundizando en conceptos de los arrays y los objetos
+
+- Que puedas reconocer el formato JSON
+
+- Parsear un JSON y obtener los nodos
 
 ---
+
+## 📝 Contenidos
+
+- Arrays
+
+- Objetos
+
+- JSON
+
 ---
-
-
-### ¿Dónde ver la práctica ?
-
-En [tareas](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/tareas.md) se pueden ver las consignas de los ejercicios de practica realizados que se guardan por carpetas con numero de clase.
-
 ---
 
 ## Tecnologías 🛠️
