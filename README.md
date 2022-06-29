@@ -8,7 +8,9 @@ Curso de Front End de ADA. Aca dejaré todos los ejercicios de práctica.
 
 ## Contenido 🚀
 
-[**Clase 01** (10 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01/index.html): **HTML**
+[**Clase 01** (10 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase01/index.html): 
+
+## :star: HTML
 
 🏁 Objetivos
 
@@ -51,7 +53,9 @@ Comentarios
 
 
 
-[**Clase 02** (12 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase02/index.html): HTML y CSS. Temas vistos: **Introducción a CSS**
+[**Clase 02** (12 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase02/index.html)
+
+## :star: Introducción a CSS
 
 📝 Contenidos:
 
@@ -84,7 +88,9 @@ Usando Google Fonts
 ---
 
 
-[**Clase 03** (17 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/index.html): HTML y CSS. Temas vistos: **\*Modelo de Caja**
+[**Clase 03** (17 de Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase03/index.html)
+
+## :star:  Modelo de Caja
 
 🏁 Objetivos:
 
@@ -123,7 +129,9 @@ box-shadow
 
 
 
-**Clase 4** (19 de Mayo): Práctica
+**Clase 4** (19 de Mayo)
+
+## :star:  Práctica
 
 🏁 Objetivos
 
@@ -155,7 +163,9 @@ aside
 
 
 
-[**Clase 5** (24 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/index.html). Tema: **Flexbox**
+[**Clase 5** (24 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/index.html). 
+
+## :star:  Flexbox
 
 🏁 Objetivos
 
@@ -181,7 +191,9 @@ aside
 ---
 
 
-[**Clase 6** (26 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase06/README.md). practica de CSS
+[**Clase 6** (26 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase06/README.md)
+
+## :star: Practica de CSS
 
 🏁 Objetivos
 
@@ -196,7 +208,9 @@ Que puedas resolver dudas que te hayan quedado pendientes
 
 
 
-[**Clase 7** (31 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md). Tema: Posicionamiento y Responsive.
+[**Clase 7** (31 Mayo)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase05/README.md)
+
+## :star:  Posicionamiento y Responsive
 
 ## 🏁 Objetivos:
 
@@ -245,7 +259,7 @@ Sistema de coordenadas: top | right | bottom | left | z-index
 
 [**Clase 8** (2 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase08/README.md).
 
-
+## :star: Git
 
 ## 🏁 Objetivos
 
@@ -307,7 +321,7 @@ Sistema de coordenadas: top | right | bottom | left | z-index
 ---
 
 
-[**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
+[**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md)
 
 ## :star: VARIABLES, DATOS Y OPERADORES
 
@@ -426,9 +440,9 @@ console.info
 ---
 ---
 
-[**Clase 13** (16 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
+[**Clase 12** (16 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase12/README.md).
 
-## :star: Condicionales y Bucles
+## :star: CONDICIONALES Y BUCLES
 
 ---
 
@@ -462,7 +476,7 @@ console.info
 ---
 ---
 
-[**Clase 13** (21 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
+[**Clase 13* (21 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
 
 ## :star: ARRAYS Y OBJETOS
 
