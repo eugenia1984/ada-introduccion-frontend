@@ -6,7 +6,7 @@ let streetNumber= (prompt('Ingrese la altura: ')).toUpperCase();
 // ask with prompt to introduce the flat number and store the data in a variable
 let flatNumber= (prompt('Ingrese el número de departamento (si corresponde): ')).toUpperCase();
 // ask with prompt to introduce the zip code and store the data in a variable
-let zipCode = (prompt('Ingrese el codigo postal: ')).toUpperCase();
+let zipCode = prompt('Ingrese el codigo postal: ');
 // ask with prompt to introduce the cityg and store the data in a variable
 let city = (prompt('Ingrese la ciudad: ')).toUpperCase();
 // ask with prompt to introduce the country song and store the data in a variable
