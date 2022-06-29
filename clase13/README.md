@@ -276,6 +276,7 @@ Para actualizar la lista se debe:
 - recorrer el array y por cada ítem
 - insertar un ítem de lista `li` con el valor del ítem del array
 
+El elemento ```p``` se actualiza con el total de la suma de los valores del array.
 
 ---
 
