@@ -148,6 +148,7 @@ footer
 aside
 ```
 
+-> **No hay link a la carpeta ya que no anote la teoria ni hay para ver practica**
 
 ---
 ---
@@ -281,19 +282,9 @@ Sistema de coordenadas: top | right | bottom | left | z-index
 ---
 ---
 
-[**Clase 9** (7 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase09/README.md).
+**Clase 9** (7 Junio).
 
----
-
----
-
-## [**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
-
----
-
-## Para ver las prácticas en vivo 🚀
-
-[Acá podes ver toda la práctica](https://eugenia1984.github.io/ada-introduccion-frontend/)
+-->> No se anoto teoria ni habia practica, por eso no hay link
 
 ## 📝 Contenidos
 
@@ -312,11 +303,11 @@ Sistema de coordenadas: top | right | bottom | left | z-index
 - Qué es el backend
 
 
-
 ---
 ---
 
-[**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
+
+## [**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
 
 
 ## 🏁 Objetivos
@@ -373,6 +364,75 @@ console.error
 console.warn
 console.info
 ```
+
+---
+---
+
+
+## [**Clase 11** (14 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
+
+
+
+## 🏁 Objetivos
+
+- Que te introduzcas a las funciones y entiendas su importancia
+
+- Que te familiarices con la sintaxis y los conceptos principales
+
+- Que comiences a pensar en funciones y en cómo reutilizar código
+
+- Que puedas usar funciones en tu código
+
+---
+
+## 📝 Contenidos
+
+### Funciones
+
+- Qué son, para qué se utilizan
+
+- La importancia del código reutilizable
+
+- Funciones nombradas vs. funciones anónimas
+
+- Funciones como valores
+
+- Asignando funciones a una variable
+
+- Funciones regulares versus funciones flecha
+
+- Estructura de una función
+
+- Funciones flecha
+
+- Sintaxis de funciones flecha
+
+- Devolviendo valores
+
+- Invocando funciones
+
+- Scope
+
+### Parámetros
+
+- Nombres de parámetros
+
+- Parámetros ignorados
+
+- Parámetros por default
+
+
+---
+---
+
+
+
+---
+---
+
+## Para ver las prácticas en vivo 🚀
+
+[Acá podes ver toda la práctica](https://eugenia1984.github.io/ada-introduccion-frontend/)
 
 ---
 ---
