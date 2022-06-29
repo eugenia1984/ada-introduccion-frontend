@@ -126,6 +126,8 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida ingresar una cantidad de kilómetros y muestre un mensaje con el resultado de la conversión en millas.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/kilometros-a-millas.html)
+
 
 #### Área de un triangulo
 
