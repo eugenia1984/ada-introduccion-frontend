@@ -426,7 +426,7 @@ console.info
 ---
 ---
 
-[**Clase 12** (16 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase12/README.md).
+[**Clase 13** (16 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
 
 ## :star: Condicionales y Bucles
 
@@ -459,6 +459,29 @@ console.info
 - El bucle while
 
 
+---
+---
+
+[**Clase 13** (21 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
+
+## :star: ARRAYS Y OBJETOS
+
+
+## 🏁 Objetivos
+
+- Que puedas trabajar con listas
+
+- Que te familiarices con el uso de objetos
+
+- Que puedas ver ejemplos de la respuesta de una API
+
+---
+
+## 📝 Contenidos
+
+- Definición de y construcción de un array
+
+- Definición de y construcción de un objeto
 
 ---
 ---
