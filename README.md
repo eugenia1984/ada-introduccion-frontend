@@ -478,7 +478,7 @@ console.info
 
 [**Clase 13* (21 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
 
-## :star: ARRAYS Y OBJETOS
+## :star: ARRAYS Y OBJETOS I
 
 
 ## 🏁 Objetivos
@@ -496,6 +496,31 @@ console.info
 - Definición de y construcción de un array
 
 - Definición de y construcción de un objeto
+
+---
+---
+
+[**Clase 14* (23 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase14/README.md).
+
+## :star: ARRAYS Y OBJETOS II
+
+## 🏁 Objetivos
+
+- Que sigas profundizando en conceptos de los arrays y los objetos
+
+- Que puedas reconocer el formato JSON
+
+- Parsear un JSON y obtener los nodos
+
+---
+
+## 📝 Contenidos
+
+- Arrays
+
+- Objetos
+
+- JSON
 
 ---
 ---
