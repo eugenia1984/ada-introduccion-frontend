@@ -307,8 +307,9 @@ Sistema de coordenadas: top | right | bottom | left | z-index
 ---
 
 
-## [**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
+[**Clase 10** (9 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
 
+## :star: VARIABLES, DATOS Y OPERADORES
 
 ## 🏁 Objetivos
 
@@ -369,9 +370,9 @@ console.info
 ---
 
 
-## [**Clase 11** (14 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase10/README.md).
+[**Clase 11** (14 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase11/README.md).
 
-
+## :star: FUNCIONES
 
 ## 🏁 Objetivos
 
@@ -424,6 +425,38 @@ console.info
 
 ---
 ---
+
+[**Clase 12** (16 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase12/README.md).
+
+## :star: Condicionales y Bucles
+
+---
+
+## 🏁 Objetivos
+
+- Que puedas comprender las condiones y el salto de flujo en un programa JS
+
+- Que veas los diferentes tipos de bucles
+
+- Que puedas llamar en varias ocasiones al mismo bloque con bucles
+
+---
+
+## 📝 Contenidos
+
+### Condicionales
+
+- La condición simple if-else
+
+- La condición anidada if-else-if
+
+- Condiciones de igualdad, >, >=, <, <=, !=
+
+- Bucles
+
+### Bucles controlados y no controlados
+
+- El bucle while
 
 
 
