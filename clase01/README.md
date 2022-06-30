@@ -23,7 +23,7 @@
 - debajo de cada día de la semana, agregar un párrafo `p` que describa lo que hiciste ese día la semana pasada, por ejemplo: `Miré una nueva serie en Netflix`.
 
 
--> [aca lo podes ver en web]()
+-> [aca lo podes ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase01/diario-personal.html)
 
 ---
 
