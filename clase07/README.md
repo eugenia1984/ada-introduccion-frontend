@@ -311,7 +311,7 @@ Usar una tipografía distinta a la que viene por default.
 ![alt text](https://i.ibb.co/M66T8xY/Captura-de-pantalla-de-2020-09-11-09-31-53.png 'ejemplo de primer ejercicio')
 
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/superponer-1.html)
 
 ---
 
@@ -327,7 +327,7 @@ Usar las siguientes medidas:
 - **Cuadrado rojo:** 60px x 60px
 - **Cuadrado verde:** 30px x 30px
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/superponer-2.html)
 
 ---
 
@@ -338,7 +338,7 @@ Maquetar un contador que muestre la cantidad de usuarios en línea fijado en la 
 ![](https://i.ibb.co/hLNcf06/Screen-Shot-2020-09-11-at-13-59-13.png)
 
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/usuarios.html)
 
 ---
 
@@ -348,7 +348,7 @@ Maquetar un header similar al siguiente, con notificaciones por encima de los í
 
 ![](https://i.ibb.co/4s2jxr2/Screen-Shot-2020-09-11-at-13-31-12.png)
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/notificaciones.html)
 
 ---
 
@@ -360,7 +360,7 @@ Maquetar una card de usuario que contenga: foto de perfil del usuario, foto de l
 ![](https://i.ibb.co/sKnp66N/Captura-de-pantalla-de-2020-09-11-09-36-45.png 'profile card')
 
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/perfil-usuario.html)
 
 ---
 
@@ -370,7 +370,7 @@ Maquetar una card de producto que contenga imagen, nombre y precio de producto. 
 
 ![](https://i.ibb.co/g971CFM/Screen-Shot-2020-09-11-at-13-47-34.png)
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/card.html)
 
 ---
 
@@ -396,7 +396,7 @@ Sobre la siguiente estructura HTML aplicar los estilos necesarios para lograr qu
 </header>
 ```
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/menu.html)
 
 ---
 
@@ -413,7 +413,7 @@ Ejemplo:
 ![alt text](https://i.ibb.co/X8Kj2cr/Captura-de-pantalla-de-2020-09-11-09-42-06.png 'ejemplo de submenu')
 
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/menu.html)
 
 ---
 
@@ -424,7 +424,7 @@ Maquetar un formulario de registro de usuario que pida nombre de usuario, email,
 ![alt text](https://i.ibb.co/MM4pWnR/Captura-de-pantalla-de-2020-09-11-09-49-06.png 'ejemplo de formulario')
 
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/registro.html)
 
 ---
 
@@ -433,7 +433,7 @@ Maquetar un formulario de registro de usuario que pida nombre de usuario, email,
 Al formulario anterior, agregar el atributo `required` a cada atributo. Hacer que aparezca sobre cada `input` [este ícono](https://fontawesome.com/icons/check?style=solid) a la derecha cuando dicho `input` está en el estado `valid`.
 
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/validacion.html)
 
 ---
 
@@ -447,7 +447,7 @@ Para más ideas, pueden usar los ejemplo de la [siguiente página](https://tympa
 
 **NO REPLICAR EL EFECTO ANIMADO**, maquetarlo de forma estática tal cómo queda cuando se hace `hover` sobre los ejemplos. La clase que viene vamos a poder agregarles las transiciones.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/overlay.html)
 
 
 
