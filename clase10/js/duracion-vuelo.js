@@ -7,4 +7,4 @@ let durationThirdtStop = parseFloat(prompt('Ingrese la duracion del vuelo -en nu
 
 let totalDuration = durationFirstStop + durationSecondtStop + durationThirdtStop;
 
-alert(`El vuelo a ${firstStop} dura ${durationFirstStop}\nEl vuelo a ${secondStop} dura ${durationSecondtStop}\nEl vuelo a ${thirdStop} dura ${durationThirdtStop}\n La duración total de los tres vuelos es: ${totalDuration}`);
+alert(`El vuelo a ${firstStop} dura ${durationFirstStop}\nEl vuelo a ${secondStop} dura ${durationSecondtStop}\nEl vuelo a ${thirdStop} dura ${durationThirdtStop}\n La duración total del vuelo es: ${totalDuration}`);
