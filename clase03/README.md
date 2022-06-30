@@ -12,7 +12,7 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 
 ### [02 - Verdulería](https://fm08n.csb.app/)
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/verduleria.html)
 
 ---
 
@@ -32,7 +32,7 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 </div>
 ```
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/banderas.html)
 
 ---
 
