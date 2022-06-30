@@ -198,6 +198,8 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 - Crear un programa que pida ingresar una cantidad de grados Celsius y muestre un mensaje con el resultado de la conversión a grados Fahrenheit.
 
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/c-a-f.html)
+
 ---
 
 #### Múltiplos
