@@ -71,7 +71,7 @@ Crear las siguientes páginas con los siguientes elementos:
   
 Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (absolutos).  
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/blog_con_imagenes.html)
 
 ---
 
@@ -88,7 +88,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
 - un `h3` que diga: `Géneros`
 - un lista desordenada con al menos 3 géneros de la película. Los nombres deben ser links a la página de IMDb correspondiente de la lista de películas de dicho género (por ejemplo, [Thriller](https://www.imdb.com/search/title/?genres=thriller&explore=title_type,genres&ref_=tt_ov_inf))
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/preview.html)
 
 ---
 
