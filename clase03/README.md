@@ -69,19 +69,19 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 
 ### [08 - Protección de cuenta](https://uidesigndaily.com/posts/sketch-protect-account-widget-day-975)
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/proteccion-de-cuenta.html)
 
 ---
 
 ### [09 - Eventos](https://hj47o.csb.app/)
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/eventos.html)
 
 ---
 
 ### [10 - Card de Producto](https://tjq7t.csb.app/)
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/card-de-productos.html)
 
 ---
 ---
