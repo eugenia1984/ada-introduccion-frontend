@@ -20,6 +20,8 @@
   - 10 párrafos `p` con `lorem ipsum`.
   - un enlace que diga `Volver arriba` y que al clickearlo te lleve al título `h1`.
 
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/temario.html)
+
 ---
 
 ### 07 - Portfolio
@@ -51,6 +53,8 @@ Crear las siguientes páginas con los siguientes elementos:
 - un link que lleve a la página de Linkedin (si tenés una cuenta creada, podés hacer que el link sea a tu perfil).
 - un link que diga `Volver atrás` y que te lleve a `index.html`.
 
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/portfolio.html)
+
 ---
 
 ### 08 - Blog con Imágenes
@@ -67,6 +71,8 @@ Crear las siguientes páginas con los siguientes elementos:
   
 Las imágenes tienen que estar relacionadas. Usar imágenes con links externos (absolutos).  
 
+-> [aca se puede ver en web]()
+
 ---
 
 ### 09 - Preview
@@ -82,6 +88,8 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
 - un `h3` que diga: `Géneros`
 - un lista desordenada con al menos 3 géneros de la película. Los nombres deben ser links a la página de IMDb correspondiente de la lista de películas de dicho género (por ejemplo, [Thriller](https://www.imdb.com/search/title/?genres=thriller&explore=title_type,genres&ref_=tt_ov_inf))
 
+-> [aca se puede ver en web]()
+
 ---
 
 ### 10 - Comentarios
@@ -95,6 +103,8 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
   - un título `h3` con el handle de la usuario (por ejemplo **@adalovelace**).
   - un `span` que diga: `Publicado hace 14 minutos` (cambiar el tiempo).
   - un párrafo `p` con `lorem ipsum`.
+
+-> [aca se puede ver en web]()
 
 ---
 
@@ -110,6 +120,8 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
   - al menos 3 elementos en línea `span` con distintas variaciones de producto. Por ejemplo, colores, tamaños, modelo, etc. Si se elige color, sería un `span` para cada color (rojo, verde, azul, etc). 
   - un párrafo `p` con el precio del producto.
   - un párrafo con un `lorem impsum`  corto
+
+-> [aca se puede ver en web]()
 
 ---
 
@@ -150,6 +162,8 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 - un título `h3` con el nombre de la película.
 - un párrafo `p` con la fecha de estreno.
 
+-> [aca se puede ver en web]()
+
 ---
 
 ### 13 - Canciones
@@ -175,6 +189,8 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 
 El archivo no tiene que llamarse `cancion.html` sino el nombre de la canción, por ejemplo: `africa.html`
 
+-> [aca se puede ver en web]()
+
 ---
 
 ### 14 - Artículo completo
@@ -188,6 +204,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - Una lista ordenada
 - Una sección de comentarios, con al menos 3 comentarios
 
+-> [aca se puede ver en web]()
 
 ---
 
@@ -203,9 +220,17 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - un párrafo con un tamaño de letra de `48px` y una tipografía de Google Fonts (por ejemplo: `Montserrat`) y un grosor de letra de 600 o 700. El párrafo debe tener una breve descripción tuya, por ejemplo: `Primera programadora, matemática en mi tiempo libre y guitarrista`.
 - Tanto tu nombre como las palabras claves de tu descripción (por ejemplo: `programadora`, `matemática` y `guitarrista`) deben estar en distintos colores (cada palabra debe tener un color distinto).
 
+-> [aca se puede ver en web]()
+
+---
+
 ### 02 - Presentación Modo Oscuro
 
 - Repetir el ejercicio anterior, pero poniéndole al `html` un color de fondo oscuro (por ejemplo: `#212121`) y un color de texto claro (por ejemplo: `#FAFAFA`).
+
+-> [aca se puede ver en web]()
+
+---
 
 ### 03 - Artículo
 
@@ -219,6 +244,10 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
   - El tercer párrafo debe estar completamente en itálica y tener una tipografía distinta a la de los párrafos.
   - El cuarto párrafo debe tener 2 palabras en negrita y 2 palabras en itálica.
 
+-> [aca se puede ver en web]()
+
+---
+
 ### 04 - Paisaje
 
 - `index.html` debe tener:
@@ -228,6 +257,10 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 🌲🌳🌳🏠🏢🏦🏠🏠🌲🌳
 ```
 - cada emoji debe tener un tamaño de letra distinto para que haya variedad entre ellos. 
+
+-> [aca se puede ver en web]()
+
+---
 
 ### 05 - Alineación
 
@@ -249,12 +282,20 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 ¡Derecha!
 ```
 
+-> [aca se puede ver en web]()
+
+---
+
 ### 06 - Frutas
 
 `index.html` debe tener:
 
 - una lista desordenada con al menos 10 frutas.
 - cada fruta debe tener un color que la represente (por ejemplo, manzana de color rojo, banana de color amarillo, kiwi de color verde).
+
+-> [aca se puede ver en web]()
+
+---
 
 ### 07 - Paleta de Colores
 
@@ -272,6 +313,10 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
 - Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
 
+-> [aca se puede ver en web]()
+
+---
+
 ### 08 - Termómetro
 
 - `index.html` debe tener:
@@ -280,6 +325,10 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - la lista debe ir de `Temperatura: 0°C` a `Temperatura: 50°C` aumentando de a 5°C.
 - poner las temperaturas extremas (0°C y 50°C) en negrita.
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo el 0°C el color azul y 50°C el color rojo. [Ver ejemplo](https://cdn.shopify.com/s/files/1/2303/2711/files/colour_temperature_kelvin_chart_make_up.jpg?v=1513856014).
+
+-> [aca se puede ver en web]()
+
+---
 
 ### 09 - Cuenta Bancaria
 
@@ -312,6 +361,10 @@ Cobro de sueldo
 - Dar a los títulos un tamaño de fuente distinto al default.
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
 - Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color rojo.
+
+-> [aca se puede ver en web]()
+
+---
 
 ### 10 - Tareas
 
@@ -349,6 +402,10 @@ Hecha
   - Hecha: Verde
   - Cancelada: Rojo
 
+-> [aca se puede ver en web]()
+
+---
+
 ### 11 - Reacciones
 
 `index.html` debe tener:
@@ -365,3 +422,8 @@ Hecha
 - Dar al nombre de usuaria un color que se distinga (azul/celeste, etc) y sacar el subrayado por default.
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
 - Separar los `span` con espacios y ponerle un color de fondo gris claro.
+
+-> [aca se puede ver en web]()
+
+---
+---
