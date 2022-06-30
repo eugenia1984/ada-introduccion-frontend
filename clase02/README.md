@@ -258,7 +258,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 ```
 - cada emoji debe tener un tamaño de letra distinto para que haya variedad entre ellos. 
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/paisaje.html)
 
 ---
 
@@ -282,7 +282,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 ¡Derecha!
 ```
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/alineacion.html)
 
 ---
 
