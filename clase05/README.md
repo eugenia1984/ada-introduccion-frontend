@@ -18,11 +18,19 @@ Para los ejercicios 3, 4 y 5, no te preocupes por el contenido y los estilos. Po
 
 5. Agregá 3 `divs`. Hacé que el último `div` ocupe 60% del ancho de la pantalla, y los 2 primeros un 20% cada uno.
 
+-> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/flex-grow.html)
+
+---
+
 ### 2) flex-basis
 
 6. Agregá 5 `divs`. Dales a todos un `flex-basis` de 25%. Hacé que el último `div` ocupe el espacio restante.
 
 7. Agregá 6 `divs`. Dales a todos un `flex-basis` de 25%. Hacé los dos últimos ocupen la mitad del ancho de la pantalla cada uno.
+
+-> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/flex-basis.html)
+
+---
 
 ### 3) Card de película
 
@@ -42,6 +50,10 @@ Por ejemplo:
 
 - La descripción debe ocupar el alto disponible.
 
+-> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/card-de-pelicula.html)
+
+---
+
 ### 4) Layout
 
 Replicar el siguiente layout:
@@ -57,6 +69,10 @@ Replicar el siguiente layout:
 - Main debe ocupar dos tercios del ancho de su contenedor.
 
 - Aside debe ocupar un tercio del ancho de su contenedor.
+
+-> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/layoout.html)
+
+---
 
 ### 5) Menú de opciones
 
@@ -76,4 +92,7 @@ La disposición de los elementos deberá verse similar a este:
 
 - El contenedor del menú de opciones debe ocupar el espacio disponible.
 
+-> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/https://eugenia1984.github.io/ada-introduccion-frontend/clase05/menu-de-opciones.html)
+
+---
 ---
