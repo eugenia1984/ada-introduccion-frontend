@@ -293,7 +293,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - una lista desordenada con al menos 10 frutas.
 - cada fruta debe tener un color que la represente (por ejemplo, manzana de color rojo, banana de color amarillo, kiwi de color verde).
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/frutas.html)
 
 ---
 
@@ -313,7 +313,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - Tener en cuenta el contraste, si el color de fondo es muy oscuro, poner un color de letra claro, y viceversa.
 - Los colores de la primera paleta deben estar en sistema hexadecimal, los de la segunda en sistema rgb y los de la tercera en sistema hsl.
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/paleta-de-colores.html)
 
 ---
 
