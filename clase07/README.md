@@ -111,7 +111,7 @@ Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de
 
 - En dicho breakpoint, tanto los textos como los íconos tienen que quedar centrados horizontalmente.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/servicios-1.html)
 
 ---
 
@@ -123,7 +123,7 @@ Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de
 
 - En dicho breakpoint, el ícono tiene que quedar arriba del texto, y tanto los textos como los íconos tienen que quedar alineados a la izquierda.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/servicios-2.html)
 
 ---
 
@@ -131,7 +131,7 @@ Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de
 
 Replicar la siguiente [card de producto](https://mnyo0.csb.app/), responsive incluido
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/card-de-producto.html)
 
 ---
 
@@ -159,7 +159,7 @@ index.html debe contener:
 
 - Poner un breakpoint que modifique el font-size del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los tamaños en simultáneo.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/blog.html)
 
 ---
 
@@ -191,7 +191,7 @@ index.html debe contener:
 
 - Poner dos breakpoints que modifiquen el font-size del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los tamaños en cada breakpoint.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/post-de-blogs.html)
 
 ---
 
@@ -199,7 +199,7 @@ index.html debe contener:
 
 Replicar el [siguiente ejemplo](https://ce7du.csb.app/) con breakpoints incluidos.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/layout-1.html)
 
 ---
 
@@ -207,7 +207,7 @@ Replicar el [siguiente ejemplo](https://ce7du.csb.app/) con breakpoints incluido
 
 Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluidos.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/layout-2.html)
 
 ---
 
@@ -215,7 +215,7 @@ Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluido
 
 Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluidos.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/layout-3.html)
 
 ---
 
@@ -239,7 +239,7 @@ index.html debe contener:
 
 - Agregar breakpoints para que, a medida que la resolución se vaya achicando, la grilla cambie a 3 imágenes por fila, luego 2 imágenes por fila y finalmente 1 imagen por fila.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/grilla-de-imagenes.html)
 
 ---
 
@@ -287,9 +287,8 @@ Usar una tipografía distinta a la que viene por default.
 
 -Poner un breakpoint que modifique el font-size del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los demás tamaños en simultáneo.
 
--> [Aca se puede ver en web]()
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/grilla-de-productos.html)
 
----
 
 ---
 ---
