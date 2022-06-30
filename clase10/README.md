@@ -206,6 +206,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida al usuario un número, luego otro y mostrar en un mensaje si el primer valor es múltiplo del segundo. INVESTIGAR EL OPERADOR MÓDULO O DE RESTO % PARA HACERLO
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/multiplos.htmll)
 
 ---
 
@@ -213,6 +214,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida ingresar una cantidad en segundos y muestre un mensaje con el resultado de la conversión en horas, minutos y segundos que corresponde a esa cantidad (p.ej. 3602 segundos = 1 hora 2 segundos). (Usar operador módulo)
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/convertir-segundos.htmll)
 
 ---
 
@@ -220,6 +222,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida al usuario ingresar un texto y muestre un mensaje con la cantidad de caracteres que tiene ese texto. INVESTIGAR CÓMO HACERLO
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/cantidad-caracteres.htmll)
 
 ---
 
@@ -227,12 +230,15 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida al usuario ingresar, de a uno por vez, cuántas habitaciones tiene un hotel para 2, 3 y 4 personas, y muestre el máximo de huéspedes que puede albergar.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/cantidad-huespedes.htmll)
+
 ---
 
 #### Calculador gastos
 
 - Crear un programa que pida al usuario cuanto dinero disponible tiene, y vaya preguntando cuánto tiene que pagar por cada servicio, pidiendo el nombre del servicio y el monto a pagar, uno a la vez. Cada vez que pide ingresar un nuevo servicio, el mensaje debe mostrar cuántos servicios quedan por ingresar, utilizando una variable, y mostrar cuánto dinero disponible queda. Al final debe mostrar una lista con todos los servicios a pagar y el monto de cada uno, además del dinero disponible que le queda. Hacerlo con 3 servicios.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/gastos.htmll)
 
 ---
 
@@ -240,6 +246,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que tome la orden de compra de un local. Pedir al usuario que ingrese la cantidad que desea comprar de tres productos distintos, uno por uno, mostrar el valor total de la compra y preguntar en cuántas cuotas desea realizar el pago. Mostrar un mensaje final con el detalle y el valor total la compra, cantidad de cuotas y valor de cada una de las cuotas. Los precios de los productos deben estar definidos de antemano en variables.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/orden-compra.htmll)
 
 
 ---
