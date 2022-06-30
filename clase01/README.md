@@ -52,7 +52,7 @@ Buscar una receta que te interese. `index.html` debe contener:
 - un título `h2` que diga `Instrucciones`.
 - una lista ordenada que describa los pasos necesarios para realizar la receta.
 
--> [aca lo podes ver en web]()
+-> [aca lo podes ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase01/receta.html)
 
 ---
 
@@ -68,6 +68,6 @@ Buscar una receta que te interese. `index.html` debe contener:
   - un título h3 que diga: `Canciones`.
   - una lista ordenada con nombres de canciones y bandas / cantantes (por ejemplo: `Africa, Toto`).
 
--> [aca lo podes ver en web]()
+-> [aca lo podes ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase01/playlist.html)
 
 ---
