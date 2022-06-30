@@ -57,13 +57,13 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 
 ### [06 - Donación](https://uidesigndaily.com/posts/sketch-donate-widget-day-1038)
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/donacion.html)
 
 ---
 
 ### [07 - Tareas](https://i.imgur.com/CTzHqjK.png)
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/tareas.html)
 
 ---
 
