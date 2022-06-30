@@ -37,7 +37,7 @@ Buscar un artículo de Wikipedia que te interese. `index.html` debe contener:
 - debajo de cada título de sección, al menos 2 subsecciones con título `h3` (por ejemplo, debajo de **Biografía**, incluir **Infancia** y **Adultez**)
 - debajo de cada título de subsección, al menos 2 párrafos `p`.
 
--> [aca lo podes ver en web]()
+-> [aca lo podes ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase01/enciclopedia.html)
 
 ---
 
