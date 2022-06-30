@@ -45,13 +45,13 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 - Agregale tanto a la barra contenedora como a la de progreso un `border-radius` de `100px`
 - Agregarle a la barra contenedora un `padding` de `3px`
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/barras-de-progeso.html)
 
 ---
 
 ### [05 - Habilidades](https://uidesigndaily.com/posts/sketch-skills-list-card-day-929)
 
--> [aca se puede ver en vivo]()
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/habilidades.html)
 
 ---
 
