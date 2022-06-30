@@ -326,7 +326,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - poner las temperaturas extremas (0°C y 50°C) en negrita.
 - dar a cada temperatura un color distinto, cambiando gradualmente, siendo el 0°C el color azul y 50°C el color rojo. [Ver ejemplo](https://cdn.shopify.com/s/files/1/2303/2711/files/colour_temperature_kelvin_chart_make_up.jpg?v=1513856014).
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/termometro.html)
 
 ---
 
@@ -362,7 +362,7 @@ Cobro de sueldo
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
 - Si el monto es un ingreso, debe tener un color verde, si es una salida, debe tener un color rojo.
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/cuenta-bancaria.html)
 
 ---
 
@@ -402,7 +402,7 @@ Hecha
   - Hecha: Verde
   - Cancelada: Rojo
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/tareas.html)
 
 ---
 
@@ -423,7 +423,7 @@ Hecha
 - Dar a la fecha un tamaño de letra más pequeña y un color gris claro.
 - Separar los `span` con espacios y ponerle un color de fondo gris claro.
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/reacciones.html)
 
 ---
 ---
