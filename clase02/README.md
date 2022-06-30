@@ -220,7 +220,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - un párrafo con un tamaño de letra de `48px` y una tipografía de Google Fonts (por ejemplo: `Montserrat`) y un grosor de letra de 600 o 700. El párrafo debe tener una breve descripción tuya, por ejemplo: `Primera programadora, matemática en mi tiempo libre y guitarrista`.
 - Tanto tu nombre como las palabras claves de tu descripción (por ejemplo: `programadora`, `matemática` y `guitarrista`) deben estar en distintos colores (cada palabra debe tener un color distinto).
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/presentacion.html)
 
 ---
 
@@ -228,7 +228,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 
 - Repetir el ejercicio anterior, pero poniéndole al `html` un color de fondo oscuro (por ejemplo: `#212121`) y un color de texto claro (por ejemplo: `#FAFAFA`).
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/presentacion-modo-oscuro.html)
 
 ---
 
@@ -244,7 +244,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
   - El tercer párrafo debe estar completamente en itálica y tener una tipografía distinta a la de los párrafos.
   - El cuarto párrafo debe tener 2 palabras en negrita y 2 palabras en itálica.
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/articulo.html)
 
 ---
 
