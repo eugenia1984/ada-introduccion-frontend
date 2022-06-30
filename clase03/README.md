@@ -6,7 +6,15 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 
 ### [01 - Notificación](https://uidesigndaily.com/posts/sketch-notification-widget-day-855)
 
+-> [aca se puede ver en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase03/notificacion.html)
+
+---
+
 ### [02 - Verdulería](https://fm08n.csb.app/)
+
+-> [aca se puede ver en vivo]()
+
+---
 
 ### [03 - Banderas](https://www.countryflags.com/en/)
 
@@ -24,6 +32,10 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 </div>
 ```
 
+-> [aca se puede ver en vivo]()
+
+---
+
 ### [04 - Barras de Progreso](https://ck9cu.csb.app/)
 
 - Creá 5 barras de progreso usando un `div` dentro de otro
@@ -33,14 +45,43 @@ Replicar los siguientes ejemplos. **Recuerden que no tienen que verse 100% idén
 - Agregale tanto a la barra contenedora como a la de progreso un `border-radius` de `100px`
 - Agregarle a la barra contenedora un `padding` de `3px`
 
+-> [aca se puede ver en vivo]()
+
+---
+
 ### [05 - Habilidades](https://uidesigndaily.com/posts/sketch-skills-list-card-day-929)
+
+-> [aca se puede ver en vivo]()
+
+---
 
 ### [06 - Donación](https://uidesigndaily.com/posts/sketch-donate-widget-day-1038)
 
+-> [aca se puede ver en vivo]()
+
+---
+
 ### [07 - Tareas](https://i.imgur.com/CTzHqjK.png)
+
+-> [aca se puede ver en vivo]()
+
+---
 
 ### [08 - Protección de cuenta](https://uidesigndaily.com/posts/sketch-protect-account-widget-day-975)
 
+-> [aca se puede ver en vivo]()
+
+---
+
 ### [09 - Eventos](https://hj47o.csb.app/)
 
+-> [aca se puede ver en vivo]()
+
+---
+
 ### [10 - Card de Producto](https://tjq7t.csb.app/)
+
+-> [aca se puede ver en vivo]()
+
+---
+---
