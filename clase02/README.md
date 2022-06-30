@@ -162,7 +162,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 - un título `h3` con el nombre de la película.
 - un párrafo `p` con la fecha de estreno.
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/peliculas.html)
 
 ---
 
@@ -189,7 +189,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, crear los siguientes archi
 
 El archivo no tiene que llamarse `cancion.html` sino el nombre de la canción, por ejemplo: `africa.html`
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/canciones.html)
 
 ---
 
@@ -204,7 +204,7 @@ A partir de lo visto ejercicios anteriores, crear en un `index.html` un artícul
 - Una lista ordenada
 - Una sección de comentarios, con al menos 3 comentarios
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/articulo-completo.html)
 
 ---
 
