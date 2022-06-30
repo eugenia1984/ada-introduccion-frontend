@@ -62,6 +62,10 @@ console.info
 
 ## Ejercicios
 
+->> [**En esta web podes ver toda la practica**](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/index.html)
+
+---
+
 ### Variables, datos y operadores
 
 #### Ejercicios
@@ -74,11 +78,15 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/saludos.html)
 
+---
+
 #### Heladería
 
 - Crear un programa que pida al usuario ingresar, por separado, tres gustos de helado, y luego muestre un mensaje que diga, por ejemplo, "Aquí tiene su helado de chocolate, dulce de leche y menta granizada".
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/heladeria.html)
+
+---
 
 #### Datos personales
 
@@ -86,6 +94,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/datos-personales.html)
 
+---
 
 #### Lista de reproducción
 
@@ -93,6 +102,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/lista-reproduccion.html)
 
+---
 
 #### Dirección completa
 
@@ -100,6 +110,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/direccion.html)
 
+---
 
 #### Años perro
 
@@ -107,6 +118,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/anios-perro.html)
 
+---
 
 #### Minutos a segundos
 
@@ -114,6 +126,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/minuto_a_segundo.html)
 
+---
 
 #### Días a segundos
 
@@ -121,6 +134,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en pagina web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/dias-a-segundos.html)
 
+---
 
 #### Kilómetros a millas
 
@@ -128,66 +142,92 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/kilometros-a-millas.html)
 
+---
 
 #### Área de un triangulo
 
 - Crear un programa que pida al usuario ingresar el valor de la base y el valor de la altura de un triangulo, calcular su área y mostrarlo en un mensaje.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/area-triangulo.html)
+
+---
 
 #### Perímetro de un rectángulo
 
 - Crear un programa que pida al usuario ingresar el valor de la altura y el valor del ancho de un rectángulo, calcular su perímetro y mostrarlo en un mensaje.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/perimetro-rectangulo.html)
+
+---
 
 #### Porcentaje
 
 - Crear un programa que pida al usuario ingresar un número, y luego el porcentaje que se desea obtener del mismo. Devolver un mensaje muestre el porcentaje de dicho número.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/porcentaje.html)
+
+---
 
 #### Tiempo de viaje
 
 - Crear un programa que pida al usuario la distancia de su recorrido y mostrar en un mensaje cuánto tiempo tardaría en completar el recorrido en distintos medios de transporte, definiendo de antemano distintas velocidades para distintos medios de transporte (p. ej.: a pie: 5 km/hora, bici 10km/hora, etc.).
 
+---
 
 #### Duración vuelo
 
 - Crear un programa que pida al usuario ingresar, por separado, 3 destinos de las escalas de un vuelo, y la duración de cada uno de ellos. Al final debe mostrar un mensaje que liste todas las escalas con su duración y la duración total del vuelo.
 
 
+---
+
 #### Incremento
 
 - Crear un programa que pida ingresar una número de partida y una cantidad a ir incrementando y mostrar cinco mensajes seguidos que muestren el número del mensaje y el total incrementado hasta el momento (p. ej.: empezando con 5 e incrementando 5, "Incremento 1) Total: 10", "Incremento 2) Total: 15", "Incremento 3) Total: 20", etc.).
 
+
+---
 
 #### Celsius a Fahrenheit
 
 - Crear un programa que pida ingresar una cantidad de grados Celsius y muestre un mensaje con el resultado de la conversión a grados Fahrenheit.
 
 
+---
+
 #### Múltiplos
 
 - Crear un programa que pida al usuario un número, luego otro y mostrar en un mensaje si el primer valor es múltiplo del segundo. INVESTIGAR EL OPERADOR MÓDULO O DE RESTO % PARA HACERLO
 
+
+---
 
 #### Segundos a horas, minutos y segundos
 
 - Crear un programa que pida ingresar una cantidad en segundos y muestre un mensaje con el resultado de la conversión en horas, minutos y segundos que corresponde a esa cantidad (p.ej. 3602 segundos = 1 hora 2 segundos). (Usar operador módulo)
 
 
+---
+
 #### Cantidad de caracteres
 
 - Crear un programa que pida al usuario ingresar un texto y muestre un mensaje con la cantidad de caracteres que tiene ese texto. INVESTIGAR CÓMO HACERLO
 
 
+---
+
 #### Cantidad de huéspedes
 
 - Crear un programa que pida al usuario ingresar, de a uno por vez, cuántas habitaciones tiene un hotel para 2, 3 y 4 personas, y muestre el máximo de huéspedes que puede albergar.
 
+---
 
 #### Calculador gastos
 
 - Crear un programa que pida al usuario cuanto dinero disponible tiene, y vaya preguntando cuánto tiene que pagar por cada servicio, pidiendo el nombre del servicio y el monto a pagar, uno a la vez. Cada vez que pide ingresar un nuevo servicio, el mensaje debe mostrar cuántos servicios quedan por ingresar, utilizando una variable, y mostrar cuánto dinero disponible queda. Al final debe mostrar una lista con todos los servicios a pagar y el monto de cada uno, además del dinero disponible que le queda. Hacerlo con 3 servicios.
 
+
+---
 
 #### Orden de compras
 
