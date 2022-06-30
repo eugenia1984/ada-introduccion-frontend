@@ -18,7 +18,7 @@ Para los ejercicios 3, 4 y 5, no te preocupes por el contenido y los estilos. Po
 
 5. Agregá 3 `divs`. Hacé que el último `div` ocupe 60% del ancho de la pantalla, y los 2 primeros un 20% cada uno.
 
--> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/flex-grow.html)
+-> [aca lo veo en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/flex-grow.html)
 
 ---
 
@@ -28,7 +28,7 @@ Para los ejercicios 3, 4 y 5, no te preocupes por el contenido y los estilos. Po
 
 7. Agregá 6 `divs`. Dales a todos un `flex-basis` de 25%. Hacé los dos últimos ocupen la mitad del ancho de la pantalla cada uno.
 
--> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/flex-basis.html)
+-> [aca lo veo en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/flex-basis.html)
 
 ---
 
@@ -50,7 +50,7 @@ Por ejemplo:
 
 - La descripción debe ocupar el alto disponible.
 
--> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/card-de-pelicula.html)
+-> [aca lo veo en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/card-de-pelicula.html)
 
 ---
 
@@ -70,7 +70,7 @@ Replicar el siguiente layout:
 
 - Aside debe ocupar un tercio del ancho de su contenedor.
 
--> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/layoout.html)
+-> [aca lo veo en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/layoout.html)
 
 ---
 
@@ -92,7 +92,7 @@ La disposición de los elementos deberá verse similar a este:
 
 - El contenedor del menú de opciones debe ocupar el espacio disponible.
 
--> [aca lo vewn en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/https://eugenia1984.github.io/ada-introduccion-frontend/clase05/menu-de-opciones.html)
+-> [aca lo veo en vivo](https://eugenia1984.github.io/ada-introduccion-frontend/clase05/https://eugenia1984.github.io/ada-introduccion-frontend/clase05/menu-de-opciones.html)
 
 ---
 ---
