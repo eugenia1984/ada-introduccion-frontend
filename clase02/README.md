@@ -104,7 +104,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
   - un `span` que diga: `Publicado hace 14 minutos` (cambiar el tiempo).
   - un párrafo `p` con `lorem ipsum`.
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/comentarios.html)
 
 ---
 
@@ -121,7 +121,7 @@ Usando [IMDb](https://www.imdb.com/) como referencia, `index.html` debe contener
   - un párrafo `p` con el precio del producto.
   - un párrafo con un `lorem impsum`  corto
 
--> [aca se puede ver en web]()
+-> [aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase02/productos.html)
 
 ---
 
