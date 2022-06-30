@@ -45,6 +45,10 @@ Sistema de coordenadas: top | right | bottom  | left  | z-index
 
 ## Ejercicios
 
+[**Aca esta la web con links a todos**](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/index.html)
+
+---
+
 ## 01 - Colores
 
 - Agregar una etiqueta h1 con el texto ¡Mirame cambiar de color!.
@@ -69,6 +73,9 @@ Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de
 
 - En cada breakpoint, cambiar el color de fondo del body.
 
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/colores.html)
+
+---
 
 ## 02 - Header
 
@@ -92,6 +99,9 @@ Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de
 
 - El ícono tiene que estar alineado a la derecha en el header.
 
+-> [Aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase07/header.html)
+
+---
 
 ## 03 - Servicios I
 
@@ -101,6 +111,9 @@ Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de
 
 - En dicho breakpoint, tanto los textos como los íconos tienen que quedar centrados horizontalmente.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 04 - Servicios II
 
@@ -110,11 +123,17 @@ Cuando la pantalla tiene menos de 600px, el h1 debería tener 24px de tamaño de
 
 - En dicho breakpoint, el ícono tiene que quedar arriba del texto, y tanto los textos como los íconos tienen que quedar alineados a la izquierda.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 05 - Card de Producto
 
 Replicar la siguiente [card de producto](https://mnyo0.csb.app/), responsive incluido
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 06 - Blog
 
@@ -140,6 +159,9 @@ index.html debe contener:
 
 - Poner un breakpoint que modifique el font-size del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los tamaños en simultáneo.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 07 - Posts de blogs
 
@@ -169,21 +191,33 @@ index.html debe contener:
 
 - Poner dos breakpoints que modifiquen el font-size del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los tamaños en cada breakpoint.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 08 - Layout I
 
 Replicar el [siguiente ejemplo](https://ce7du.csb.app/) con breakpoints incluidos.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 09 - Layout II
 
 Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluidos.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 10 - Layout III
 
 Replicar el [siguiente ejemplo](https://9eoom.csb.app/) con breakpoints incluidos.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 11 - Grilla de imágenes
 
@@ -205,6 +239,9 @@ index.html debe contener:
 
 - Agregar breakpoints para que, a medida que la resolución se vaya achicando, la grilla cambie a 3 imágenes por fila, luego 2 imágenes por fila y finalmente 1 imagen por fila.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ## 12 - Grilla de productos
 
@@ -250,6 +287,9 @@ Usar una tipografía distinta a la que viene por default.
 
 -Poner un breakpoint que modifique el font-size del body, de modo tal que, al ser el tamaño del texto relativo a esta medida, cambien todos los demás tamaños en simultáneo.
 
+-> [Aca se puede ver en web]()
+
+---
 
 ---
 ---
@@ -272,6 +312,9 @@ Usar una tipografía distinta a la que viene por default.
 ![alt text](https://i.ibb.co/M66T8xY/Captura-de-pantalla-de-2020-09-11-09-31-53.png 'ejemplo de primer ejercicio')
 
 
+-> [Aca se puede ver en web]()
+
+---
 
 ### 02 - Superponer elementos II
 
@@ -285,6 +328,10 @@ Usar las siguientes medidas:
 - **Cuadrado rojo:** 60px x 60px
 - **Cuadrado verde:** 30px x 30px
 
+-> [Aca se puede ver en web]()
+
+---
+
 ### 03 - Usuarios en línea
 
 Maquetar un contador que muestre la cantidad de usuarios en línea fijado en la parte inferior derecha de la pantalla. Ejemplo:
@@ -292,6 +339,9 @@ Maquetar un contador que muestre la cantidad de usuarios en línea fijado en la 
 ![](https://i.ibb.co/hLNcf06/Screen-Shot-2020-09-11-at-13-59-13.png)
 
 
+-> [Aca se puede ver en web]()
+
+---
 
 ### 04 - Notificaciones
 
@@ -299,6 +349,9 @@ Maquetar un header similar al siguiente, con notificaciones por encima de los í
 
 ![](https://i.ibb.co/4s2jxr2/Screen-Shot-2020-09-11-at-13-31-12.png)
 
+-> [Aca se puede ver en web]()
+
+---
 
 
 ### 05 - Perfil de usuario
@@ -308,6 +361,9 @@ Maquetar una card de usuario que contenga: foto de perfil del usuario, foto de l
 ![](https://i.ibb.co/sKnp66N/Captura-de-pantalla-de-2020-09-11-09-36-45.png 'profile card')
 
 
+-> [Aca se puede ver en web]()
+
+---
 
 ### 06 - Card de producto
 
@@ -315,6 +371,9 @@ Maquetar una card de producto que contenga imagen, nombre y precio de producto. 
 
 ![](https://i.ibb.co/g971CFM/Screen-Shot-2020-09-11-at-13-47-34.png)
 
+-> [Aca se puede ver en web]()
+
+---
 
 
 ### 07 - Menú de navegación
@@ -338,6 +397,9 @@ Sobre la siguiente estructura HTML aplicar los estilos necesarios para lograr qu
 </header>
 ```
 
+-> [Aca se puede ver en web]()
+
+---
 
 ### 08 - Submenú
 
@@ -352,6 +414,9 @@ Ejemplo:
 ![alt text](https://i.ibb.co/X8Kj2cr/Captura-de-pantalla-de-2020-09-11-09-42-06.png 'ejemplo de submenu')
 
 
+-> [Aca se puede ver en web]()
+
+---
 
 ### 09 - Registrar usuario
 
@@ -360,12 +425,18 @@ Maquetar un formulario de registro de usuario que pida nombre de usuario, email,
 ![alt text](https://i.ibb.co/MM4pWnR/Captura-de-pantalla-de-2020-09-11-09-49-06.png 'ejemplo de formulario')
 
 
+-> [Aca se puede ver en web]()
+
+---
 
 ### 10 - Validar formulario
 
 Al formulario anterior, agregar el atributo `required` a cada atributo. Hacer que aparezca sobre cada `input` [este ícono](https://fontawesome.com/icons/check?style=solid) a la derecha cuando dicho `input` está en el estado `valid`.
 
 
+-> [Aca se puede ver en web]()
+
+---
 
 ### 11 - Imagen con overlay
 
@@ -376,6 +447,9 @@ Poner una imagen con un overlay (es decir, un fondo semitransparente, usando `rg
 Para más ideas, pueden usar los ejemplo de la [siguiente página](https://tympanus.net/Development/HoverEffectIdeas/index.html) en el estado `hover`: NICE LYLY, WARM OSCAR, SWEET MARLEY, GLOWING RUBY, CHARMING ROXY, WILD ROMEO, STRANGE DEXTER, FREE SARAH, SILLY CHICO, FAITHFUL MILO, PASSIONATE JULIA, DARK KIRA, LONELY STEVE, FUNNY MING.
 
 **NO REPLICAR EL EFECTO ANIMADO**, maquetarlo de forma estática tal cómo queda cuando se hace `hover` sobre los ejemplos. La clase que viene vamos a poder agregarles las transiciones.
+
+-> [Aca se puede ver en web]()
+
 
 
 ---
