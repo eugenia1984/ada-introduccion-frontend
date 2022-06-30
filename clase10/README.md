@@ -178,6 +178,7 @@ Cuando la consigna pida ingresar algo hacerlo mediante un ```prompt```, y cuando
 
 - Crear un programa que pida al usuario ingresar, por separado, 3 destinos de las escalas de un vuelo, y la duración de cada uno de ellos. Al final debe mostrar un mensaje que liste todas las escalas con su duración y la duración total del vuelo.
 
+[aca se puede ver en web](https://eugenia1984.github.io/ada-introduccion-frontend/clase10/duracion-vuelo.html)
 
 ---
 
