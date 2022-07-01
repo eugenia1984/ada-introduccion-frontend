@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 11 | JS</title>
+  <meta name="description"
+  content="Hola bienvenidos a mi practica del curso de Ada Introduccion Front End, viendo HTML, CSS y JavaScript. Vean la práctica de la decima clase: JavaScript.">
+  <link rel="apple-touch-icon" href="https://img.icons8.com/color/48/000000/javascript--v1.png">
+  <meta name="theme-color" content="rgb(232, 229, 132)">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:type" content="website">
+  <meta property="og:title" name="twitter:title" content="Clase 10 | JS">
+  <meta property="og:description" name="twitter:description"
+    content="Hola bienvenidos a mi practica del curso de Ada Introduccion Front End, viendo HTML, CSS y JavaSCript. Vean la práctica de la decima clase: JavaSCript.">
+  <meta property="og:image" name="twitter:image"
+    content="https://img.icons8.com/color/48/000000/javascript--v1.png">
+  <meta property="og:url" name="twitter:url"
+    content="https://eugenia1984.github.io/ada-introduccion-frontend/clase11/index.html">
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/javascript--v1.png" type="image/x-icon">  
+  <!-- CSS GENERAL -->
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <!-- HEADER -->
+   <header class="header header-clase10">
+    <h1>Bienvenidos a mis practicas de la 11ra clase</h1>
+  </header>
+  <!-- MAIN -->
+  <main class="main-clase10">
+    <h2>Empezamos con <img src="https://img.icons8.com/color/48/undefined/javascript--v1.png" alt="icono de javascript"/></h2>
+    <h3>Te detallo las practicas realizadas:</h3>
+    <p>Haciendo click en los botones amarillos podes hacer la prueba del ejercicio que quieras.</p>
+    <ul>
+      <li>
+        <p><strong><a href="#" target="_blank">sumar(a, b)</a></strong>: Crear una función sumar que tome como argumentos dos números y devuelva la suma de ellos.</p> 
+        <p><code>sumar(2, 3) // 5</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">restar(a, b)</a></strong>: Crear una función restar que tome como argumentos dos números y devuelva la resta de ellos.</p>
+        <p><code>restar(3, 2) // 1</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">multiplicar(a, b)</a></strong>: Crear una función multiplicar que tome como argumentos dos números y devuelva la multiplicación de ellos.</p>
+        <p><code>multiplicar(2, 3) // 6</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">dividir(a, b)</a></strong>: Crear una función dividir que tome como argumentos dos números y devuelva la suma de ellos.</p>
+        <p><code>dividir(12, 3) // 4</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">esPar(numero)</a></strong>: Crear una función esPar que tome como argumento un número y devuelva true si dicho números es par o false si no lo es.</p>
+        <p><code>esPar(2) // true</code></p>
+        <p><code>esPar(3) // false</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">esImpar(numero)</a></strong>: Crear una función esImpar que tome como argumento un número y devuelva true si dicho números es impar o false si no lo e.</p>
+        <p><code>esImpar(2) // false</code></p>
+        <p><code>esImpar(3) // true</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">calcularAreaTriangulo(base, altura)</a></strong>:  Crear una función calcularAreaTriangulo que tome como argumentos la base y la altura de un triángulo y devuelva el área del mismosultado de la conversión en segundos.</p>
+        <p><code>calcularAreaTriangulo(3, 4) // 6</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">gritar(str)</a></strong>: Crear una función gritar que tome como argumento un string y devuelva el mismo string con un signo de exclamación al principio y al final del mismo.</p>
+        <p><code>gritar('hola') // ¡hola!</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">obtenerNombreCompleto(nombre, apellido)</a></strong>: Crear una función obtenerNombreCompleto que tome como argumento un nombre y un apellido y devuelva un string con la unión de ambos valores.</p>
+        <p><code>obtenerNombreCompleto('Ada', 'Lovelace') // 'Ada Lovelace'</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">saludar(nombre)</a></strong>: Crear una función saludar que tome como argumentos un nombre y devuelva un saludo que lo incluya.</p>
+        <p><code>saludar('Ada') // 'Hola Ada, un gusto conocerte'</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">saludarGritando(nombre, apellido)</a></strong>: Usando las funciones anteriores (obtenerNombreCompleto, saludar y gritar), crear una función saludarGritando que tome como argumentos un nombre y un apellido y devuelva un saludo con signos de exclamación.</p>
+        <p><code>saludarGritando('Ada', 'Lovelace') // ¡Hola Ada Lovelace, un gusto conocerte!</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">Porcentaje</a></strong>: Crear un programa que pida al usuario ingresar un número, y luego el porcentaje que se desea obtener del mismo. Devolver un mensaje muestre el porcentaje de dicho número.</p>
+        <p>TIP: recordá que los resultados de funciones se pueden guardar en variables para usarlos más adelante</p>
+        <p><code>const nombreCompleto = obtenerNombreCompleto('Ada', 'Lovelace')</code></p>
+        <p><code>const saludo = saludar(nombreCompleto)</code></p>
+        <p><code>const grito = gritar(saludo)</code></p>
+        <p><code>console.log(grito) // ¡Hola Ada Lovelace, un gusto conocerte!</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">obtenerDatosDeCiudad(nombre, poblacion, pais)</a></strong>: Crear una función obtenerDatosDeCiudad que tome como argumentos un string nombre, un número poblacion y un string pais y devuelva string con el siguiente formato: La ciudad de NOMBRE tiene una población de POBLACION habitantes y está ubicada en PAIS.</p>
+        <p><code>obtenerDatosDeCiudad('Santa Fe', 545606, 'Argentina') // 'La ciudad de Santa Fe tiene una población de 545606 habitantes y está ubicada en Argentina'</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">convertirHorasEnSegundos(horas)</a></strong>: Crear una función convertirHorasEnSegundos que tome como argumento un número de horas y devuelva la conversión a segundos de dicha cantidad de horas.</p>
+        <p><code>convertirHorasEnSegundos(1) // 3600</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">calcularPerimetroRectangulo(ancho, alto)</a></strong>: Crear una función calcularAreaTriangulo que tome como argumentos el ancho y el alto de un rectángulo y devuelva su perímetro.</p>
+        <p><code>calcularPerimetroRectangulo(3.2, 5) // 16.4</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">calcularPorcentaje(numero, porcentaje)</a></strong>:Crear una función calcularPorcentaje que tome como argumentos un número y un porcentaje y devuelva el valor del porcentaje correspondiente al número.</p>
+        <p><code>sumarPorcentaje(100, 15) // 115</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">sumarPorcentaje(numero, porcentaje)</a></strong>: Crear una función sumarPorcentaje que tome como argumentos un número y un porcentaje y devuelva la suma de dicho número con la de su porcentaje. Usar la función calcularPorcentaje para obtener el porcentaje a sumar.</p>
+        <p><code>sumarPorcentaje(200, 10) // 220</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">restarPorcentaje(numero, porcentaje)</a></strong>: Crear una función restarPorcentaje que tome como argumentos un número y un porcentaje y devuelva la resta de dicho número con la de su porcentaje. Usar la función calcularPorcentaje para obtener el porcentaje a restar.</p>
+        <p><code>restarPorcentaje(100, 15) // 85</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">calcularFPS(fps, minutos)</a></strong>: FPS son cuadros por segundo (frames per second). Crear una una función calcularFPS que tome como argumentos una cantidad de cuadros por segundo y una cantidad de minutos, y devuelva cuántos cuadros hubo en esa cantidad de minutos.</p>
+        <p><code>calcularFPS(1, 1) // 60</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">obtenerCompetencia(a, b)</a></strong>: Crear una función obtenerCompetencia que tome como argumentos dos strings a y b y devuelva un string con el formato a vs. b.</p>
+        <p><code>obtenerRivales('JavaScript', 'Python') // `JavaScript vs. Python`</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">generarEmail(usuario, dominio)</a></strong>: Crear una función generarEmail que tome como argumentos dos string usuario y dominio y el un string email con el formato usuario@dominio.com.</p>
+        <p><code>generarEmail('adalovelace', 'gmail') // 'adalovelace@gmail.com'</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">esMayorDeEdad(edad)</a></strong>: Crear una función esMayorDeEdad que tome como argumento un número edad y devuelva true si es mayor de edad (18 o más) o false de lo contrario.</p>
+        <p><code>esMayorDeEdad(18) // true</code></p>
+        <p><code>esMayorDeEdad(15) // false</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">haceCalor(temperatura)</a></strong>: Crear una función haceCalor que tome como argumento un número temperatura y devuelva true si hace calor (22 grados o más) o false de lo contrario.</p>
+        <p><code>haceCalor(12) // false</code></p>
+        <p><code>haceCalor(22) // true</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">haceFrio(temperatura)</a></strong>: Crear una función haceCalor que tome como argumento un número temperatura y devuelva true si hace frio (12 grados o menos) o false de lo contrario.</p>
+        <p><code>haceFrio(-2) // true</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">calcularPuntaje(facil, normal, dificil)</a></strong>: Crear una función calcularPuntaje que calcule el puntaje de un examen que consiste en ejercicios de distinto nivel. Debe tomar como argumento tres que consisten en la cantidad de ejercicios resueltos en cada nivel y devolver un número con el puntaje correspondiente. El puntaje se calcula de la siguiente forma:.</p>
+        <p><code>facil: 3 puntos</code></p>
+        <p><code>normal: 5 puntos</code></p>
+        <p><code>dificil: 10 puntos</code></p>
+        <p><code>calcularPuntaje(3, 0, 0) // 9</code></p>
+        <p><code>calcularPuntaje(0, 2, 1) // 20</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#" target="_blank">aceptaDeposito(monto)</a></strong>: Crear una función aceptaDeposito que tome como argumento un número monto y devuelva true si el monto es divisible por 10 o false si no lo es.</p>
+        <p><code>aceptaDeposito(440) // true</code></p>
+      </li> 
+    </ul>
+  </main>
+  <!-- FOOTER -->
+  <footer>
+    <p>Practica realizada por <a href="http://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noopener noreferrer">María Eugenia Costa</a> para el curso <strong>Introduccion Front End</strong> en <img src="../assets/images/ada_logo_blanco.png" alt="Logo de Ada"></p>
+  </footer>
+</body>
+</html>
