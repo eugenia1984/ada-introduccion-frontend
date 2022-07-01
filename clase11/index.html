@@ -30,22 +30,43 @@
     <h1>Bienvenidos a mis practicas de la 11ra clase</h1>
   </header>
   <!-- MAIN -->
-  <main class="main-clase10">
+  <main class="main-clase11">
     <h2>Empezamos con <img src="https://img.icons8.com/color/48/undefined/javascript--v1.png" alt="icono de javascript"/></h2>
     <h3>Te detallo las practicas realizadas:</h3>
     <p>Haciendo click en los botones amarillos podes hacer la prueba del ejercicio que quieras.</p>
     <ul>
       <li>
-        <p><strong><a href="#" target="_blank">sumar(a, b)</a></strong>: Crear una función sumar que tome como argumentos dos números y devuelva la suma de ellos.</p> 
+        <p><strong><a href="#firstNumberSum">sumar(a, b)</a></strong>: Crear una función sumar que tome como argumentos dos números y devuelva la suma de ellos. Ejemplo:</p> 
         <p><code>sumar(2, 3) // 5</code></p>
+        <h4>Ingresa los números ENTEROS y hace click en el boton SUMA</h4>
+        <label for="firstNumberSum">Ingrese un primer numero: </label>
+        <input type="number" id="firstNumberSum" > 
+        <label for="secondNumberSum">Ingrese un segundo numero: </label>
+        <input type="number" id="secondNumberSum" > 
+        <button type="button"  onclick="getValueInputToSum()">SUMAR</button> 
+        <p id="valueInputSum"></p> 
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">restar(a, b)</a></strong>: Crear una función restar que tome como argumentos dos números y devuelva la resta de ellos.</p>
+        <p><strong><a href="#firstNumberSubtrac">restar(a, b)</a></strong>: Crear una función restar que tome como argumentos dos números y devuelva la resta de ellos. Ejemplo:</p>
         <p><code>restar(3, 2) // 1</code></p>
+        <h4>Ingresa los números ENTEROS y hace click en el boton RESTAR</h4>
+        <label for="firstNumberSubtract">Ingrese un primer numero: </label>
+        <input type="number" id="firstNumberSubtract" > 
+        <label for="secondNumberSubtract">Ingrese un segundo numero: </label>
+        <input type="number" id="secondNumberSubtract" > 
+        <button type="button"  onclick="getValueInputToSubtract()">RESTAR</button> 
+        <p id="valueInputSubtract"></p> 
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">multiplicar(a, b)</a></strong>: Crear una función multiplicar que tome como argumentos dos números y devuelva la multiplicación de ellos.</p>
+        <p><strong><a href="#firstNumberMultiply">multiplicar(a, b)</a></strong>: Crear una función multiplicar que tome como argumentos dos números y devuelva la multiplicación de ellos. Ejemplo:</p>
         <p><code>multiplicar(2, 3) // 6</code></p>
+        <h4>Ingresa los números ENTEROS y hace click en el boton MULTIPLICAR</h4>
+        <label for="firstNumberMultiply">Ingrese un primer numero: </label>
+        <input type="number" id="firstNumberMultiply" > 
+        <label for="secondNumberMultiply">Ingrese un segundo numero: </label>
+        <input type="number" id="secondNumberMultiply" > 
+        <button type="button"  onclick="getValueInputToMultiply()">MULTIPLICAR</button> 
+        <p id="valueInputMultiply"></p>
       </li>
       <li>
         <p><strong><a href="#" target="_blank">dividir(a, b)</a></strong>: Crear una función dividir que tome como argumentos dos números y devuelva la suma de ellos.</p>
@@ -157,5 +178,6 @@
   <footer>
     <p>Practica realizada por <a href="http://www.linkedin.com/in/maríaeugeniacosta" target="_blank" rel="noopener noreferrer">María Eugenia Costa</a> para el curso <strong>Introduccion Front End</strong> en <img src="../assets/images/ada_logo_blanco.png" alt="Logo de Ada"></p>
   </footer>
+  <script src="./practica.js"></script>
 </body>
 </html>

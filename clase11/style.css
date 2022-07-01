@@ -20,32 +20,45 @@ footer a:hover {
 }
 
 /* main */
-.main-clase10 {
+.main-clase11 {
   max-width: 1200px;
   margin: 0px auto;
 }
 
-.main-clase10 h2,
-.main-clase10 h3 {
+.main-clase11 h2,
+.main-clase11 h3 {
   text-align: center;
   line-height: 1.25rem;
   padding-bottom: 2rem;
 }
 
-.main-clase10 ul {
+.main-clase11 h4 {
+  padding: 1rem 0rem;
+}
+.main-clase11 ul {
   padding: 2rem 1.5rem;
 }
 
-.main-clase10 ul li {
+.main-clase11 ul li {
   padding-bottom: 1rem;
 }
 
-.main-clase10 ul li a {
+.main-clase11 ul li a {
   background-color: var(--yellow);
   color: var(--green);
   font-weight: 800;
   padding: 0.10rem 0.25rem;
   text-decoration: none;
+}
+/** Para ingresar datos**/
+.main-clase11 input,
+.main-clase11 label {
+  display: block;
+  padding-bottom: 0.25rem;
+}
+.main-clase11 button {
+  margin: 1rem 0rem;
+  padding: 0.25rem;
 }
 /** Saludos**/
 .saludo p {
