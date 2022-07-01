@@ -218,8 +218,16 @@
         <p><code>obtenerRivales('JavaScript', 'Python') // `JavaScript vs. Python`</code></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">generarEmail(usuario, dominio)</a></strong>: Crear una función generarEmail que tome como argumentos dos string usuario y dominio y el un string email con el formato usuario@dominio.com.</p>
+        <p><strong><a href="#user">generarEmail(usuario, dominio)</a></strong>: Crear una función generarEmail que tome como argumentos dos string usuario y dominio y el un string email con el formato usuario@dominio.com.</p>
         <p><code>generarEmail('adalovelace', 'gmail') // 'adalovelace@gmail.com'</code></p>
+        <h4>Ingresa el usuario, el dominio y hace click en el boton GENERAR EMAIL</h4>
+        <label for="user">Ingrese el usuario: </label>
+        <input type="text" id="user" > 
+        <label for="domain">Ingrese el dominio: </label>
+        <input type="text" id="domain" > 
+        <button type="button"  onclick="getValueInputToCreateEmail()">GENERAR EMAIL</button> 
+        <p id="valueInputToCreateEmail"></p>
+      </li>
       </li>
       <li>
         <p><strong><a href="#isOlder" >esMayorDeEdad(edad)</a></strong>: Crear una función esMayorDeEdad que tome como argumento un número edad y devuelva true si es mayor de edad (18 o más) o false de lo contrario.</p>

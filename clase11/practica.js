@@ -119,6 +119,11 @@ function aceptaDeposito(monto) {
   
 }
 
+/*  FUNCION GENERAR EMAIL*/
+function generarEmail(usuario, dominio) {
+  return `${usuario}@${dominio}.com`;
+}
+
 /* FUNCION ES MAYOR DE EDAD */
 function esMayorDeEdad(edad) {
   return edad >= 18;
@@ -225,6 +230,12 @@ const getValueInputToPerimeterRectangle = () =>{
 const getValueInputToAcceptDeposit = () =>{
   let amountOfDeposit = parseInt(d.getElementById("deposit").value); 
   d.getElementById("valueInputToAcceptDeposit").innerHTML = `${aceptaDeposito(amountOfDeposit)}`; 
+}
+
+const getValueInputToCreateEmail = () =>{
+  let user = d.getElementById("user").value; 
+  let domain = d.getElementById("domain").value; 
+  d.getElementById("valueInputToCreateEmail").innerHTML = `${generarEmail(user, domain)}`; 
 }
 
 const getValueInputToIsOlder = () =>{
