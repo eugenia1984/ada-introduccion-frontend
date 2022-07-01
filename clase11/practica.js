@@ -53,6 +53,10 @@ function gritar(str) {
   return `¡ ${str} !`
 }
 
+/* FUNCION OBTENER NOMBRE COMPLETO */
+function obtenerNombreCompleto(nombre, apellido) {
+  return `${nombre} ${apellido}`;
+}
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -97,4 +101,10 @@ const getValueInputAreaTriangle = () =>{
 const getValueInputToScream = () =>{
   let stringScream = d.getElementById("stringToScream").value; 
   d.getElementById("valueInputScream").innerHTML = `<p>${gritar(stringScream)}</p>`; 
+}
+
+const getValueInputFullName = () =>{
+  let firstName = d.getElementById("firstName").value; 
+  let lastName = d.getElementById("lastName").value; 
+  d.getElementById("valueInputFullName").innerHTML = `<p>El nombre completo es: ${obtenerNombreCompleto(firstName, lastName)}</p>`; 
 }
