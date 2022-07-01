@@ -109,6 +109,16 @@ function calcularPerimetroRectangulo(ancho, alto) {
   }
 }
 
+/* FUNCION ACEPTADEPOSITO */
+function aceptaDeposito(monto) {
+  if (monto <= 0) {
+    return false;
+  } else {
+    return monto % 10 == 0;  
+  }
+  
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -194,4 +204,9 @@ const getValueInputToPerimeterRectangle = () =>{
   let withRectangle = parseFloat(d.getElementById("withRectangle").value); 
   let heightRectangle = parseFloat(d.getElementById("heightRectangle").value); 
   d.getElementById("valueInputToGetRectanglePerimeter").innerHTML = `<p>El perímetro del rectángulo con ${withRectangle} de ancho y ${heightRectangle} de alto es: ${calcularPerimetroRectangulo(withRectangle, heightRectangle)}.</p>`; 
+}
+
+const getValueInputToAcceptDeposit = () =>{
+  let amountOfDeposit = parseInt(d.getElementById("deposit").value); 
+  d.getElementById("valueInputToAcceptDeposit").innerHTML = `<p> ${aceptaDeposito(amountOfDeposit)}</p>`; 
 }
