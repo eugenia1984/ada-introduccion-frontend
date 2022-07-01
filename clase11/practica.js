@@ -25,8 +25,21 @@ function dividir(num1, num2) {
 }
 
 /* FUNCION ES PAR */
-function esPar(num1, num2) {
-  return num1 % num2 == 0;
+function esPar(num1) {
+  if (num1 <= 0) {
+    return 'Debe ingresar un numero entero positivo'
+  } else {
+    return num1 % 2 == 0;  
+  }
+}
+
+/* FUNCION ES IMPAR */
+function esImpar(num1) {
+  if (num1 <= 0) {
+    return 'Debe ingresar un numero entero positivo'
+  } else {
+    return num1 % 2 != 0;  
+  }
 }
 
 const getValueInputToSum = () =>{
@@ -54,6 +67,11 @@ const getValueInputToDivide = () =>{
 }
 
 const getValueInputToIsEven = () =>{
-  let firstNumber = parseInt(d.getElementById("firstNumberDivide").value); 
-  d.getElementById("valueInputDivide").innerHTML = `<p>El ${firstNumber} es par? ${esPar(firstNumber)}</p>`;
+  let firstNumber = parseInt(d.getElementById("firstNumberisEven").value); 
+  d.getElementById("valueInputIsEven").innerHTML = `<p>El ${firstNumber} es par? ${esPar(firstNumber)}</p>`;
+}
+
+const getValueInputToIsOdd = () =>{
+  let firstNumber = parseInt(d.getElementById("firstNumberisOdd").value); 
+  d.getElementById("valueInputIsOdd").innerHTML = `<p>El ${firstNumber} es impar? ${esImpar(firstNumber)}</p>`;
 }
