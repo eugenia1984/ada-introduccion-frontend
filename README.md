@@ -493,7 +493,7 @@ console.info
 ---
 ---
 
-[**Clase 13* (21 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
+[**Clase 13** (21 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase13/README.md).
 
 ## :star: ARRAYS Y OBJETOS I
 
@@ -517,7 +517,7 @@ console.info
 ---
 ---
 
-[**Clase 14* (23 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase14/README.md).
+[**Clase 14** (23 Junio)](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase14/README.md).
 
 ## :star: ARRAYS Y OBJETOS II
 
