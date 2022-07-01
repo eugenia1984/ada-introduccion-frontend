@@ -222,14 +222,24 @@
         <p><code>generarEmail('adalovelace', 'gmail') // 'adalovelace@gmail.com'</code></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">esMayorDeEdad(edad)</a></strong>: Crear una función esMayorDeEdad que tome como argumento un número edad y devuelva true si es mayor de edad (18 o más) o false de lo contrario.</p>
+        <p><strong><a href="#isOlder" >esMayorDeEdad(edad)</a></strong>: Crear una función esMayorDeEdad que tome como argumento un número edad y devuelva true si es mayor de edad (18 o más) o false de lo contrario.</p>
         <p><code>esMayorDeEdad(18) // true</code></p>
         <p><code>esMayorDeEdad(15) // false</code></p>
+        <h4>Ingresa la edad y hace click en el boton ES MAYOR DE EDAD</h4>
+        <label for="isOlder">Ingrese la edad: </label>
+        <input type="number" id="isOlder" > 
+        <button type="button"  onclick="getValueInputToIsOlder()">ES MAYOR DE EDAD</button> 
+        <p id="valueInputToIsOlder"></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">haceCalor(temperatura)</a></strong>: Crear una función haceCalor que tome como argumento un número temperatura y devuelva true si hace calor (22 grados o más) o false de lo contrario.</p>
+        <p><strong><a href="#isTemperatureHot">haceCalor(temperatura)</a></strong>: Crear una función haceCalor que tome como argumento un número temperatura y devuelva true si hace calor (22 grados o más) o false de lo contrario.</p>
         <p><code>haceCalor(12) // false</code></p>
         <p><code>haceCalor(22) // true</code></p>
+        <h4>Ingresa la temperatura y hace click en el boton HACE CALOR</h4>
+        <label for="isTemperatureHot">Ingrese la temperatura: </label>
+        <input type="number" id="isTemperatureHot" > 
+        <button type="button"  onclick="getValueInputToIsTemperatureHot()">HACE CALOR</button> 
+        <p id="valueInputToIsTemperatureHot"></p>
       </li>
       <li>
         <p><strong><a href="#" target="_blank">haceFrio(temperatura)</a></strong>: Crear una función haceCalor que tome como argumento un número temperatura y devuelva true si hace frio (12 grados o menos) o false de lo contrario.</p>

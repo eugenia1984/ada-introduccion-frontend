@@ -119,6 +119,17 @@ function aceptaDeposito(monto) {
   
 }
 
+/* FUNCION ES MAYOR DE EDAD */
+function esMayorDeEdad(edad) {
+  return edad >= 18;
+}
+
+
+/* FUNCION HACE CALOR */
+function haceCalor(temperatura) {
+  return temperatura >= 22;
+}
+
 /* FUNCION HACE FRIO */
 function haceFrio(temperatura) {
   return temperatura <= 12;
@@ -214,6 +225,16 @@ const getValueInputToPerimeterRectangle = () =>{
 const getValueInputToAcceptDeposit = () =>{
   let amountOfDeposit = parseInt(d.getElementById("deposit").value); 
   d.getElementById("valueInputToAcceptDeposit").innerHTML = `${aceptaDeposito(amountOfDeposit)}`; 
+}
+
+const getValueInputToIsOlder = () =>{
+  let isOlder= parseInt(d.getElementById("isOlder").value); 
+  d.getElementById("valueInputToIsOlder").innerHTML = `${esMayorDeEdad(isOlder)}`; 
+}
+
+const getValueInputToIsTemperatureHot = () =>{
+  let isTemperatureHot= parseFloat(d.getElementById("isTemperatureHot").value); 
+  d.getElementById("valueInputToIsTemperatureHot").innerHTML = `${haceCalor(isTemperatureHot)}`; 
 }
 
 const getValueInputToIsTemperatureCold = () =>{
