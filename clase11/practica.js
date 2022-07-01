@@ -71,6 +71,15 @@ function saludarGritando(nombre, apellido) {
   return grito;
 }
 
+/*FUNCION PORCENTAJE */
+function percentage(amount, percentageToCalculate) {
+  if(percentageToCalculate < 0 || percentageToCalculate > 100) {
+    return `no se puede calcular el porcentaje`
+  } else {
+    return (percentageToCalculate * amount) / 100;
+  }
+  
+}
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -132,4 +141,10 @@ const getValueInputSaludarGritando = () =>{
   let firstNameScream = d.getElementById("firstNameScream").value; 
   let lastNameScream = d.getElementById("lastNameScream").value; 
   d.getElementById("valueInputSaludarGritando").innerHTML = `<p>${saludarGritando(firstNameScream, lastNameScream)}</p>`; 
+}
+
+const getValueInputToPercentage = () =>{
+  let totalAmount = parseInt(d.getElementById("totalAmount").value); 
+  let percentageToKnow = parseFloat(d.getElementById("percentage").value); 
+  d.getElementById("valueInputToPercentage").innerHTML = `<p>El ${percentageToKnow }% de ${totalAmount} es: ${percentage(totalAmount, percentageToKnow)}</p>`; 
 }

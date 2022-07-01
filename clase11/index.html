@@ -155,7 +155,14 @@
         <p id="valueInputSaludarGritando"></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">Porcentaje</a></strong>: Crear un programa que pida al usuario ingresar un número, y luego el porcentaje que se desea obtener del mismo. Devolver un mensaje muestre el porcentaje de dicho número.</p>
+        <p><strong><a href="#totalAmount" >Porcentaje</a></strong>: Crear un programa que pida al usuario ingresar un número, y luego el porcentaje que se desea obtener del mismo. Devolver un mensaje muestre el porcentaje de dicho número.</p>
+        <h4>Ingresa los numeros y hace click en el boton CALCULAR PORCENTAJE</h4>
+        <label for="totalAmount">Ingrese un número: </label>
+        <input type="number" id="totalAmount" > 
+        <label for="percentage">Ingrese el porcentaje que desea obtener (un numero entre 0 a 100): </label>
+        <input type="number" id="percentage" > 
+        <button type="button"  onclick="getValueInputToPercentage()">CALCULAR PORCENTAJE</button> 
+        <p id="valueInputToPercentage"></p>
       </li>
       <li>
         <p><strong><a href="#" target="_blank">obtenerDatosDeCiudad(nombre, poblacion, pais)</a></strong>: Crear una función obtenerDatosDeCiudad que tome como argumentos un string nombre, un número poblacion y un string pais y devuelva string con el siguiente formato: La ciudad de NOMBRE tiene una población de POBLACION habitantes y está ubicada en PAIS.</p>
