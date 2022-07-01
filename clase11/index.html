@@ -131,8 +131,13 @@
         <p id="valueInputFullName"></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">saludar(nombre)</a></strong>: Crear una función saludar que tome como argumentos un nombre y devuelva un saludo que lo incluya.</p>
+        <p><strong><a href="#name">saludar(nombre)</a></strong>: Crear una función saludar que tome como argumentos un nombre y devuelva un saludo que lo incluya.</p>
         <p><code>saludar('Ada') // 'Hola Ada, un gusto conocerte'</code></p>
+        <h4>Ingresa el nombre y hace click en el boton SALLUDAR</h4>
+        <label for="name">Ingrese el nombre: </label>
+        <input type="text" id="name" > 
+        <button type="button"  onclick="getValueInputSaludar()">SALUDAR</button> 
+        <p id="valueInputSaludo"></p>
       </li>
       <li>
         <p><strong><a href="#" target="_blank">saludarGritando(nombre, apellido)</a></strong>: Usando las funciones anteriores (obtenerNombreCompleto, saludar y gritar), crear una función saludarGritando que tome como argumentos un nombre y un apellido y devuelva un saludo con signos de exclamación.</p>

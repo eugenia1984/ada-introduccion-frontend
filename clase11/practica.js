@@ -50,13 +50,19 @@ function calcularAreaTriangulo(base, altura) {
 
 /* FUNCION GRITAR */
 function gritar(str) {
-  return `¡ ${str} !`
+  return `¡ ${str} !`;
 }
 
 /* FUNCION OBTENER NOMBRE COMPLETO */
 function obtenerNombreCompleto(nombre, apellido) {
   return `${nombre} ${apellido}`;
 }
+
+/* FUNCION SALUDAR */
+function saludar(nombre) {
+  return `Hola ${nombre}, un gusto conocerte`;
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -107,4 +113,9 @@ const getValueInputFullName = () =>{
   let firstName = d.getElementById("firstName").value; 
   let lastName = d.getElementById("lastName").value; 
   d.getElementById("valueInputFullName").innerHTML = `<p>El nombre completo es: ${obtenerNombreCompleto(firstName, lastName)}</p>`; 
+}
+
+const getValueInputSaludar = () =>{
+  let name = d.getElementById("name").value; 
+  d.getElementById("valueInputSaludo").innerHTML = `<p>${saludar(name)}</p>`; 
 }
