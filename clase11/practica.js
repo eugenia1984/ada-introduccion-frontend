@@ -99,6 +99,16 @@ function convertirHorasEnSegundos(horas) {
   }
 }
 
+/* FUNCION CALCULAR PERIMETRO RECTANGULO */
+function calcularPerimetroRectangulo(ancho, alto) {
+  if (ancho <=0 || alto <= 0) {
+    return 0;
+  } else {
+    let perimetro = (ancho+alto)*2;
+    return perimetro;    
+  }
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -178,4 +188,10 @@ const getValueInputToGetInfo = () =>{
 const getValueInputToConvertToSeconds = () =>{
   let horas = parseInt(d.getElementById("hours").value); 
   d.getElementById("valueInputToConvertToSeconds").innerHTML = `<p>Las ${horas} horas equivalen a ${convertirHorasEnSegundos(horas)} segundos.</p>`; 
+}
+
+const getValueInputToPerimeterRectangle = () =>{
+  let withRectangle = parseFloat(d.getElementById("withRectangle").value); 
+  let heightRectangle = parseFloat(d.getElementById("heightRectangle").value); 
+  d.getElementById("valueInputToGetRectanglePerimeter").innerHTML = `<p>El perímetro del rectángulo con ${withRectangle} de ancho y ${heightRectangle} de alto es: ${calcularPerimetroRectangulo(withRectangle, heightRectangle)}.</p>`; 
 }
