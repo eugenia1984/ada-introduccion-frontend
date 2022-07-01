@@ -42,6 +42,13 @@ function esImpar(num1) {
   }
 }
 
+/* CALCULAR AREA DE TRIANGULO */
+function calcularAreaTriangulo(base, altura) {
+  let area = Math.round( ((base*altura)/2), 2);
+  return area;
+}
+
+/** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
   let secondNumber = parseInt(d.getElementById("secondNumberSum").value); 
@@ -74,4 +81,10 @@ const getValueInputToIsEven = () =>{
 const getValueInputToIsOdd = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberisOdd").value); 
   d.getElementById("valueInputIsOdd").innerHTML = `<p>El ${firstNumber} es impar? ${esImpar(firstNumber)}</p>`;
+}
+
+const getValueInputAreaTriangle = () =>{
+  let firstNumber = parseFloat(d.getElementById("firstNumberTriangle").value); 
+  let secondNumber = parseFloat(d.getElementById("secondNumberTriangle").value); 
+  d.getElementById("valueInputAreaTriangle").innerHTML = `<p>El área del triángulo de ${firstNumber} de base y ${secondNumber} de altura es es: ${calcularAreaTriangulo(firstNumber, secondNumber)}</p>`; 
 }
