@@ -55,6 +55,7 @@
 
 ### :star: Ejercicios de practica
 
+-> [Aca pueden ver toda la practica](https://eugenia1984.github.io/ada-introduccion-frontend/clase11/index.html)
 
 ### `sumar(a, b)`
 
