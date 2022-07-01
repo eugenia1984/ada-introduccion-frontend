@@ -89,6 +89,16 @@ function obtenerDatosDeCiudad(nombre, poblacion, pais) {
   return `La ciudad de ${nombre} tiene una población de ${poblacion} habitantes y está ubicada en ${pais}`;
 }
 
+/* FUNCION CONVERTIR HORAS EN SEGUNDOS*/
+function convertirHorasEnSegundos(horas) {
+  if (horas < 0) {
+    return `Debe ingresar horas`;
+  } else {
+    let segundos = horas * 60 * 60;
+    return segundos;
+  }
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -163,4 +173,9 @@ const getValueInputToGetInfo = () =>{
   let totalPeople = d.getElementById("totalPeople").value;
   let country = d.getElementById("country").value;
   d.getElementById("valueInputToGetInfo").innerHTML = `<p>${obtenerDatosDeCiudad(city, totalPeople, country)}</p>`; 
+}
+
+const getValueInputToConvertToSeconds = () =>{
+  let horas = parseInt(d.getElementById("hours").value); 
+  d.getElementById("valueInputToConvertToSeconds").innerHTML = `<p>Las ${horas} horas equivalen a ${convertirHorasEnSegundos(horas)} segundos.</p>`; 
 }
