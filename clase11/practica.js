@@ -63,6 +63,14 @@ function saludar(nombre) {
   return `Hola ${nombre}, un gusto conocerte`;
 }
 
+/* FUNCION SALUDAR GRITANDO*/
+function saludarGritando(nombre, apellido) {
+  const nombreCompleto = obtenerNombreCompleto(nombre, apellido);
+  const saludo = saludar(nombreCompleto);
+  const grito = gritar(saludo);
+  return grito;
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -118,4 +126,10 @@ const getValueInputFullName = () =>{
 const getValueInputSaludar = () =>{
   let name = d.getElementById("name").value; 
   d.getElementById("valueInputSaludo").innerHTML = `<p>${saludar(name)}</p>`; 
+}
+
+const getValueInputSaludarGritando = () =>{
+  let firstNameScream = d.getElementById("firstNameScream").value; 
+  let lastNameScream = d.getElementById("lastNameScream").value; 
+  d.getElementById("valueInputSaludarGritando").innerHTML = `<p>${saludarGritando(firstNameScream, lastNameScream)}</p>`; 
 }

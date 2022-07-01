@@ -133,7 +133,7 @@
       <li>
         <p><strong><a href="#name">saludar(nombre)</a></strong>: Crear una función saludar que tome como argumentos un nombre y devuelva un saludo que lo incluya.</p>
         <p><code>saludar('Ada') // 'Hola Ada, un gusto conocerte'</code></p>
-        <h4>Ingresa el nombre y hace click en el boton SALLUDAR</h4>
+        <h4>Ingresa el nombre y hace click en el boton SALUDAR</h4>
         <label for="name">Ingrese el nombre: </label>
         <input type="text" id="name" > 
         <button type="button"  onclick="getValueInputSaludar()">SALUDAR</button> 
@@ -146,6 +146,13 @@
         <p><code>const saludo = saludar(nombreCompleto)</code></p>
         <p><code>const grito = gritar(saludo)</code></p>
         <p><code>console.log(grito) // ¡Hola Ada Lovelace, un gusto conocerte!</code></p>
+        <h4>Ingresa el nombre y apellido y hace click en el boton SALUDAR GRITANDO</h4>
+        <label for="firstNameScream">Ingrese el nombre: </label>
+        <input type="text" id="firstNameScream" > 
+        <label for="lastNameScream">Ingrese el apellido: </label>
+        <input type="text" id="lastNameScream" > 
+        <button type="button"  onclick="getValueInputSaludarGritando()">SALUDAR GRITANDO</button> 
+        <p id="valueInputSaludarGritando"></p>
       </li>
       <li>
         <p><strong><a href="#" target="_blank">Porcentaje</a></strong>: Crear un programa que pida al usuario ingresar un número, y luego el porcentaje que se desea obtener del mismo. Devolver un mensaje muestre el porcentaje de dicho número.</p>
