@@ -165,8 +165,17 @@
         <p id="valueInputToPercentage"></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">obtenerDatosDeCiudad(nombre, poblacion, pais)</a></strong>: Crear una función obtenerDatosDeCiudad que tome como argumentos un string nombre, un número poblacion y un string pais y devuelva string con el siguiente formato: La ciudad de NOMBRE tiene una población de POBLACION habitantes y está ubicada en PAIS.</p>
+        <p><strong><a href="#city">obtenerDatosDeCiudad(nombre, poblacion, pais)</a></strong>: Crear una función obtenerDatosDeCiudad que tome como argumentos un string nombre, un número poblacion y un string pais y devuelva string con el siguiente formato: La ciudad de NOMBRE tiene una población de POBLACION habitantes y está ubicada en PAIS.</p>
         <p><code>obtenerDatosDeCiudad('Santa Fe', 545606, 'Argentina') // 'La ciudad de Santa Fe tiene una población de 545606 habitantes y está ubicada en Argentina'</code></p>
+        <h4>Ingresa la ciudad, la población, el país y hace click en el boton OBTENER INFORMACION</h4>
+        <label for="city">Ingrese la ciudad: </label>
+        <input type="text" id="city" > 
+        <label for="totalPeople">Ingrese el total de habitantes (en numeros): </label>
+        <input type="number" id="totalPeople" > 
+        <label for="country">Ingrese el pais: </label>
+        <input type="text" id="country" > 
+        <button type="button"  onclick="getValueInputToGetInfo()">OBTENER INFORMACION</button> 
+        <p id="valueInputToGetInfo"></p>
       </li>
       <li>
         <p><strong><a href="#" target="_blank">convertirHorasEnSegundos(horas)</a></strong>: Crear una función convertirHorasEnSegundos que tome como argumento un número de horas y devuelva la conversión a segundos de dicha cantidad de horas.</p>

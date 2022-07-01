@@ -80,6 +80,15 @@ function percentage(amount, percentageToCalculate) {
   }
   
 }
+
+/*FUNCION OBTENER DATOS DE CIUDAD*/
+function obtenerDatosDeCiudad(nombre, poblacion, pais) {
+  if (poblacion < 0) {
+    poblacion = 0;
+  }
+  return `La ciudad de ${nombre} tiene una población de ${poblacion} habitantes y está ubicada en ${pais}`;
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -147,4 +156,11 @@ const getValueInputToPercentage = () =>{
   let totalAmount = parseInt(d.getElementById("totalAmount").value); 
   let percentageToKnow = parseFloat(d.getElementById("percentage").value); 
   d.getElementById("valueInputToPercentage").innerHTML = `<p>El ${percentageToKnow }% de ${totalAmount} es: ${percentage(totalAmount, percentageToKnow)}</p>`; 
+}
+
+const getValueInputToGetInfo = () =>{
+  let city = d.getElementById("city").value; 
+  let totalPeople = d.getElementById("totalPeople").value;
+  let country = d.getElementById("country").value;
+  d.getElementById("valueInputToGetInfo").innerHTML = `<p>${obtenerDatosDeCiudad(city, totalPeople, country)}</p>`; 
 }
