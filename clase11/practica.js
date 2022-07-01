@@ -52,3 +52,8 @@ const getValueInputToDivide = () =>{
   let secondNumber = parseInt(d.getElementById("secondNumberDivide").value); 
   d.getElementById("valueInputDivide").innerHTML = `<p>La division de ${firstNumber} y ${secondNumber} es: ${dividir(firstNumber, secondNumber)}</p>`; 
 }
+
+const getValueInputToIsEven = () =>{
+  let firstNumber = parseInt(d.getElementById("firstNumberDivide").value); 
+  d.getElementById("valueInputDivide").innerHTML = `<p>El ${firstNumber} es par? ${esPar(firstNumber)}</p>`;
+}
