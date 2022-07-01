@@ -109,7 +109,7 @@ function calcularPerimetroRectangulo(ancho, alto) {
   }
 }
 
-/* FUNCION ACEPTADEPOSITO */
+/* FUNCION ACEPTA DEPOSITO */
 function aceptaDeposito(monto) {
   if (monto <= 0) {
     return false;
@@ -119,94 +119,104 @@ function aceptaDeposito(monto) {
   
 }
 
+/* FUNCION HACE FRIO */
+function haceFrio(temperatura) {
+  return temperatura <= 12;
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
   let secondNumber = parseInt(d.getElementById("secondNumberSum").value); 
-  d.getElementById("valueInputSum").innerHTML = `<p>La suma de ${firstNumber} y ${secondNumber} es: ${sumar(firstNumber, secondNumber)}</p>`; 
+  d.getElementById("valueInputSum").innerHTML = `La suma de ${firstNumber} y ${secondNumber} es: ${sumar(firstNumber, secondNumber)}`; 
 }
 
 const getValueInputToSubtract = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSubtract").value); 
   let secondNumber = parseInt(d.getElementById("secondNumberSubtract").value); 
-  d.getElementById("valueInputSubtract").innerHTML = `<p>La resta de ${firstNumber} y ${secondNumber} es: ${restar(firstNumber, secondNumber)}</p>`; 
+  d.getElementById("valueInputSubtract").innerHTML = `La resta de ${firstNumber} y ${secondNumber} es: ${restar(firstNumber, secondNumber)}`; 
 }
 
 const getValueInputToMultiply = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberMultiply").value); 
   let secondNumber = parseInt(d.getElementById("secondNumberMultiply").value); 
-  d.getElementById("valueInputMultiply").innerHTML = `<p>La multiplicación de ${firstNumber} y ${secondNumber} es: ${multiplicar(firstNumber, secondNumber)}</p>`; 
+  d.getElementById("valueInputMultiply").innerHTML = `La multiplicación de ${firstNumber} y ${secondNumber} es: ${multiplicar(firstNumber, secondNumber)}`; 
 }
 
 const getValueInputToDivide = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberDivide").value); 
   let secondNumber = parseInt(d.getElementById("secondNumberDivide").value); 
-  d.getElementById("valueInputDivide").innerHTML = `<p>La division de ${firstNumber} y ${secondNumber} es: ${dividir(firstNumber, secondNumber)}</p>`; 
+  d.getElementById("valueInputDivide").innerHTML = `La division de ${firstNumber} y ${secondNumber} es: ${dividir(firstNumber, secondNumber)}`; 
 }
 
 const getValueInputToIsEven = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberisEven").value); 
-  d.getElementById("valueInputIsEven").innerHTML = `<p>El ${firstNumber} es par? ${esPar(firstNumber)}</p>`;
+  d.getElementById("valueInputIsEven").innerHTML = `El ${firstNumber} es par? ${esPar(firstNumber)}`;
 }
 
 const getValueInputToIsOdd = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberisOdd").value); 
-  d.getElementById("valueInputIsOdd").innerHTML = `<p>El ${firstNumber} es impar? ${esImpar(firstNumber)}</p>`;
+  d.getElementById("valueInputIsOdd").innerHTML = `El ${firstNumber} es impar? ${esImpar(firstNumber)}`;
 }
 
 const getValueInputAreaTriangle = () =>{
   let firstNumber = parseFloat(d.getElementById("firstNumberTriangle").value); 
   let secondNumber = parseFloat(d.getElementById("secondNumberTriangle").value); 
-  d.getElementById("valueInputAreaTriangle").innerHTML = `<p>El área del triángulo de ${firstNumber} de base y ${secondNumber} de altura es es: ${calcularAreaTriangulo(firstNumber, secondNumber)}</p>`; 
+  d.getElementById("valueInputAreaTriangle").innerHTML = `El área del triángulo de ${firstNumber} de base y ${secondNumber} de altura es es: ${calcularAreaTriangulo(firstNumber, secondNumber)}`; 
 }
 
 const getValueInputToScream = () =>{
   let stringScream = d.getElementById("stringToScream").value; 
-  d.getElementById("valueInputScream").innerHTML = `<p>${gritar(stringScream)}</p>`; 
+  d.getElementById("valueInputScream").innerHTML = `${gritar(stringScream)}`; 
 }
 
 const getValueInputFullName = () =>{
   let firstName = d.getElementById("firstName").value; 
   let lastName = d.getElementById("lastName").value; 
-  d.getElementById("valueInputFullName").innerHTML = `<p>El nombre completo es: ${obtenerNombreCompleto(firstName, lastName)}</p>`; 
+  d.getElementById("valueInputFullName").innerHTML = `El nombre completo es: ${obtenerNombreCompleto(firstName, lastName)}`; 
 }
 
 const getValueInputSaludar = () =>{
   let name = d.getElementById("name").value; 
-  d.getElementById("valueInputSaludo").innerHTML = `<p>${saludar(name)}</p>`; 
+  d.getElementById("valueInputSaludo").innerHTML = `${saludar(name)}`; 
 }
 
 const getValueInputSaludarGritando = () =>{
   let firstNameScream = d.getElementById("firstNameScream").value; 
   let lastNameScream = d.getElementById("lastNameScream").value; 
-  d.getElementById("valueInputSaludarGritando").innerHTML = `<p>${saludarGritando(firstNameScream, lastNameScream)}</p>`; 
+  d.getElementById("valueInputSaludarGritando").innerHTML = `${saludarGritando(firstNameScream, lastNameScream)}`; 
 }
 
 const getValueInputToPercentage = () =>{
   let totalAmount = parseInt(d.getElementById("totalAmount").value); 
   let percentageToKnow = parseFloat(d.getElementById("percentage").value); 
-  d.getElementById("valueInputToPercentage").innerHTML = `<p>El ${percentageToKnow }% de ${totalAmount} es: ${percentage(totalAmount, percentageToKnow)}</p>`; 
+  d.getElementById("valueInputToPercentage").innerHTML = `El ${percentageToKnow }% de ${totalAmount} es: ${percentage(totalAmount, percentageToKnow)}`; 
 }
 
 const getValueInputToGetInfo = () =>{
   let city = d.getElementById("city").value; 
   let totalPeople = d.getElementById("totalPeople").value;
   let country = d.getElementById("country").value;
-  d.getElementById("valueInputToGetInfo").innerHTML = `<p>${obtenerDatosDeCiudad(city, totalPeople, country)}</p>`; 
+  d.getElementById("valueInputToGetInfo").innerHTML = `${obtenerDatosDeCiudad(city, totalPeople, country)}`; 
 }
 
 const getValueInputToConvertToSeconds = () =>{
   let horas = parseInt(d.getElementById("hours").value); 
-  d.getElementById("valueInputToConvertToSeconds").innerHTML = `<p>Las ${horas} horas equivalen a ${convertirHorasEnSegundos(horas)} segundos.</p>`; 
+  d.getElementById("valueInputToConvertToSeconds").innerHTML = `Las ${horas} horas equivalen a ${convertirHorasEnSegundos(horas)} segundos.`; 
 }
 
 const getValueInputToPerimeterRectangle = () =>{
   let withRectangle = parseFloat(d.getElementById("withRectangle").value); 
   let heightRectangle = parseFloat(d.getElementById("heightRectangle").value); 
-  d.getElementById("valueInputToGetRectanglePerimeter").innerHTML = `<p>El perímetro del rectángulo con ${withRectangle} de ancho y ${heightRectangle} de alto es: ${calcularPerimetroRectangulo(withRectangle, heightRectangle)}.</p>`; 
+  d.getElementById("valueInputToGetRectanglePerimeter").innerHTML = `El perímetro del rectángulo con ${withRectangle} de ancho y ${heightRectangle} de alto es: ${calcularPerimetroRectangulo(withRectangle, heightRectangle)}.`; 
 }
 
 const getValueInputToAcceptDeposit = () =>{
   let amountOfDeposit = parseInt(d.getElementById("deposit").value); 
-  d.getElementById("valueInputToAcceptDeposit").innerHTML = `<p> ${aceptaDeposito(amountOfDeposit)}</p>`; 
+  d.getElementById("valueInputToAcceptDeposit").innerHTML = `${aceptaDeposito(amountOfDeposit)}`; 
+}
+
+const getValueInputToIsTemperatureCold = () =>{
+  let isTemperatureCold= parseFloat(d.getElementById("isTemperatureCold").value); 
+  d.getElementById("valueInputToIsTemperatureCold").innerHTML = `${haceFrio(isTemperatureCold)}`; 
 }
