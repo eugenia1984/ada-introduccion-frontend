@@ -48,6 +48,11 @@ function calcularAreaTriangulo(base, altura) {
   return area;
 }
 
+/* FUNCION GRITAR */
+function gritar(str) {
+  return `¡ ${str} !`
+}
+
 /** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
 const getValueInputToSum = () =>{
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value); 
@@ -87,4 +92,9 @@ const getValueInputAreaTriangle = () =>{
   let firstNumber = parseFloat(d.getElementById("firstNumberTriangle").value); 
   let secondNumber = parseFloat(d.getElementById("secondNumberTriangle").value); 
   d.getElementById("valueInputAreaTriangle").innerHTML = `<p>El área del triángulo de ${firstNumber} de base y ${secondNumber} de altura es es: ${calcularAreaTriangulo(firstNumber, secondNumber)}</p>`; 
+}
+
+const getValueInputToScream = () =>{
+  let stringScream = d.getElementById("stringToScream").value; 
+  d.getElementById("valueInputScream").innerHTML = `<p>${gritar(stringScream)}</p>`; 
 }

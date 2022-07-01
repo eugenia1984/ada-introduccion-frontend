@@ -56,6 +56,11 @@ footer a:hover {
   display: block;
   margin-bottom: 0.50rem;
 }
+
+.main-clase11 input {
+  padding: 0.25rem;
+}
+
 .main-clase11 button {
   margin: 1rem 0rem;
   padding: 0.25rem;
