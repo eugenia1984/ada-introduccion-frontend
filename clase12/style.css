@@ -1,0 +1,71 @@
+:root {
+  --yellow: rgb(226, 211, 94);
+  --black: rgb(0, 0, 0);
+  --green: rgb(16, 76, 14);
+}
+
+/* header y footer */
+header,
+footer {
+  background-color: var(--yellow);
+}
+
+footer a {
+  color: var(--black);
+  padding: 0rem 0.50rem;
+}
+
+footer a:hover {
+  color: var(--green);
+}
+
+/* main */
+.main-clase12 {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.main-clase12 h2,
+.main-clase12 h3 {
+  text-align: center;
+  line-height: 1.25rem;
+  padding-bottom: 2rem;
+}
+
+.main-clase12 h4 {
+  padding: 1rem 0rem;
+}
+.main-clase12 ul {
+  padding: 2rem 1.5rem;
+}
+
+.main-clase12 ul li {
+  padding-bottom: 1rem;
+}
+
+.main-clase12 ul li a {
+  background-color: var(--yellow);
+  color: var(--green);
+  font-weight: 800;
+  padding: 0.10rem 0.25rem;
+  text-decoration: none;
+}
+/** Para ingresar datos**/
+.main-clase12 input,
+.main-clase12 label {
+  display: block;
+  margin-bottom: 0.50rem;
+}
+
+.main-clase12 input {
+  padding: 0.25rem;
+}
+
+.main-clase12 button {
+  margin: 1rem 0rem;
+  padding: 0.25rem;
+}
+/** Saludos**/
+.saludo p {
+  text-align: center;
+}
