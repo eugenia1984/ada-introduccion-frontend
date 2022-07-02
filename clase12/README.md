@@ -33,6 +33,8 @@
 
 ## :star: EJERCICIO DE PRACTICA
 
+[**Aca podes verlo en web**](https://github.com/eugenia1984/ada-introduccion-frontend/blob/main/clase12/index.html)
+
 
 # 🔄 Estructuras de control: bucles
 
