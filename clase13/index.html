@@ -198,9 +198,145 @@
         <p>El elemento p se actualiza con el total de la suma de los valores del array.</p>
       </li>
     </ul>
+    <hr>
     <!-- OBJETOS -->
     <h4>Objetos</h4>
-    <ul>
+    <h5>Primera parte - conceptos bases</h5>
+    <ol>
+      <li>
+        <p><strong><a href="#">Sobre mi</a></strong>:</p>
+        <p><code>-Crear una variable llamada sobreMi, a la que le vamos a asignar un objeto.</code></p>
+        <p><code>-El objeto tiene que tener 3 propiedades: nombre, apellido, edad</code></p>
+        <p><code>-Mostrar en consola el objeto sobreMi</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#">Presentar</a></strong></p>
+        <p><code>-Crear una variable llamada user, a la que le vamos a asignar un objeto.</code></p>
+        <p><code>-El objeto tiene que tener 3 propiedades: fullname, email, age</code></p>
+        <p><code>-Mostrar en consola el objeto user</code></p>
+        <p><code>-Mostrar en la consola el nombre y la edad de la persona: "Hola, mi nombre es [ACA EL NOMBRE] y tengo [ACA LA EDAD] años"</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#">cancion</a></strong></p>
+        <p>-Tenemos un objeto en la variable song con diferentes propiedades que representan una canción de spotify.</p>
+        <p>-Queremos crear un nuevo objeto, guardandolo en la variable cancion, a partir de las propiedades del objeto que tenemos en song</p>
+        <p>-El nuevo objeto tiene que tener las propiedades titulo, banda, y duracion (en segundos, ya que en el objeto original song está en milisegundos)</p>
+        <p><code>var song = {</code></p>
+        <p><code>  title: "Rock and Roll",</code></p>
+        <p><code>  bandName: "Led Zeppelin",</code></p>
+        <p><code>  duration: 166000,</code></p>
+        <p><code>   album: "Led Zeppelin IV",</code></p>
+        <p><code>};</code></p>
+        <p><code>var cancion = {</code></p>
+        <p><code>// completar el codigo</code></p>
+        <p><code>};</code></p>
+        <p><code>console.log(cancion); // { titulo: 'Rock and Roll', banda: 'Led Zeppelin', duracion: 166 }  </code></p>
+      </li>
+      <li>
+        <p><strong><a href="#"> base de datos </a></strong></p>
+        <p>-Nos pasaron un listado de personas y necesitamos guardarlo en una base de datos</p>
+        <p>-Los datos que tenemos son un id, email, nombre y teléfono</p>
+        <p>-Crear un objeto para cada persona que nos pasaron</p>
+        <p>-Mostrar por consola todos los objetos creados</p>
+        <p><code>// DATOS DE LAS PERSONAS QUE NECESITAMOS GUARDAR EN UNA BASE DE DATOS</code></p>
+        <p><code>// 1,ada@gmail.com,Ada Lovelace,1234567890</code></p>
+        <p><code>// 2,grace@hotmail.com,Grace Hopper,0987654321</code></p>
+        <p><code>// 3,hedy@gmail.com,Hedy Lamarr,6789054321</code></p>
+        <p><code>// 4,radia@yahoo.com,Radia Perlman,1234509876</code></p>
+        <p><code>// 5,Sheryl@facebook.com,Sheryl Sandberg,5432167890</code></p>
+        <p><code>// Ejemplo del formato de cada objeto: 0,ejemplo@terra.com,Ejemplo,1029384756</code></p>
+        <p><code>// var example = { </code></p>
+        <p><code>//   id: 0,  </code></p>
+        <p><code> //   nombre: "Ejemplo", </code></p>
+        <p><code>//   email: "ejemplo@terra.com",  </code></p>
+        <p><code> //   telefono: "1029384756" </code></p>
+        <p><code>// }  </code></p>
+        <p>Nos pidieron mostrar en la consola los siguientes datos de cada persona:</p>
+        <p>// 1. El nombre de Ada:</p>
+        <p>// 2. El ID de Grace</p>
+        <p>// 3. El email de Hedy</p>
+        <p>// 4. El ID y nombre de Radia</p>
+        <p>// 5. El telefono de Sheryl</p>
+      </li>
+      <li>
+        <p><strong><a href="#">correción de datos</a></strong>:</p>
+        <p>-Tenemos la variable datos que tiene un objeto con los datos de una persona</p>
+        <p>-El teléfono está mal y tenemos que modificarlo, pero no podemos modificar la definición/creación del objeto. El télefono correcto es 0192837465</p>
+        <p>-También tenemos que modificar la edad, ya que es un string y necesitamos que sea un número</p>
+        <p><code>var datos = {  </code></p>
+        <p><code>id: 1, </code></p>
+        <p><code>nombre: "Ada",</code></p>
+        <p><code>apellido: "Lovelace",</code></p>
+        <p><code>email: "ada.lovelace@gmail.com",</code></p>
+        <p><code>telefono: "1234567890", </code></p>
+        <p><code>edad: "29",</code></p>
+        <p><code>programa: true,</code></p>
+        <p><code>};</code></p>
+        <p>// finalmente, mostramos los datos ->
+          console.log(datos);</p>
+      </li>
+      <li>
+        <p><strong><a href="#">Lenguaje favorito </a></strong>:</p>
+        <p>-Tenemos la variable datos con un objeto que guarda datos de personas</p>
+        <p>-Tenemos que programar la siguiente lógica: </p>
+        <p>-> SI la propiedad programa es true ->         Agregá la propiedad lenguajeFavorito, y asignale "Javascript"</p>
+      </li>
+      <li>
+        <p><strong><a href="#">Lenguaje favorito 2 </a></strong>:</p>
+        <p>-Tenemos la variable datos con un objeto que guarda datos de una persona</p>
+        <p>-Tenemos que programar la siguiente lógica</p>
+        <p>-> SI la propiedad programa es true ->  Agregá la propiedad lenguajesFavoritos, y asignale un array con dos lenguajes de programación</p>
+        <p>-Al final, mostrar en la consola la siguiente frase: "Hola, mi nombre es [ACA EL NOMBRE] y programo en [ACA EL LISTADO DE LENGUAJES FAVORITOS]"</p>
+      </li>
+      <li>
+        <p><strong><a href="#">disco</a></strong>:</p>
+        <p>-Tenemos la variable disco con un objeto que guarda datos de un album musical</p>
+        <p>-Queremos obtener el nombre y año de lanzamiento del disco y nombre de la banda, para mostrar el mensaje "El disco [NOMBRE DISCO] de la banda [NOMBRE DE LA BANDA] se lanzó en el año [AÑO DE LANZAMIENTO DEL DISCO]"</p>
+        <p>-Completá el código para lograr el resultado esperado</p>
+      </li>
+      <li>
+        <p><strong><a href="#">skills</a></strong>:</p>
+        <p>-Tenemos la variable user, que es un objeto con datos de una persona en linkedin</p>
+        <p>-En el objeto hay una propiedad skills, que es un array con las distintas habilidades de la persona</p>
+        <p>-Necesitamos actualizar el perfil y agregar "Javascript" al array de de skills</p>
+      </li>
+      <li>
+        <p><strong><a href="#">playlist</a></strong>:</p>
+        <p>-Creá un objeto donde vamos a guardar información sobre una playlist de spotify</p>
+        <p>-El objeto va a tener las propiedades nombre (un string), privada (un booleano) y canciones (un array de strings).</p>
+        <p>-En líneas separadas (un console.log por cada una), mostrá la información de la lista para que sea vea de la siguiente forma:</p>
+        <p><code>Lista de Nirvana</code></p>
+        <p><code>Privada: Si</code></p>
+        <p><code>Canciones:</code></p>
+        <p><code>Smells Like Teen Spirit</code></p>
+        <p><code>In Bloom</code></p>
+        <p><code>Come As You Are</code></p>
+        <p>-Privada tiene que mostrar Si en el caso que la propiedad privada sea true, o No si la prop</p>
+      </li>
+      <li>
+        <p><strong><a href="#">ganadora</a></strong>:</p>
+        <p>-Tenemos un array de objetos, con las ganadoras de algunas temporadas de Rupaul.</p>
+        <p>-Cada objeto tiene las propiedades nombre, temporada y foto.</p>
+        <p>-Iterá/Recorré el array utilizando for y mostrá el nombre y la temporada que ganó. Por ejemplo: Bianca Del Rio ganó la temporada 6</p>
+      </li>
+      <li>
+        <p><strong><a href="#">canciones</a></strong>:</p>
+        <p>-Tenemos un array de objetos, que representa un listado de bandas</p>
+        <p>-Cada objeto representa una banda, y tiene las propidades id, nombre, fundacion, activa</p>
+        <p>-Mostrar en consola cada banda del array, con la siguiente lógica:</p>
+        <p>-> Si la banda está activa mostrar el mensaje: "[NOMBRE DE LA BANDA] está activa desde el año [AÑO DE FUNDACIÓN]"</p>
+        <p>-> Si la banda NO está activa mostrar el mensaje: "[NOMBRE DE LA BANDA] no está activa"</p>
+      </li>
+      <li>
+        <p><strong><a href="#">banda</a></strong>:</p>
+        <p>-Tenemos un objeto en la variable banda, con datos de una banda (nombre, año de lanzamiento, si sigue en actividad, una foto, los integrantes y una lista de sus discos).</p>
+        <p>Queremos mostrar:</p>
+        <p><code>1- La duración total del disco (suma de la duración de cada canción)</code></p>
+        <p><code>2- La duración promedio por canción (un promedio entre todas las duraciones)</code></p>
+      </li>
+    </ol>
+    <h3>Segunda parte - objetos dinamicos</h3>
+    <ol>
       <li>
         <p><strong><a href="#"> </a></strong>:  .</p>
         <p><code>  </code></p>
@@ -228,7 +364,52 @@
         <p><code>  </code></p>
         <p><code>  </code></p>
       </li>
-    </ul>
+      <li>
+        <p><strong><a href="#"> </a></strong>:  .</p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+      </li>
+      <li>
+        <p><strong><a href="#"> </a></strong>:  .</p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+      </li>
+      <li>
+        <p><strong><a href="#"> </a></strong>:  .</p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+      </li>
+      <li>
+        <p><strong><a href="#"> </a></strong>:  .</p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+      </li>
+      <li>
+        <p><strong><a href="#"> </a></strong>:  .</p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+        <p><code>  </code></p>
+      </li>
+    </ol>
   </main>
   <!-- FOOTER -->
   <footer>

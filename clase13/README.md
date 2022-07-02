@@ -328,7 +328,7 @@ var cancion = {
 console.log(cancion); // { titulo: 'Rock and Roll', banda: 'Led Zeppelin', duracion: 166 }
 ```
 
-### 03 - base de datos
+### 04 - base de datos
 
 - Nos pasaron un listado de personas y necesitamos guardarlo en una base de datos
 - Los datos que tenemos son un id, email, nombre y teléfono
@@ -375,7 +375,7 @@ console.log();
 console.log();
 ```
 
-### 04 - correción de datos
+### 05 - correción de datos
 
 - Tenemos la variable `datos` que tiene un objeto con los datos de una persona
 - El teléfono está mal y tenemos que modificarlo, pero no podemos modificar la definición/creación del objeto. El télefono correcto es **0192837465**
@@ -405,7 +405,7 @@ console.log(datos);
 //   programa: true }
 ```
 
-### 05 - lenguaje favorito
+### 06 - lenguaje favorito
 
 - Tenemos la variable `datos` con un objeto que guarda datos de personas
 - Tenemos que programar la siguiente lógica
@@ -437,7 +437,7 @@ console.log(datos);
 //   lenguajeFavorito: 'Javascript' }
 ```
 
-### 06 - lenguaje favorito 2
+### 07 - lenguaje favorito 2
 
 - Tenemos la variable `datos` con un objeto que guarda datos de una persona
 - Tenemos que programar la siguiente lógica
@@ -465,7 +465,7 @@ console.log(
 // por ejemplo "Hola, mi nombre es Ada y me programo en Javascript,C++"
 ```
 
-### 07 - disco
+### 08 - disco
 
 - Tenemos la variable `disco` con un objeto que guarda datos de un album musical
 - Queremos obtener el nombre y año de lanzamiento del disco y nombre de la banda, para mostrar el mensaje "El disco [NOMBRE DISCO] de la banda [NOMBRE DE LA BANDA] se lanzó en el año [AÑO DE LANZAMIENTO DEL DISCO]"
@@ -493,7 +493,7 @@ console.log("El disco " + nombreDisco + " de la banda " + nombreBanda + " se lan
 // El disco Wasting Light de la banda Foo Fighters se lanzó en el año 2011
 ```
 
-### 08 - skills
+### 09 - skills
 
 - Tenemos la variable `user`, que es un objeto con datos de una persona en linkedin
 - En el objeto hay una propiedad `skills`, que es un array con las distintas habilidades de la persona
@@ -518,7 +518,7 @@ console.log(user);
 //   skills: [ 'HTML', 'CSS', 'SASS', 'Javascript' ] }
 ```
 
-### 09 - playlist
+### 10 - playlist
 
 - Creá un objeto donde vamos a guardar información sobre una playlist de spotify
 - El objeto va a tener las propiedades `nombre` (un string), `privada` (un booleano) y `canciones` (un array de strings).
@@ -535,7 +535,7 @@ Come As You Are
 
 - Privada tiene que mostrar **Si** en el caso que la propiedad `privada` sea `true`, o **No** si la prop
 
-### 10 - ganadora
+### 11 - ganadora
 
 - Tenemos un array de objetos, con las ganadoras de algunas temporadas de Rupaul.
 - Cada objeto tiene las propiedades `nombre`, `temporada` y `foto`.
@@ -584,7 +584,7 @@ var ganadoras = [
 // Bianca Del Rio ganó la temporada 6
 ```
 
-### 11 - canciones
+### 12 - canciones
 
 - Tenemos un array de objetos, que representa un listado de bandas
 - Cada objeto representa una banda, y tiene las propidades `id`, `nombre`, `fundacion`, `activa`
@@ -609,7 +609,7 @@ var bandas = [
 // Pearl Jam está activa desde el año 1990
 ```
 
-### 12 - banda
+### 13 - banda
 
 - Tenemos un objeto en la variable `banda`, con datos de una banda (nombre, año de lanzamiento, si sigue en actividad, una foto, los integrantes y una lista de sus discos).
 - Queremos mostrar:
