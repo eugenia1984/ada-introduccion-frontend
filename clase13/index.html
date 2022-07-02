@@ -74,176 +74,91 @@
         <p><code>separar('🐶🐱🐶🐱🐱🐶🐶') // '🐶🐶🐶🐶🐱🐱🐱'</code></p>
       </li>
       <li>
-        <p><strong><a href="#">capitalizarPalabras(string)</a></strong>:  Crear una función capitalizarPalabras tome como argumento un string string y devuelva un string donde cada palabra está capitalizada (con la primera letra ma´yuscula). Dejar las demás letras como están. Ejemplo:</p>
-        <p><code>capitalizarPalabras('Esto es un título') // 'Esto Es Un Título'</code></p>
-        <p><code>capitalizarPalabras('había una vez') // 'Había Una Vez'</code></p>
-        <p><code>makeTitle('OMG') // 'OMG'</code></p>
+        <p><strong><a href="#">obtenerChatStatus(usuarias)</a></strong>: obtenerChatStatus(usuarias)
+          Crear una función obtenerChatStatus que tome como argumento un array de strings usuarias y devuelva un string con el status del chat. Las reglas son:</p>
+          <p>-Para una usuaria, debe mostrar: NOMBRE_USUARIA_1 está conectada</p>
+          <p>-Para dos usuarias, debe mostrar: NOMBRE_USUARIA_1 y NOMBRE_USUARIA_2 + están conectadas</p>
+          <p>-Para más de dos usuarias, debe mostrar: NOMBRE_USUARIA_1, NOMBRE_USUARIA_2 y X persona(s) más están conectadas</p>
+          <p>Ejemplo:</p>
+        <p><code>obtenerChatStatus(['Ada']) // 'Ada está conectada'</code></p>
+        <p><code>obtenerChatStatus(['Ada', 'Grace']) // 'Ada y Grace están conectadas'</code></p>
+        <p><code>obtenerChatStatus(['Ada', 'Grace', 'Marie']) // 'Ada, Grace y 1 persona(s) más están conectadas'</code></p>
       </li>
       <li>
-        <p><strong><a href="#">sumarSeccion(array, comienzo, cantidad)</a></strong>:  Crear una función sumarSeccion que tome como argumento un array de números enteros array, un número entero comienzo y un número entero cantidad, y que devuelva la suma de cantidad de números de array empezando a contar desde el ítem con índice comienzo. Ejemplo:</p>
-        <p><code>sumarSeccion([2, 2, 4, 3, 10, 20, 5], 0, 3) // 8 (2 + 2 + 4 = 8)</code></p>
-        <p><code>sumarSeccion([2, 2, 4, 3, 10, 20, 5], 2, 4) // 37 (4 + 8 + 10 + 20 = 37)</code></p>
-        <p><code>sumarSeccion([2, 2, 4, 3, 10, 20, 5], 4, 1) // 3</code></p>
+        <p><strong><a href="#">germinar(plantines)</a></strong>: rear una función germinar que tome como argumento un string de plantines con flores y plantines (🌱). El array debe comenzar con una flor. La función debe devolver un string con los plantines convertidos en flores. El plantín se debe convertir en la primera flor que encuentre a su izquierda. Ejemplo:</p>
+        <p><code>germinar('🌷🌱🌻🌱🌸🌱🌷🌱🌻🌱🌸🌱') // '🌷🌷🌻🌻🌸🌸🌷🌷🌻🌻🌸🌸'</code></p>
+        <p><code>germinar('🌷🌱🌱🌱🌻🌱🌱🌸🌱🌱🌱🌱') // '🌷🌷🌷🌷🌻🌻🌻🌸🌸🌸🌸🌸'</code></p>
+        <p><code>germinar('🌻🌸🌱🌷🌻🌱🌱🌷🌷🌱🌱🌱') // '🌻🌸🌸🌷🌻🌻🌻🌷🌷🌷🌷🌷'</code></p>
       </li>
       <li>
-        <p><strong><a href="#">esSubconjunto(subconjunto, conjunto)</a></strong>: Crear una función esSubconjunto que tome como argumento dos arrays, subconjunto y conjunto, y devuelva true si subconjunto es realmente subconjunto de conjunto, es decir, si todos los valores de subconjunto están en conjunto. Ejemplo:</p>
-        <p><code>esSubconjunto([1], [1, 2, 3]) // true</code></p>
-        <p><code>esSubconjunto([1, 2, 3], [1, 2, 3, 4, 5]) // true</code></p>
-        <p><code>esSubconjunto([27, 49, 54], [54, 27, 8, 27, 49]) // true</code></p>
-        <p><code>esSubconjunto([1, 2, 3], [1, 2]) // false</code></p>
-        <p><code>esSubconjunto([1], [2, 3, 4]) // false</code></p>
+        <p><strong><a href="#">comer(plantas)</a></strong>: Crear una función comer que tome por parámetro un string plantas que consista en plantas, un conejo y una señal de prohibido. El conejo se come todas las plantas que hay a su derecha, hasta que se encuentra con la señal de prohibido. El programa debe mostrar las plantas sobrevivientes, que son todas las que están a la izquierda del conejo (si hay) y a la derecha de la señal (si hay). Ejemplo:</p>
+        <p><code>comer('🐰🥕🥬🥕🚫') // ''</code></p>
+        <p><code>comer('🥕🥬🐰🥕🥕🥕🚫') // '🥕🥬'</code></p>
+        <p><code></code>comer('🐰🥕🥬🥕🚫🥕') // '🥕'
+          comer('🌱🥕🌱🐰🌱🥬🌱🌱🚫🌷') // '🌱🥕🌱🌷'</p>
       </li>
       <li>
-        <p><strong><a href="#">tieneBloque(array)</a></strong>: Crear una función hayBloque que tome como argumento un array array y devuelva true si dicho array tiene un bloque de 3 o más ítems consecutivos idénticos, o false si no tiene. Ejemplo:</p>
-        <p><code>tieneBloque([1, 2, 3]) // false</code></p>
-        <p><code>tieneBloque([1, 1, 1, 2, 3]) // true</code></p>
-        <p><code>tieneBloque([1, 2, 3, 3, 3]) // true</code></p>
-        <p><code>tieneBloque([1, 2, 3, 3, 3, 8]) // true</code></p>
-        <p><code>tieneBloque([1, 2, 2, 3, 3, 4]) // false</code></p>
+        <p><strong><a href="#">multiplicar(multiplicador, numeros)</a></strong>: Crear una función multiplicar que tome como argumentos un número multiplicador y un array de números numeros, y que devuelva un array donde cada elemento es el resultado del elemento del primer array (en la misma posición) multiplicado por el número ingresado. Ejemplo:</p>
+        <p><code>multiplicar(2, [5, 7, 15, 22, 40]) // [10, 14, 30, 44, 80]</code></p>
+        <p><code>multiplicar(10, [2, 5, 77]) // [20, 50, 770]</code></p>
       </li>
       <li>
-        <p><strong><a href="#">esPalindromo(palabra)</a></strong>: Crear una función esPalindromo que tenga como par´ámetro un string palabra y devuelva true si dicha palabra es palíndroma, es decir, si puede leerse de igual manera de izquierda a derecha que de derecha a izquierda, o false sino. Ejemplo:</p>
-        <p><code>esPalindromo('ada') // true</code></p>
-        <p><code>esPalindromo('javascript') // false</code></p>
-        <p><code>esPalindromo('reconocer') // true</code></p>
+        <p><strong><a href="#">filtrarPorLongitudMayorA(longitud, palabras)</a></strong>: Crear una función filtrarPorLongitud que tome como argumentos un número longitud y un array de strings palabras y que devuelva un array con las palabras que tengan una cantidad de letras mayor a longitud. Ejemplo:</p>
+        <p><code>filtrarPorLongitudMayorA(4, [</code></p>
+        <p><code> 'dia',</code></p>
+        <p><code>'remolacha',</code></p>
+        <p><code> 'azul',</code></p>
+        <p><code> 'sorpresa',</code></p>
+        <p><code> 'te',</code></p>
+        <p><code>'verde',</code></p>
+        <p><code>]) // ['remolacha', 'sorpresa', 'verde']</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#">recortar(cantidadLetras, palabras)</a></strong>: Crear una función recortar que tome como argumentos un número cantidadLetras y un array de strings palabras y devuelva un array con las mismas palabras pero recortadas. Las palabras se recortan dejando cantidadLetras letras al iniciando, y recortando las demás. Por ejemplo, elefante recortada a 4 letras queda elef.</p>
+        <p><code>recortar(4, ['elefante', 'dinosaurio'. 'chocolate', 'avion', 'america']) // ['eleft', 'dino' 'chocolate', 'avio', 'amer']</code></p>
+        <p><code>recortar(1, ['algoritmo', 'bug', 'compilador']) // ['a', 'b', 'c']</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#">sonIguales(a, b)</a></strong>: Crear una función sonIguales(a, b) que tome como argumentos dos arrays a y b y devuelva true si ambos arrays tienen los mismos valores en la misma posición, o false sino.</p>
+        <p><code>sonIguales([10, 25, 6, 33, 48, 105], [10, 25, 6, 33, 48, 105]) // true</code></p>
+        <p><code>sonIguales([10, 25, 6, 33, 48, 105], [10, 25, 6, 33, 48, 105]) // true
+          sonIguales([10, 25, 6, 33, 48, 105], [11, 25, 6, 33, 48, 105]) // false</code></p>
+        <p><code>sonIguales([10, 25, 6, 33, 48, 105], [25, 10, 6, 33, 48, 105]) // false</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#">obtenerResultado(jugadoraA, jugadoraB, puntajesA, puntajesB)</a></strong>: Crear una función obtenerResultado que tome como argumentos dos strings jugadoraA y jugadoraB con los nombres de cada jugadora respectivamente, y dos arrays de numeros puntajesA y puntajesB de la misma longitud. La función debe devolver un string con el nombre de la ganadora o Empate en caso de que no haya ninguna. Para eso, debe comparar las mismas posiciones de cada array de puntajes, y sumar puntos a la jugadora correspondiente dependiendo de quien tenga el puntaje más alto. Por ejemplo:</p>
+        <p><code>const puntajesA = [3, 5, 2]</code></p>
+        <p><code>const puntajesB = [4, 6, 2]</code></p>
+        <p><code>// puntajesA[0] vs. puntajesB[0] -> Gana B</code></p>
+        <p><code>// puntajesA[1] vs. puntajesB[1] -> Gana B</code></p>
+        <p><code>// puntajesA[2] vs. puntajesB[2] -> Empate</code></p>
+        <p><code>// Resultado final: Gana Jugadora B</code></p>
+        <p><code>obtenerResultado('Ada', 'Grace', [4, 4, 4], [1, 2, 3]) // Ada</code></p>
+        <p><code>obtenerResultado('Ada', 'Grace', [3, 5, 5, 7], [4, 1, 2, 9]) // Empate</code></p>
+        <p><code>obtenerResultado('Ada', 'Grace', [5, 6, 3, 1, 8], [8, 2, 4, 2, 3]) // Grace</code></p>
+      </li>
+      <li>
+        <p><strong><a href="#">jugarPiedraPapelTijeras(jugadoraA, jugadoraB, jugadasA, jugadasB)</a></strong>: Crear una función jugarPiedraPapelTijeras que tome como argumentos dos strings jugadoraA y jugadoraB con los nombres de cada jugadora respectivamente, y dos arrays de strings jugadasA y jugadasB con jugadas de Piedra, Papel o Tijera, de la misma longitud. La función debe devolver un string con el nombre de la ganadora o Empate en caso de que no haya ninguna. Para eso, debe comparar las mismas posiciones de cada array de jugadas, y sumar puntos a la jugadora correspondiente. Por ejemplo:</p>
+        <p><code>const jugadasA = ['piedra', 'piedra', 'tijera']</code></p>
+        <p><code>const jugadasB = ['papel', 'tijera', 'tijera']</code></p>
+        <p><code>// jugadasA[0] vs. jugadasB[0] -> Gana B</code></p>
+        <p><code>// jugadasA[1] vs. jugadasB[1] -> Gana A</code></p>
+        <p><code>// jugadasA[2] vs. jugadasB[2] -> Empate</code></p>
+        <p><code>
+          // Resultado final: Empate</code></p>
+        <hr>
+        <p><code>jugarPiedraPapelTijeras('Ada', 'Grace', ['tijera'], ['piedra']) // Grace</code></p>
+        <p><code>jugarPiedraPapelTijeras('Ada', 'Grace', ['papel'], ['papel']) // Empate</code></p>
+        <p><code>jugarPiedraPapelTijeras(</code></p>
+        <p><code> 'Ada',</code></p>
+        <p><code>'Grace',</code></p>
+        <p><code>  ['piedra', 'papel', 'papel', 'piedra', 'tijera'],</code></p>
+        <p><code>['papel', 'piedra', 'tijera', 'tijera', 'papel']</code>) // Ada</p>
       </li>
     </ul>
-    <!-- PROGRAMAS -->
-    <h3>Programas</h3>
-    <p>Los siguientes ejercicios se realizan usando:
-    <ul>
-      <li>prompt para pedir ingresar datos</li>
-      <li>confirm para pedir por sí o por no (opción binaria)</li>
-      <li>alert para mostrar información</li>
-    </ul>
-    <p>Crear un archivo de .js para cada ejercicio.</p>
-    <h4>Ejemplo de consigna:</h4>
-    <p>Crear un programa que pida ingresar un nombre, pregunta si el nombre es correcto, y si lo es, muestre un mensaje saludando a la persona con dicho nombre.</p>
-    <p><code>const nombre = prompt('Por favor, ingresá tu nombre')</code></p>
-    <p><code>const respuesta = confirm('¿Estás segura que te llamás así?')</code></p>
-    <p><code>if (respuesta) {</code></p>
-    <p><code> alert(`¡Hola ${nombre}!`)</code></p>
-    <p><code>}</code></p>
-    <!-- BUCLE FOR -->
-    <h4>Ejercicios con bucle for</h4>
-    <ul>
-      <li>
-        <p><strong><a href="#">📀 Playlist</a></strong>:  Crear un programa que pida al usuario ingresar el nombre de una playlist y cuántas canciones desea agregar a la misma. Luego debe ir pidiendo agregar la cantidad de canciones elegidas de a una. Se debe ir mostrando la cantidad de canciones que quedan por agregar y la playlist con los temas hasta el momento a medida que se va a actualizando. Al finalizar mostrar un mensaje con el nombre de la playlist y la lista de canciones.</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🔢 Números impares</a></strong>: Crear un programa que muestre en consola los números impares entre el 0 y el 20.</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🔍 Número mayor o menor</a></strong>:  Crear un programa que pregunte si se desea buscar el mayor o el menor número de un conjunto. Luego, preguntar entre cuántos se desea buscar. Ir pidiendo ingresar uno por uno la cantidad de números que se eligió, y al finalizar mostrar el número mayor o menor de todos los ingresados según el elegido.</p>
-      </li>
-      <li>
-        <p><strong><a href="#">❗️  Factorial</a></strong>:  Crear un programa que pida ingresar un número, y muestre su factorial. Este se calcula multiplicando el mismo número y todos los números que le anteceden hasta el 1. Por ejemplo: 4 ⇒ 4 _ 3 _ 2 * 1 = 24</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🏃‍♀️ Carrera</a></strong>:  Crear un programa para controlar las vueltas de una deportista. Debe pedir al usuario la cantidad de vueltas que va a realizar e ir preguntando el tiempo en segundos de cada vuelta. Al final, se debe mostrar un mensaje listando los tiempos de cada vuelta y el promedio del tiempo de las vueltas (suma de las vueltas / cantidad de vueltas). Ejemplo:</p>
-        <p>Cantidad de vueltas: 3</p>
-        <p>Vuelta 1: 133s</p>
-        <p>Vuelta 2: 145s</p>
-        <p>Vuelta 3: 166s</p>
-        <p>⏱ Promedio: 144.45s</p>
-      </li>
-      <li>
-        <p><strong><a href="#">✊🤚✌️ Piedra, papel, tijera II</a></strong>:  Al ejercicio de Piedra, papel, tijera de condicionales, agregarle la posibilidad de jugar la cantidad de rondas que se deseen. Por cada ronda, se debe mostrar ambas jugadas (usuario y computadora), quién gano la ronda, puntaje parcial hasta el momento y rondas restantes. Al finalizar se debe indicar quién ganó. Ejemplo:</p>
-        <p>Ronda: 2 de 5</p>
-        <p>🙍‍♀️ Jugadora: Piedra</p>
-        <p>👾 Computadora: Tijera</p>
-        <p>Jugadora ha ganado esta ronda 🎉</p>
-        <p>Puntaje: 2 (Jugadora) - 0 (Computadora)</p>
-      </li>
-    </ul>
-    <h4>Ejercicios con bucle while</h4>
-    <ul>
-      <li>
-        <p><strong><a href="#">🔐 Múltiples intentos</a></strong>:  Crear un programa que pida ingresar usuario y contraseña. El programa debe permitir hasta 3 intentos, cuando el usuario y/o la contraseña sean incorrectos. Si se ingresa correctamente ambos antes de 3 intentos erróneos, debe mostrar un mensaje de bienvenida. Si se ingresan 3 intentos erróneos, debe mostrar un mensaje de error y terminar el programa. El usuario y la contraseña ya deben estar guardadas en variables. </p>
-      </li>
-      <li>
-        <p><strong><a href="#">💲 Cara o cruz</a></strong>:  Crear un programa que permita escoger entre cara o cruz. El programa luego debe generar un resultado aleatorio y mostrar si se acertó o no. El programa debe mostrar en cada vuelta cuántas rondas seguidas acertadas van, y si en algún momento se erra, reiniciar el contador a 0. También debe llevar una cuenta de la cantidad máxima de rondas seguidas que se hizo sin errar. Cuando se ingresa la palabra SALIR, en vez de CARA o CRUZ, el programa debe mostrar la cantidad máxima de rondas seguidas acertadas junto a un mensaje de despedida, y terminar su ejecución.. </p>
-      </li>
-      <li>
-        <p><strong><a href="#">⚖️  Mayor o menor</a></strong>:  Crear un programa que elija un número al azar entre 1 y 10. El programa debe luego pedir al usuario que intente adivinar el número. Por cada intento, debe avisar si el número a adivinar es mayor o menor que el número ingresado. El programa debe terminar cuando se adivina el número.</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🤔 Adivinar palabra</a></strong>:  Crear un programa que elija una palabra al azar de un conjunto de palabras posibles, y permita al usuario intentar adivinarla. Por cada intento sucesivo, el programa debe ir mostrando como pista la palabra de forma parcial, empezando con la primera letra y agregando una letra a la vez. El programa debe terminar cuando se adivina la palabra o se muestran todas las letras de la misma. Por ejemplo, si la palabra a adivinar es LOVELACE, mostrar como sugerencia primero L, luego LO, luego LOV, luego LOVE, luego LOVEL, etc.. </p>
-      </li>
-      <li>
-        <p><strong><a href="#">🎾  Tenis</a></strong>:  Crear un programa para llevar la cuenta del puntaje de un partido de tenis. Debe pedir inicialmente por los nombres de las jugadoras, y luego ir pidiendo el nombre de la ganadora de cada set, y mostrando el puntaje actualizado. Si alguna de las dos llega a los 3 puntos, el programa debe terminar y anunciar la ganadora.</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🧨 Explosión</a></strong>: Crear un programa que permita ingresar una serie de números separados por espacio. El programa debe disminuyendo cada número en 1 por ronda e ir mostrando el resultado (en consola, o en un string concatenado) hasta que todos lleguen a 0 (cuando lleguen a no deben seguir disminuyendo) y se produzca la explosión. Ejemplo. </p>
-        <p>⏱ 3 1 0 2</p>
-        <p>⏱ 2 0 0 1</p>
-        <p>⏱ 1 0 0 0</p>
-        <p>💥💥💥💥💥</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🎨  Simón dice II</a></strong>: Replicar el juego de Simón dice. El programa debe mostrar una secuencia de colores, agregando por cada ronda que pase otro color más. El usuario debe ingresar los colores de la secuencia uno por uno. Si erra la secuencia (es decir, si ingresa algún color mal), el programa debe terminar. Los colores posibles son: rojo, azul, verde y amarillo. Hay dos variantes posibles: o el juego continúa indefinidamente hasta que se erra la secuencia, y muestra cuántas rondas se sobrevivió, o el programa permite elegir al principio cuántas rondas se desea hacer, y mostrar un mensaje de victoria si se llega a esa cantidad de rondas sin errarle a la secuencia.</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🏝  Isla desierta</a></strong>:  Crear un programa que permita mover un barco hacia una isla. El programa debe permitir ingresar los valores AVANZAR o RETROCEDER, siendo que AVANZAR acerca el barco un espacio hacia la isla y RETROCEDER lo aleja. El programa debe terminar cuando el barco llega a la isla. Ejemplo:</p>
-        <p>⛵️🌊🌊🌊🏝</p>
-        <p>//AVANZAR</p>
-        <p>🌊⛵️🌊🌊🏝</p>
-        <p>//AVANZAR</p>
-        <p>🌊🌊⛵️🌊🏝</p>
-        <p>RETROCEDER</p>
-        <p>🌊⛵️🌊🌊🏝</p>
-        <p>//AVANZAR</p>
-        <p>🌊🌊⛵️🌊🏝</p>
-        <p>//AVANZAR</p>
-        <p>🌊🌊🌊⛵️🏝</p>
-        <p>¡Has llegado a la isla!</p>
-      </li>
-      <li>
-        <p><strong><a href="#">🏧  ATM II</a></strong>:  Crear un programa que tenga un dinero inicial.</p>
-        <p>El programa también deberá contar con un menú con las siguientes opciones:</p>
-        <p>EXTRAER: debe pedir al usuario cuánto desea extraer y si el dinero a extraer es menor o igual al saldo actual, restar el dinero extraído al saldo</p>
-        <p>DEPOSITAR: debe pedir al usuario la cantidad a ingresar y sumarla al saldo actual</p>
-        <p>CONSULTAR SALDO: debe mostrar el saldo actual</p>
-        <p>VER ÚLTIMOS MOVIMIENTOS: debe mostrar una lista de los últimos moviemientos realizado</p>
-        <p>SALIR: debe terminar la ejecución del programa</p>
-        <p>El programa debe mostrar el menú de opciones, y permitir ingresar una opción. Si la opción ingresada es incorrecta, debe mostrar nuevamente el menú. Si se elige SALIR, debe terminar el programa. Si se elige alguna de las otras opciones, debe realizar las acciones correspondientes, y una vez terminada, volver al menú de opciones. Las acciones de EXTRAER y DEPOSITAR y CONSULTAR SALDO deben registrarse cada vez que se realicen para poder consultarse luego, por ejemplo:</p>
-        <p> ULTIMOS MOVIMIENTOS</p>
-        <p>- Depositado: $550</p>
-        <p>- Extraido: $1000</p>
-        <p>- Consultado saldo: $3400</p>
-        <p> Depositado: $100</p>
-      </li>
-      <li>
-        <p><strong><a href="#">📝 Lista de tareas</a></strong>:  Crear un programa que tenga un menú con las siguientes opciones:</p>
-        <p>AGREGAR TAREA: debe pedir al usuario ingresar una tarea y agregarla a la lista de tareas</p>
-        <p>MODIFICAR TAREA: debe pedir al usuario ingresar el número de tarea que se desea modificar, mostrarla, y pedir que ingrese la tarea a reemplazarla o modificarla</p>
-        <p>ELIMINAR TAREA: debe pedir al usuario ingresar el número de tarea a eliminar, mostrarla, y pedirle confirmar si desea eliminarla o no</p>
-        <p>VER TAREAS: debe listar todas las tareas hasta el momento</p>
-        <p>SALIR: debe terminar la ejecución del programa</p>
-        <p>El l programa debe mostrar el menú de opciones, y permitir ingresar una opción. Si la opción ingresada es incorrecta, debe mostrar nuevamente el menú. Si se elige SALIR, debe terminar el programa. Si se elige alguna de las otras opciones, debe realizar las acciones correspondientes, y una vez terminada, volver al menú de opciones.</p>
-      </li>
-      <li>
-        <p><strong><a href="#">👾 Monstruo</a></strong>:  Crear un juego de combate contra un monstruo.</p>
-        <p>El juego debe contar con las siguientes variables:</p>
-        <p>-Vida jugadora</p>
-        <p>-Vida monstruo</p>
-        <p>-Cantidad de pociones</p>
-        <p>-Ataque máximo jugadora</p>
-        <p>-Ataque máximo monstruo</p>
-        <p>-Curación máxima poción</p>
-        <p>Todos los valores anteriores deben ser números enteros (a elección)</p>
-        <p>El juego debe tener las siguientes acciones posibles:</p>
-        <p>-ATACAR MONSTRUO: genera un número aleatorio entre 1 y Ataque máximo jugadora y lo resta a Vida monstruo</p>
-        <p>-TOMAR POCION: genera un número aleatorio entre 1 y Curación máxima poción y lo suma a Vida jugadora y resta 1 a Cantidad de pociones</p>
-        <p>-BUSCAR POCION: genera un número entre 1 y 4, si sale 1 suma una poción, sino no encuentra nada</p>
-        <p>-SALIR: termina el programa</p>
-        <p>En todo momento se debe mostrar un mensaje de lo que está pasando</p>
-        <p>Luego de cada acción, el monstruo ataca a la jugadora y le resta a Vida jugadora un número aleatorio entre 1 y Ataque máximo monstruo</p>
-        <p>Luego del ataque del monstruo, se debe mostrar la vida de ambos</p>
-        <p>El programa termina cuando o la jugadora o el monstruo se quedan con vida igual o menor a 0</p>
-        <p>Mostrar un mensaje con el resultado final</p>
-      </li>
-    </ul>
+    <!-- EJERCICIOS DEL DOM -->
+    <h3>Ejercicios del DOM</h3>
+
   </main>
   <!-- FOOTER -->
   <footer>
