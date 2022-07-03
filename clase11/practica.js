@@ -142,7 +142,7 @@ function restarPorcentaje(numero, porcentaje) {
 
 /* FUCNION OBTENER COMPETENCIA*/
 function obtenerCompetencia(a, b) {
-  
+  return ` ${a} vs. ${b}`;
 }
 
 /* FUNCION ACEPTA DEPOSITO */
@@ -369,6 +369,16 @@ const getValueInputToConvertToCalculatePercentageSubstract = () => {
     "valueInputToConvertToCalculatePercentageToSubstract"
   ).innerHTML = `${restarPorcentaje( numberWithoutPercentageWithoutSubstract, numberOfPercentageToSubstract)}`;
 };
+
+const getValueInputToConvertToCalculateRivals = () => {
+  let firstRival = d.getElementById("firstRival").value;
+  let secondRival = d.getElementById("secondRival").value;
+
+  d.getElementById(
+    "valueInputToConvertToCalculateRivals"
+  ).innerHTML = `${obtenerCompetencia( firstRival, secondRival)}`;
+};
+
 
 const getValueInputToAcceptDeposit = () => {
   let amountOfDeposit = parseInt(d.getElementById("deposit").value);
