@@ -17,6 +17,7 @@ function multiplicar(num1, num2) {
 
 /* FUNCION DIVIDIR */
 function dividir(num1, num2) {
+  // I check that the divider isn`t 0 or a negative number
   if (num2 == 0 || num2 < 0) {
     return "No se puede dividir por cero o por un numero negativo.";
   } else {
@@ -45,6 +46,7 @@ function esImpar(num1) {
 /* CALCULAR AREA DE TRIANGULO */
 function calcularAreaTriangulo(base, altura) {
   let area = Math.round((base * altura) / 2, 2);
+
   return area;
 }
 
@@ -68,6 +70,7 @@ function saludarGritando(nombre, apellido) {
   const nombreCompleto = obtenerNombreCompleto(nombre, apellido);
   const saludo = saludar(nombreCompleto);
   const grito = gritar(saludo);
+
   return grito;
 }
 
@@ -90,6 +93,7 @@ function obtenerDatosDeCiudad(nombre, poblacion, pais) {
 
 /* FUNCION CONVERTIR HORAS EN SEGUNDOS*/
 function convertirHorasEnSegundos(horas) {
+  // I check that the hours are a positive number
   if (horas < 0) {
     return `Debe ingresar horas`;
   } else {
@@ -100,6 +104,7 @@ function convertirHorasEnSegundos(horas) {
 
 /* FUNCION CALCULAR PERIMETRO RECTANGULO */
 function calcularPerimetroRectangulo(ancho, alto) {
+  // I check that the whith and height are positive numbers
   if (ancho <= 0 || alto <= 0) {
     return 0;
   } else {
@@ -127,9 +132,17 @@ function sumarPorcentaje(numero, porcentaje) {
   }
 }
 /* FUNCION RESTAR PORCENTAJE*/
+function restarPorcentaje(numero, porcentaje) {
+  if (numero <= 0 || porcentaje <= 0 || porcentaje > 100) {
+    return "No se puede calcular el porcentaje";
+  } else {
+    return numero - calcularPorcentaje(numero, porcentaje);
+  }
+}
 
 /* FUNCION ACEPTA DEPOSITO */
 function aceptaDeposito(monto) {
+  // I check the amout to deposite is a positive number
   if (monto <= 0) {
     return false;
   } else {
@@ -161,6 +174,7 @@ function haceFrio(temperatura) {
 const getValueInputToSum = () => {
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value);
   let secondNumber = parseInt(d.getElementById("secondNumberSum").value);
+
   d.getElementById(
     "valueInputSum"
   ).innerHTML = `La suma de ${firstNumber} y ${secondNumber} es: ${sumar(
@@ -172,6 +186,7 @@ const getValueInputToSum = () => {
 const getValueInputToSubtract = () => {
   let firstNumber = parseInt(d.getElementById("firstNumberSubtract").value);
   let secondNumber = parseInt(d.getElementById("secondNumberSubtract").value);
+
   d.getElementById(
     "valueInputSubtract"
   ).innerHTML = `La resta de ${firstNumber} y ${secondNumber} es: ${restar(
@@ -183,6 +198,7 @@ const getValueInputToSubtract = () => {
 const getValueInputToMultiply = () => {
   let firstNumber = parseInt(d.getElementById("firstNumberMultiply").value);
   let secondNumber = parseInt(d.getElementById("secondNumberMultiply").value);
+
   d.getElementById(
     "valueInputMultiply"
   ).innerHTML = `La multiplicación de ${firstNumber} y ${secondNumber} es: ${multiplicar(
@@ -194,6 +210,7 @@ const getValueInputToMultiply = () => {
 const getValueInputToDivide = () => {
   let firstNumber = parseInt(d.getElementById("firstNumberDivide").value);
   let secondNumber = parseInt(d.getElementById("secondNumberDivide").value);
+
   d.getElementById(
     "valueInputDivide"
   ).innerHTML = `La division de ${firstNumber} y ${secondNumber} es: ${dividir(
@@ -204,6 +221,7 @@ const getValueInputToDivide = () => {
 
 const getValueInputToIsEven = () => {
   let firstNumber = parseInt(d.getElementById("firstNumberisEven").value);
+
   d.getElementById(
     "valueInputIsEven"
   ).innerHTML = `El ${firstNumber} es par? ${esPar(firstNumber)}`;
@@ -211,6 +229,7 @@ const getValueInputToIsEven = () => {
 
 const getValueInputToIsOdd = () => {
   let firstNumber = parseInt(d.getElementById("firstNumberisOdd").value);
+
   d.getElementById(
     "valueInputIsOdd"
   ).innerHTML = `El ${firstNumber} es impar? ${esImpar(firstNumber)}`;
@@ -219,6 +238,7 @@ const getValueInputToIsOdd = () => {
 const getValueInputAreaTriangle = () => {
   let firstNumber = parseFloat(d.getElementById("firstNumberTriangle").value);
   let secondNumber = parseFloat(d.getElementById("secondNumberTriangle").value);
+
   d.getElementById(
     "valueInputAreaTriangle"
   ).innerHTML = `El área del triángulo de ${firstNumber} de base y ${secondNumber} de altura es es: ${calcularAreaTriangulo(
@@ -229,12 +249,14 @@ const getValueInputAreaTriangle = () => {
 
 const getValueInputToScream = () => {
   let stringScream = d.getElementById("stringToScream").value;
+  
   d.getElementById("valueInputScream").innerHTML = `${gritar(stringScream)}`;
 };
 
 const getValueInputFullName = () => {
   let firstName = d.getElementById("firstName").value;
   let lastName = d.getElementById("lastName").value;
+
   d.getElementById(
     "valueInputFullName"
   ).innerHTML = `El nombre completo es: ${obtenerNombreCompleto(
@@ -245,12 +267,14 @@ const getValueInputFullName = () => {
 
 const getValueInputSaludar = () => {
   let name = d.getElementById("name").value;
+
   d.getElementById("valueInputSaludo").innerHTML = `${saludar(name)}`;
 };
 
 const getValueInputSaludarGritando = () => {
   let firstNameScream = d.getElementById("firstNameScream").value;
   let lastNameScream = d.getElementById("lastNameScream").value;
+
   d.getElementById("valueInputSaludarGritando").innerHTML = `${saludarGritando(
     firstNameScream,
     lastNameScream
@@ -278,6 +302,7 @@ const getValueInputToGetInfo = () => {
 
 const getValueInputToConvertToSeconds = () => {
   let horas = parseInt(d.getElementById("hours").value);
+
   d.getElementById(
     "valueInputToConvertToSeconds"
   ).innerHTML = `Las ${horas} horas equivalen a ${convertirHorasEnSegundos(
@@ -288,6 +313,7 @@ const getValueInputToConvertToSeconds = () => {
 const getValueInputToPerimeterRectangle = () => {
   let withRectangle = parseFloat(d.getElementById("withRectangle").value);
   let heightRectangle = parseFloat(d.getElementById("heightRectangle").value);
+
   d.getElementById(
     "valueInputToGetRectanglePerimeter"
   ).innerHTML = `El perímetro del rectángulo con ${withRectangle} de ancho y ${heightRectangle} de alto es: ${calcularPerimetroRectangulo(
@@ -326,8 +352,22 @@ const getValueInputToConvertToCalculatePercentageSum = () => {
   ).innerHTML = `${sumarPorcentaje( numberWithoutPercentageWithoutSum, numberOfPercentageToSum)}`;
 };
 
+const getValueInputToConvertToCalculatePercentageSubstract = () => {
+  let numberWithoutPercentageWithoutSubstract = parseFloat(
+    d.getElementById("numberWithoutPercentageWithoutSubstract").value
+  );
+  let numberOfPercentageToSubstract= parseFloat(
+    d.getElementById("numberOfPercentageToSubstract").value
+  );
+
+  d.getElementById(
+    "valueInputToConvertToCalculatePercentageToSubstract"
+  ).innerHTML = `${restarPorcentaje( numberWithoutPercentageWithoutSubstract, numberOfPercentageToSubstract)}`;
+};
+
 const getValueInputToAcceptDeposit = () => {
   let amountOfDeposit = parseInt(d.getElementById("deposit").value);
+
   d.getElementById("valueInputToAcceptDeposit").innerHTML = `${aceptaDeposito(
     amountOfDeposit
   )}`;
@@ -336,6 +376,7 @@ const getValueInputToAcceptDeposit = () => {
 const getValueInputToCreateEmail = () => {
   let user = d.getElementById("user").value;
   let domain = d.getElementById("domain").value;
+
   d.getElementById("valueInputToCreateEmail").innerHTML = `${generarEmail(
     user,
     domain
@@ -344,6 +385,7 @@ const getValueInputToCreateEmail = () => {
 
 const getValueInputToIsOlder = () => {
   let isOlder = parseInt(d.getElementById("isOlder").value);
+  
   d.getElementById("valueInputToIsOlder").innerHTML = `${esMayorDeEdad(
     isOlder
   )}`;
@@ -351,6 +393,7 @@ const getValueInputToIsOlder = () => {
 
 const getValueInputToIsTemperatureHot = () => {
   let isTemperatureHot = parseFloat(d.getElementById("isTemperatureHot").value);
+
   d.getElementById("valueInputToIsTemperatureHot").innerHTML = `${haceCalor(
     isTemperatureHot
   )}`;
@@ -360,6 +403,7 @@ const getValueInputToIsTemperatureCold = () => {
   let isTemperatureCold = parseFloat(
     d.getElementById("isTemperatureCold").value
   );
+
   d.getElementById("valueInputToIsTemperatureCold").innerHTML = `${haceFrio(
     isTemperatureCold
   )}`;
