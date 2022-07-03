@@ -236,7 +236,13 @@ const getValueInputToConvertToCalculatePercentage = () =>{
   let numberWithoutPercentage = parseFloat(d.getElementById("numberWithoutPercentage").value); 
   let numberOfPercentage = parseFloat(d.getElementById("numberOfPercentage").value); 
   let percentage = calcularPorcentaje(numberWithoutPercentage, numberOfPercentage);
-  d.getElementById("valueInputToConvertToCalculatePercentag").innerHTML = `El ${numberOfPercentage} % de ${ numberWithoutPercentage} es ${percentage}.`; 
+  d.getElementById("valueInputToConvertToCalculatePercentage").innerHTML = `El ${numberOfPercentage} % de ${ numberWithoutPercentage} es ${percentage}.`; 
+}
+
+const getValueInputToConvertToCalculatePercentageSum = () =>{
+  let numberWithoutPercentageWithoutSum = parseFloat(d.getElementById("numberWithoutPercentageWithoutSum").value); 
+  let numberOfPercentageToSum = parseFloat(d.getElementById("numberOfPercentageToSum").value); 
+  d.getElementById("valueInputToConvertToCalculatePercentage").innerHTML = `El ${numberOfPercentage} % de ${ numberWithoutPercentage} es ${percentage}.`; 
 }
 
 const getValueInputToAcceptDeposit = () =>{
