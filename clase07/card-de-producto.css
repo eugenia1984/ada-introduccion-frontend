@@ -1,5 +1,14 @@
+/* Fonts Family de Chrome*/
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:800");
+
+:root {
+  --black: rgba(0, 0, 0, 0.7);
+  --dark-blue: #0c1f2c;
+  --light-gray: #eeeeee;
+  --red: #cb2140;
+  --white: #fff;
+}
 
 html,
 body {
@@ -7,21 +16,21 @@ body {
 }
 
 body {
-  background-color: #eeeeee;
+  background-color: var(--light-gray);
   text-align: center;
-  color: #fff;
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .product-card {
-  background: #cb2140;
+  background: car(--red);
   overflow: hidden;
   margin: 50px auto;
   border-radius: 18px;
   width: 1000px;
-  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 7px 20px var(--black);
   display: flex;
   align-items: center;
 }
@@ -35,7 +44,7 @@ body {
 .product-info {
   font-family: "Open Sans", sans-serif;
   text-align: left;
-  background: #0c1f2c;
+  background: var(--dark-blue);
   padding: 40px;
 }
 
@@ -69,19 +78,19 @@ body {
   font-size: 10px;
   padding: 5px 10px;
   border-radius: 100px;
-  border: 1px solid #cb2140;
+  border: 1px solid var(--red);
   margin: 0 5px;
 }
 
 .add-to-cart-btn {
   width: 200px;
   height: 48px;
-  background: #cb2140;
+  background: var(--red);
   border-radius: 90px;
   font-weight: 300;
   font-size: 14px;
   padding: 0 24px;
-  color: #fff;
+  color: var(--white);
   border: 0;
   display: block;
   text-align: center;
