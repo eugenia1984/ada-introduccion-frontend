@@ -140,6 +140,15 @@ function restarPorcentaje(numero, porcentaje) {
   }
 }
 
+/* FUNCION CALCULAR FPS*/
+function calcularFPS(fps, minutos) {
+  if (fps <=0 || minutos <= 0) {
+    return `No se puede calcular`;
+  } else {
+    return fps * ( 1 * minutos);
+  }
+}
+
 /* FUCNION OBTENER COMPETENCIA*/
 function obtenerCompetencia(a, b) {
   return ` ${a} vs. ${b}`;
@@ -368,6 +377,19 @@ const getValueInputToConvertToCalculatePercentageSubstract = () => {
   d.getElementById(
     "valueInputToConvertToCalculatePercentageToSubstract"
   ).innerHTML = `${restarPorcentaje( numberWithoutPercentageWithoutSubstract, numberOfPercentageToSubstract)}`;
+};
+
+const getValueInputToConvertToFramePerSecond = () => {
+  let framesPerSecond = parseInt(
+    d.getElementById("framesPerSecond").value
+  );
+  let minutsAmount = parseInt(
+    d.getElementById("minutsAmount").value
+  );
+
+  d.getElementById(
+    "valueInputToConvertToCalculateFramesPerSecond"
+  ).innerHTML = `${calcularFPS( framesPerSecond, minutsAmount)}`;
 };
 
 const getValueInputToConvertToCalculateRivals = () => {

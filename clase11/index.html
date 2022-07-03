@@ -231,8 +231,15 @@
         <p id="valueInputToConvertToCalculatePercentageToSubstract"></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">calcularFPS(fps, minutos)</a></strong>: FPS son cuadros por segundo (frames per second). Crear una una función calcularFPS que tome como argumentos una cantidad de cuadros por segundo y una cantidad de minutos, y devuelva cuántos cuadros hubo en esa cantidad de minutos.</p>
+        <p><strong><a href="#framesPerSecond">calcularFPS(fps, minutos)</a></strong>: FPS son cuadros por segundo (frames per second). Crear una una función calcularFPS que tome como argumentos una cantidad de cuadros por segundo y una cantidad de minutos, y devuelva cuántos cuadros hubo en esa cantidad de minutos.</p>
         <p><code>calcularFPS(1, 1) // 60</code></p>
+        <h4>Ingresa ambos números y hace click en el boton CALCULAR FPS</h4>
+        <label for="framesPerSecond">Ingrese la cantidad de cuadrados por segundo: </label>
+        <input type="number" id="framesPerSecond"> 
+        <label for="minutsAmount">Ingrese los minutos: </label>
+        <input type="number" id="minutsAmount">
+        <button type="button"  onclick="getValueInputToConvertToFramePerSecond()">CALCULAR FPS</button> 
+        <p id="valueInputToConvertToCalculateFramesPerSecond"></p>
       </li>
       <li>
         <p><strong><a href="#firstRival">obtenerCompetencia(a, b)</a></strong>: Crear una función obtenerCompetencia que tome como argumentos dos strings a y b y devuelva un string con el formato a vs. b.</p>
