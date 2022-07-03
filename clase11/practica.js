@@ -109,6 +109,11 @@ function calcularPerimetroRectangulo(ancho, alto) {
   }
 }
 
+/* fFUNCION PARA CALCULAR LE PORCENTAJE*/
+function calcularPorcentaje(numero, porcentaje) {
+  return (porcentaje * numero)/100;
+}
+
 /* FUNCION ACEPTA DEPOSITO */
 function aceptaDeposito(monto) {
   if (monto <= 0) {
@@ -225,6 +230,13 @@ const getValueInputToPerimeterRectangle = () =>{
   let withRectangle = parseFloat(d.getElementById("withRectangle").value); 
   let heightRectangle = parseFloat(d.getElementById("heightRectangle").value); 
   d.getElementById("valueInputToGetRectanglePerimeter").innerHTML = `El perímetro del rectángulo con ${withRectangle} de ancho y ${heightRectangle} de alto es: ${calcularPerimetroRectangulo(withRectangle, heightRectangle)}.`; 
+}
+
+const getValueInputToConvertToCalculatePercentage = () =>{
+  let numberWithoutPercentage = parseFloat(d.getElementById("numberWithoutPercentage").value); 
+  let numberOfPercentage = parseFloat(d.getElementById("numberOfPercentage").value); 
+  let percentage = calcularPorcentaje(numberWithoutPercentage, numberOfPercentage);
+  d.getElementById("valueInputToConvertToCalculatePercentag").innerHTML = `El ${numberOfPercentage} % de ${ numberWithoutPercentage} es ${percentage}.`; 
 }
 
 const getValueInputToAcceptDeposit = () =>{
