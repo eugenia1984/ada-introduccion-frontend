@@ -235,8 +235,15 @@
         <p><code>calcularFPS(1, 1) // 60</code></p>
       </li>
       <li>
-        <p><strong><a href="#" target="_blank">obtenerCompetencia(a, b)</a></strong>: Crear una función obtenerCompetencia que tome como argumentos dos strings a y b y devuelva un string con el formato a vs. b.</p>
+        <p><strong><a href="#firstRival">obtenerCompetencia(a, b)</a></strong>: Crear una función obtenerCompetencia que tome como argumentos dos strings a y b y devuelva un string con el formato a vs. b.</p>
         <p><code>obtenerRivales('JavaScript', 'Python') // `JavaScript vs. Python`</code></p>
+        <h4>Ingresa ambos competidores y hace click en el boton OBTENER COMPETENCIA</h4>
+        <label for="firstRival">Ingrese el primer rival: </label>
+        <input type="text" id="firstRival"> 
+        <label for="secondRival">Ingrese el segundo rival: </label>
+        <input type="number" id="secondRival">
+        <button type="button"  onclick="getValueInputToConvertToCalculateRivals()">OBETENER COMPETENCIA</button> 
+        <p id="valueInputToConvertToCalculatePercentageToSubstract"></p>
       </li>
       <li>
         <p><strong><a href="#user">generarEmail(usuario, dominio)</a></strong>: Crear una función generarEmail que tome como argumentos dos string usuario y dominio y el un string email con el formato usuario@dominio.com.</p>

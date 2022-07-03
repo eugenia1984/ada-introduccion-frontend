@@ -140,6 +140,11 @@ function restarPorcentaje(numero, porcentaje) {
   }
 }
 
+/* FUCNION OBTENER COMPETENCIA*/
+function obtenerCompetencia(a, b) {
+  
+}
+
 /* FUNCION ACEPTA DEPOSITO */
 function aceptaDeposito(monto) {
   // I check the amout to deposite is a positive number
