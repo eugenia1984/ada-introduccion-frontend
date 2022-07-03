@@ -1,5 +1,6 @@
 const d = document;
 
+/******** FUNCIONES **********/
 /* FUNCION SUMAR */
 function sumar(num1, num2) {
   return num1 + num2;
@@ -149,19 +150,9 @@ function calcularFPS(fps, minutos) {
   }
 }
 
-/* FUCNION OBTENER COMPETENCIA*/
+/* FUNCION OBTENER COMPETENCIA*/
 function obtenerCompetencia(a, b) {
   return ` ${a} vs. ${b}`;
-}
-
-/* FUNCION ACEPTA DEPOSITO */
-function aceptaDeposito(monto) {
-  // I check the amout to deposite is a positive number
-  if (monto <= 0) {
-    return false;
-  } else {
-    return monto % 10 == 0;
-  }
 }
 
 /*  FUNCION GENERAR EMAIL*/
@@ -184,7 +175,22 @@ function haceFrio(temperatura) {
   return temperatura <= 12;
 }
 
-/** Para tomar los datos ingresados en los input y mostrarlos en el DOM **/
+/* FUNCION CALCULAR PUNTAJE */
+function calcularPuntaje(facil, normal, dificil) {
+  let puntaje = facil*3 + normal*5 + dificil*10;
+  return puntaje;
+}
+
+/* FUNCION ACEPTA DEPOSITO */
+function aceptaDeposito(monto) {
+  // I check the amout to deposite is a positive number
+  if (monto <= 0) {
+    return false;
+  } else {
+    return monto % 10 == 0;
+  }
+}
+/****** Para tomar los datos ingresados en los input y mostrarlos en el DOM ******/
 const getValueInputToSum = () => {
   let firstNumber = parseInt(d.getElementById("firstNumberSum").value);
   let secondNumber = parseInt(d.getElementById("secondNumberSum").value);
@@ -401,15 +407,6 @@ const getValueInputToConvertToCalculateRivals = () => {
   ).innerHTML = `${obtenerCompetencia( firstRival, secondRival)}`;
 };
 
-
-const getValueInputToAcceptDeposit = () => {
-  let amountOfDeposit = parseInt(d.getElementById("deposit").value);
-
-  d.getElementById("valueInputToAcceptDeposit").innerHTML = `${aceptaDeposito(
-    amountOfDeposit
-  )}`;
-};
-
 const getValueInputToCreateEmail = () => {
   let user = d.getElementById("user").value;
   let domain = d.getElementById("domain").value;
@@ -443,5 +440,22 @@ const getValueInputToIsTemperatureCold = () => {
 
   d.getElementById("valueInputToIsTemperatureCold").innerHTML = `${haceFrio(
     isTemperatureCold
+  )}`;
+};
+
+const getValueInputToGetScore = () => {
+  let easy = parseInt(d.getElementById("easy").value);
+  let normal = parseInt(d.getElementById("normal").value);
+  let hard = parseInt(d.getElementById("hard").value);
+
+  d.getElementById("valueInputToGetScore").innerHTML = `${calcularPuntaje(easy, normal, hard)}`;
+};
+
+
+const getValueInputToAcceptDeposit = () => {
+  let amountOfDeposit = parseInt(d.getElementById("deposit").value);
+
+  d.getElementById("valueInputToAcceptDeposit").innerHTML = `${aceptaDeposito(
+    amountOfDeposit
   )}`;
 };
