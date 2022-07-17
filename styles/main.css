@@ -143,46 +143,58 @@ header {
 /* Main */
 main {
   min-height: 80vh;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 1rem;
 }
 
-#main-page .grid {
-  column-count: 6;
-  column-gap: 2.5rem;
-  max-width: 980px;
-  margin: auto;
-  width: 100%;
+#main-page h2 {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+#main-page .grilla {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
+#main-page .grilla__item {
+  margin: 0.10rem;
+}
+
+#main-page .grilla__item a {
+  height: 120px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-page .grilla__item.clase1,
+#main-page .grilla__item.clase5,
+#main-page .grilla__item.clase11 {
+  background-color: var(--green-light-fruit);
+}
+
+#main-page .grilla__item.clase2,
+#main-page .grilla__item.clase7,
+#main-page .grilla__item.clase12 {  
+  background-color: var(--yellow-fruit);
+}
+
+#main-page .grilla__item.clase3,
+#main-page .grilla__item.clase10,
+#main-page .grilla__item.proyecto_final {
+  background-color: var(--orange-fruit);
+}
 #main-page a {
   font-weight: 800;
   line-height: 1.8;
-  background-color: var(--green-light-fruit);
-  padding: 0.10rem 0.50rem;
-  border-radius: 7px;
-  -webkit-border-radius: 7px;
-  -moz-border-radius: 7px;
-  -ms-border-radius: 7px;
-  -o-border-radius: 7px;
+  text-decoration: none;
 }
 
-@media(max-width: 800px) {
-  #main-page .grid {
-    column-count: 4;
-  }
-}
-
-@media(max-width: 600px) {
-  #main-page .grid {
-    column-count: 2;
-  }
-}
-
-@media(max-width: 400px) {
-  #main-page .grid {
-    column-count: 1;
-  }
-}
 
 /* Footer */
 footer p {
